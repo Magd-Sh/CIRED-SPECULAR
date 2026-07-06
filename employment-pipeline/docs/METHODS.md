@@ -18,7 +18,7 @@ All raw inputs are frozen under `data/raw/` and are never modified. Two families
 | `..._v3_1_filtered.csv`, `..._v3_1_gemini.csv` | variants of the same scrape | regex / LLM (Gemini) |
 | `automotive_employment_long_eu_2003_2026_v3_2.csv` | extended scrape | regex + LLM |
 | `automotive_employment_long_de_2006_2026_v3_1.csv`, `..._v2.csv` | Germany-only scrapes | regex / LLM |
-| `automotive_plant_data_models_production_v3_2*.csv` | models/production scrape (employees column) | regex / Mistral LLM |
+| `automotive_plant_data_models_production_v3_2*.csv` | models/production scrape (employees column) | regex / Mistral |
 | `german_germany_employment.xlsx` | German plant spreadsheet | regex |
 
 **Press / gap-fill** (contemporaneous figures):
@@ -34,7 +34,7 @@ to its *reference* year). This deliberately replaces six earlier Wikipedia passe
 see §5.
 
 > **Upstream note.** The *numbers themselves* were extracted from web pages by LLMs
-> (Mistral / Haiku) in a separate scraping step. That step is **not** part of this
+> (Mistral) in a separate scraping step. That step is **not** part of this
 > repository and is **not** deterministic (see §6). This pipeline starts from the
 > frozen CSVs those scrapers produced.
 
@@ -119,7 +119,7 @@ byte-for-byte, and every dropped or added value is logged with its reason.
 **Not reproducible, and why:**
 
 - **Upstream LLM extraction.** The raw numbers were pulled from web pages by
-  LLMs (Mistral/Haiku), which are non-deterministic across runs and model
+  the Mistral LLM, which are non-deterministic across runs and model
   versions. Re-scraping would yield different raw CSVs. We therefore *freeze* the
   raw inputs and treat them as the starting point.
 - **The live web-searches** used during ad-hoc auditing (not part of this
