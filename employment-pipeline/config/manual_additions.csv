@@ -1,0 +1,17 @@
+plant_id,reference_year,employees,source_url,snippet,note
+DE_MERCEDES_KOLLEDA,2009,306,https://de.wikipedia.org/wiki/Mercedes-Benz_Cars,306 employees,Analyst hand-added press figure (no raw scrape file); reference_year = applicable year.
+DE_MERCEDES_KOLLEDA,2010,399,https://de.wikipedia.org/wiki/Mercedes-Benz_Cars,399 employees,Analyst hand-added press figure (no raw scrape file); reference_year = applicable year.
+DE_MERCEDES_KOLLEDA,2011,530,https://de.wikipedia.org/wiki/Mercedes-Benz_Cars,530 employees,Analyst hand-added press figure (no raw scrape file); reference_year = applicable year.
+DE_MERCEDES_KOLLEDA,2012,778,https://de.wikipedia.org/wiki/Mercedes-Benz_Cars,778 employees,Analyst hand-added press figure (no raw scrape file); reference_year = applicable year.
+DE_MERCEDES_KOLLEDA,2013,914,https://de.wikipedia.org/wiki/Mercedes-Benz_Cars,914 employees,Analyst hand-added press figure (no raw scrape file); reference_year = applicable year.
+DE_MERCEDES_KOLLEDA,2014,1074,https://de.wikipedia.org/wiki/Mercedes-Benz_Cars,"1,074 employees",Analyst hand-added press figure (no raw scrape file); reference_year = applicable year.
+HU_MERCEDES_KECSKEMET,2012,2500,https://www.balaton-zeitung.info/1967/mercedes-ungarn-schon-400-mitarbeiter/,"~2,500 employees (Inauguration Year)",Analyst hand-added press figure (no raw scrape file); reference_year = applicable year.
+DE_AUDI_NECKARSULM,2011,14247,audi4ever,Zum Stichtag 31. Dezember 2011 sind 14.247 Mitarbeiter-innen und Mitarbeiter am Standort tätig.,Analyst hand-added press figure (no raw scrape file); reference_year = applicable year.
+DE_PORSCHE_LEIPZIG,2015,3702,https://newsroom.porsche.com/de/unternehmen/porsche-leipzig-arbeitgeber-mitarbeiter-personal-panamera-produktion-werk-12789.html,"3,702 employees",Analyst hand-added press figure (no raw scrape file); reference_year = applicable year.
+DE_VW_EMDEN,2010,7500,Auto-Medienportal,Anja Christmann (42) wird zum 1. Januar 2011 Personalleiterin im Volkswagen-Werk Emden mit seinen rund 7500 Beschäftigten.,Analyst hand-added press figure (no raw scrape file); reference_year = applicable year.
+DE_VW_OSNABRUECK,2008,5549,https://de.wikipedia.org/wiki/Karmann,,Analyst hand-added press figure (no raw scrape file); reference_year = applicable year.
+DE_VW_OSNABRUECK,2013,1900,https://www.auto-medienportal.net/artikel/detail/21709,"1,900 employees (Re-stabilized under Volkswagen ownership)",Analyst hand-added press figure (no raw scrape file); reference_year = applicable year.
+DE_VW_SALZGITTER,2014,6100,Industriepreis,Im Volkswagen-Motorenwerk in Salzgitter erleben die rund 6100 Mitarbeiter derzeit eine technische Revolution.,Analyst hand-added press figure (no raw scrape file); reference_year = applicable year.
+DE_VW_ZWICKAU,2010,7500,Auto-Medienportal,"Die rund 7500 Beschäftigten bekommen nun bereits ab Februar 2011 insgesamt 2,7 Prozent mehr Lohn.",Analyst hand-added press figure (no raw scrape file); reference_year = applicable year.
+PL_VWN_POZNAN,2012,6400,"https://www.prawo.pl/kadry/innowacyjna-technika-innowacyjny-pracodawca-studium-przypadku-volkswagen-poznan,271481.html","~6,400 employees",Analyst hand-added press figure (no raw scrape file); reference_year = applicable year.
+PL_VWN_POZNAN,2013,6400,"https://www.prawo.pl/kadry/innowacyjna-technika-innowacyjny-pracodawca-studium-przypadku-volkswagen-poznan,271481.html","~6,400 employees",Analyst hand-added press figure (no raw scrape file); reference_year = applicable year.

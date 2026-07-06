@@ -1,0 +1,15 @@
+plant_id_contains,employee_value,reason
+OSNABRUECK,10000,Boilerplate 'the plant employed around 10000' - contradicts the dated 2300 on the plant's own page
+OSNABRUECK,8000,Same boilerplate family; plant is ~2300
+WACKERSDORF,9250,Two-plant combined total (Regensburg + Wackersdorf) not Wackersdorf alone
+WACKERSDORF,750,CFRP Gelege production-line sub-unit not the plant total
+WACKERSDORF,200,CFRP production-line sub-unit
+WACKERSDORF,150,CFRP production-line sub-unit
+ZUFFENHAUSEN,17000,Two-plant combined total (Leipzig + Zuffenhausen)
+AFFALTERBACH,11000,Bremen headcount mis-stamped onto Affalterbach; AMG is ~2000
+IRLBACH,7500,Regional Ostbayern figure (20 km radius) not the plant
+EISENACH,1300,Historical 19th-century figure mis-dated to 2006/2010
+REGENSBURG,22000,Regional/company figure; plant is ~9000
+LANDSHUT,500,Exterior Plastics division sub-unit not the plant
+HAMBURG,10000,Snippet is 10000 Mitarbeiter und ihre Angehörigen (employees AND families); plant is ~2500
+UNTERTURKHEIM,5000,LinkedIn-style range bucket 2501-5000; plant is ~18700

@@ -1,0 +1,5 @@
+action,plant_id,year,employee_value,reason
+remove_plant,DE_BMW_BERLIN,,,BMW Berlin is a motorcycle plant - excluded from the car-plant scope of this study.
+remove_plant,DE_BMW_IRLBACH_STRASSKIRCHEN,,,Brand-new plant (production from ~2024) - too little data / not yet operational over the study period.
+remove_plant,HU_BMW_DEBRECEN,,,Brand-new plant (production from ~2025) - not yet operational over the study period.
+remove_cell,DE_MERCEDES_SINDELFINGEN,2011,37000,Snippet is a Daimler-AG-wide '37000 largest plant worldwide' figure (group-flavoured) not a clean 2011 Sindelfingen headcount.

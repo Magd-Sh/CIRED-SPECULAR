@@ -1,0 +1,5 @@
+plant_id,reference_year,employees,source_label,source_url,snippet,reason
+DE_BMW_REGENSBURG,2009,8000,wide_mistral,https://www.bmwgroup-werke.com/regensburg/de.html,"wide-format Mistral extraction (value consistent with plant series)","Hand-picked from the wide-format Mistral file; only clean new value it offered for Regensburg, consistent with the ~8,000-10,000 series."
+DE_MERCEDES_BREMEN,2026,11500,wide_mistral,https://group.mercedes-benz.com/unternehmen/standorte/produktionsnetzwerk-bremen.html,"wide-format Mistral extraction (value consistent with plant series)","Hand-picked from the wide-format Mistral file; consistent with Bremen ~11,500-12,500."
+DE_MERCEDES_BREMEN,2017,12500,backfill_mistral,https://de.wikipedia.org/wiki/Mercedes-Benz_Werk_Bremen,"Personalstand am Standort: > 12.500","Hand-picked clean gap-fill from the backfill Mistral file."
+PT_VW_PALMELA,2008,3000,backfill_mistral,https://en.wikipedia.org/wiki/Volkswagen_Autoeuropa,"In 2008 the plant started production of the third generation ... 3000","Hand-picked clean gap-fill from the backfill Mistral file."

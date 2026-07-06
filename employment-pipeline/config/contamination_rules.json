@@ -1,0 +1,61 @@
+{
+  "_comment": "Deterministic, rule-based contamination detection applied to candidate values BEFORE consolidation. Rules act on the citation text ('snippet'), the plant identity and the value. Each is plain string/regex matching in code - no LLM. Every dropped row is logged in outputs/contamination_removed.csv with its rule name.",
+
+  "cross_plant_duplicate": {
+    "enabled": true,
+    "own_match_required": true,
+    "_note": "If the same leading-N-char snippet is attached to >1 plant, keep only the row whose own city name appears in the snippet; drop the copies. N = parameters.snippet_key_chars."
+  },
+
+  "wrong_entity": {
+    "_note": "Snippet names a different company/site than the plant. Each rule: drop if all 'tokens' present in snippet AND (optional) 'require_absent_in_plant_id' is NOT in plant_id.",
+    "rules": [
+      {"tokens": ["kamenz"],  "require_absent_in_plant_id": "KAMENZ"},
+      {"tokens": ["accumotive"], "require_absent_in_plant_id": "KAMENZ"},
+      {"tokens": ["hambach"]},
+      {"tokens": ["smart en"]},
+      {"tokens": ["opel"], "require_absent_in_plant_id": "OPEL"},
+      {"tokens": ["hannover"], "require_absent_in_plant_id": "HANNOVER"},
+      {"tokens": ["lehren und arbeiten"]},
+      {"tokens": ["60.000 beschäftigte"]}
+    ]
+  },
+
+  "city_mismatch": {
+    "_note": "REPRODUCIBILITY CAVEAT: this list was curated by inspecting THIS dataset, not derived automatically. Drop a row if its snippet contains one of 'tokens' but the plant's city is not 'home_city'. In this dataset only Munich's group figure (7,800 / 6,000) was systematically mis-stamped onto other BMW plants, so the list has a single entry. A fully general city-mismatch rule is possible but re-introduces false positives (e.g. Emden pages that merely mention Bremen) and would need a reviewed decision list.",
+    "entries": [
+      {"tokens": ["münchen", "munich"], "home_city": "munich"}
+    ]
+  },
+
+  "production_units": {
+    "words": ["einheiten", "units", "fahrzeuge", "vehicles"],
+    "_note": "Drop if the extracted value itself is immediately followed by a units word (regex: <value in de/en number formats>\\s*(word)). Catches '25.000 Einheiten des Sprinter' read as a headcount."
+  },
+
+  "job_announcement": {
+    "regex": "(?:will create|create[sd]?\\s+\\d|\\d[\\d.,]*\\s*(?:new jobs|neue (?:arbeitsplätze|stellen|jobs)))",
+    "_note": "Hiring plan, not a headcount ('will create N jobs')."
+  },
+
+  "historical": {
+    "words": ["jahrhundert", "century"],
+    "_note": "Founding-era figure ('1,300 workers at the end of the 19th century')."
+  },
+
+  "artifact": {
+    "regex": "~\\s*0\\b",
+    "_note": "Broken extraction template 'N ~ 0'."
+  },
+
+  "wiki_specific": {
+    "_note": "Extra rules applied only to the Wikipedia source, because Wikipedia infoboxes carry group-level and unit figures the archived scrapes do not.",
+    "company_level_plant_id_contains": ["ZUFFEN"],
+    "company_level_note": "Porsche Zuffenhausen infobox reports Porsche AG group totals, not the plant.",
+    "subunit_max_value": 200,
+    "subunit_keywords": ["mechanics", "meccanici", "spanish team", "nissan"],
+    "wrzesnia_plant_id_contains": "WRZESNIA",
+    "wrzesnia_min_year": 2016,
+    "wrzesnia_note": "Plant did not open until 2016; earlier figures are company/region level."
+  }
+}

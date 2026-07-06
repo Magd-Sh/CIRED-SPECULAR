@@ -1,0 +1,21 @@
+{
+  "_comment": "Every raw input that feeds the final dataset. family = how it is treated in consolidation. priority = tie-break order within the archived family (lower wins). Wiki is handled separately (placed on reference_year). All files live in data/raw/.",
+  "archived": [
+    {"label": "base",            "file": "automotive_employment_long_european_2006_2026_v3_1.csv",          "priority": 1},
+    {"label": "filtered",        "file": "automotive_employment_long_european_2006_2026_v3_1_filtered.csv", "priority": 2},
+    {"label": "gemini",          "file": "automotive_employment_long_european_2006_2026_v3_1_gemini.csv",   "priority": 3},
+    {"label": "v3_2",            "file": "automotive_employment_long_eu_2003_2026_v3_2.csv",                "priority": 4},
+    {"label": "xlsx_de",         "file": "german_germany_employment.xlsx",                                  "priority": 5},
+    {"label": "de_v3_1",         "file": "automotive_employment_long_de_2006_2026_v3_1.csv",                "priority": 6},
+    {"label": "de_v2",           "file": "automotive_employment_long_de_2006_2026_v2.csv",                  "priority": 7},
+    {"label": "mp_v32",          "file": "automotive_plant_data_models_production_v3_2.csv",                "priority": 8},
+    {"label": "mp_v32_mistral",  "file": "automotive_plant_data_models_production_v3_2_mistral.csv",        "priority": 9},
+    {"label": "mp_v32_mistral2", "file": "automotive_plant_data_models_production_v3_2_mistral2.csv",       "priority": 10}
+  ],
+  "press": [
+    {"label": "press_tavily",     "file": "press_gap_fills_v2.csv",             "priority": 20},
+    {"label": "established_press", "file": "established_gap_employment.csv",     "priority": 21}
+  ],
+  "curated_additions": {"file": "../config/curated_additions.csv", "note": "Small, individually justified additions hand-picked from the wide-format and backfill Mistral files (2 + 2 values)."},
+  "wikipedia": {"label": "wiki", "file": "employment_from_wikipediaa.csv", "note": "The single, final Wikipedia scrape. Placed on reference_year, gap-fill only."}
+}

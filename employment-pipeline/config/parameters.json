@@ -1,0 +1,24 @@
+{
+  "_comment": "All tunable parameters of the pipeline, in one place. Every value here is a documented choice, not derived automatically.",
+
+  "period": {"start_year": 2006, "end_year": 2025,
+             "_note": "Analysis grid. Values with a reference_year outside this range are kept in the long table but excluded from the plant x year grid."},
+
+  "outlier_rule": {
+    "min_values_per_plant": 3,
+    "ratio_high": 3.5,
+    "ratio_low_divisor": 3.5,
+    "abs_gap_min": 10000,
+    "_note": "Per-plant robust rule. A candidate is flagged an outlier iff the plant has >= min_values_per_plant candidates AND (value > ratio_high * plant_median OR value < plant_median / ratio_low_divisor) AND abs(value - plant_median) > abs_gap_min. The abs_gap floor prevents flagging normal swings at small plants; its side effect is that wrong values on small plants must be caught by the manual blocklist instead."
+  },
+
+  "snippet_key_chars": 80,
+  "_snippet_key_note": "Number of leading characters used to detect the same citation reused across plants (cross-plant duplicate rule).",
+
+  "consolidation": {
+    "fill_order": ["archived", "press", "curated_additions", "wiki"],
+    "_note": "One value per (plant, year) cell. Archived first (2+ sources agreeing wins, else archived priority order from source_registry). Then press, then curated additions, then Wikipedia fill the still-empty cells. Non-archived sources never override an archived value.",
+    "wiki_placement": "reference_year",
+    "non_wiki_placement": "archive_year"
+  }
+}
