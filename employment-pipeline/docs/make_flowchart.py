@@ -43,7 +43,7 @@ ax.text(7, 48.3, "many noisy plant scrapes  →  one clean value per plant × ye
 
 # ---------- SOURCES ----------
 box(0.3, 44.3, 4.0, 3.0,
-    "ARCHIVED SCRAPES  (10 files)\nbase · filtered · gemini\nv3_2 · de_v3_1 · de_v2\nmodels/prod ×3 · xlsx_de\n\nkeyed to the SNAPSHOT year", C["src"], 8.6)
+    "ARCHIVED SCRAPES  (10 files)\nbase · filtered · gemini\nv3_2 · de_v3_1 · de_v2\nmodels/prod ×3 · xlsx_de\n\nkeyed to the REFERENCE year", C["src"], 8.6)
 box(4.7, 44.3, 4.0, 3.0,
     "PRESS / GAP-FILL  (4 files)\npress_tavily · established_press\nbackfill · wide\n\n\nkeyed to the YEAR reported", C["src"], 8.6)
 box(9.1, 44.3, 4.4, 3.0,
@@ -65,8 +65,7 @@ arrow(CX, 41.4, 40.6)
 box(0.8, 34.3, 9.2, 6.1, "", C["auto"])
 ax.text(5.4, 39.9, "2 · CONTAMINATION FILTERS   (rule-based text checks — no LLM)", ha="center", fontsize=9.6, fontweight="bold", color=C["auto"])
 chips = ["cross-plant duplicate\n(Wikipedia only)","wrong-entity keyword\n(Kamenz, Opel, Hannover…)","city-mismatch\n(Munich group figure)",
-         "production-units\n(N Einheiten / vehicles)","job-announcement\n(“will create N jobs”)","historical\n(19th-century figure)",
-         "extraction artifact\n(“N ~ 0”)","wiki: Porsche-AG totals\nsub-units · Września<2016"]
+         "production-units\n(N Einheiten / vehicles)","job-announcement\n(“will create N jobs”)","historical\n(19th-century figure)]
 for i,txt in enumerate(chips):
     cx = 1.15 + (i % 4)*2.25; cy = 37.2 - (i//4)*1.55
     chip(cx, cy, txt)
