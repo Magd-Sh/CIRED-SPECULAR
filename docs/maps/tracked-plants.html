@@ -1,0 +1,3072 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c0aef4079de4a91e7ab25c6b8fbe1514 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    <div style='position:fixed;bottom:22px;left:22px;z-index:9999;background:white;padding:10px 12px;border:1px solid #ccc;border-radius:4px;font:11px sans-serif'><b>Group</b><div><span style='display:inline-block;width:10px;height:10px;background:#2E8B6F;border-radius:50%;margin-right:6px'></span>Volkswagen Group</div><div><span style='display:inline-block;width:10px;height:10px;background:#2C6FB3;border-radius:50%;margin-right:6px'></span>BMW Group</div><div><span style='display:inline-block;width:10px;height:10px;background:#6A6A6A;border-radius:50%;margin-right:6px'></span>Mercedes-Benz</div><div><span style='display:inline-block;width:10px;height:10px;background:#C6803D;border-radius:50%;margin-right:6px'></span>Renault</div><div><span style='display:inline-block;width:10px;height:10px;background:#7A5C99;border-radius:50%;margin-right:6px'></span>Stellantis</div><div><span style='display:inline-block;width:10px;height:10px;background:#30609F;border-radius:50%;margin-right:6px'></span>Ford</div><div><span style='display:inline-block;width:10px;height:10px;background:#B0483C;border-radius:50%;margin-right:6px'></span>Toyota</div><div><span style='display:inline-block;width:10px;height:10px;background:#444444;border-radius:50%;margin-right:6px'></span>Ineos</div></div>
+    
+            <div class="folium-map" id="map_c0aef4079de4a91e7ab25c6b8fbe1514" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c0aef4079de4a91e7ab25c6b8fbe1514 = L.map(
+                "map_c0aef4079de4a91e7ab25c6b8fbe1514",
+                {
+                    center: [50.0, 9.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_079d9f6ef5ceecfe4d959e29d59ad375 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_079d9f6ef5ceecfe4d959e29d59ad375.addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+            var circle_marker_d20cf09ca08e0a17b397efe1b15be855 = L.circleMarker(
+                [50.966, 5.501],
+                {"bubblingMouseEvents": true, "color": "#30609F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#30609F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.1967981553775, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_aec754cefcba0b591d50025a54986684 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_72be0f098e392d249307a69e0a0a52c8 = $(`<div id="html_72be0f098e392d249307a69e0a0a52c8" style="width: 100.0%; height: 100.0%;"><b>Genk Body & Assembly</b><br>Genk, BE<br>group: Ford<br>class: assembly<br>NUTS-2: BE22<br>employees: 4,300 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_aec754cefcba0b591d50025a54986684.setContent(html_72be0f098e392d249307a69e0a0a52c8);
+            
+        
+
+        circle_marker_d20cf09ca08e0a17b397efe1b15be855.bindPopup(popup_aec754cefcba0b591d50025a54986684)
+        ;
+
+        
+    
+    
+            circle_marker_d20cf09ca08e0a17b397efe1b15be855.bindTooltip(
+                `<div>
+                     Genk Body & Assembly (BE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_59121a6cb8515486a354825a83227ed6 = L.circleMarker(
+                [50.81, 4.318],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_c52340eed76d88ff403b329364fdf94b = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_918f16c16c6b6ed59283ed97937501b2 = $(`<div id="html_918f16c16c6b6ed59283ed97937501b2" style="width: 100.0%; height: 100.0%;"><b>Audi Brussels Plant Forest</b><br>Brussels, BE<br>group: Volkswagen Group<br>class: assembly<br>NUTS-2: BE10<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_c52340eed76d88ff403b329364fdf94b.setContent(html_918f16c16c6b6ed59283ed97937501b2);
+            
+        
+
+        circle_marker_59121a6cb8515486a354825a83227ed6.bindPopup(popup_c52340eed76d88ff403b329364fdf94b)
+        ;
+
+        
+    
+    
+            circle_marker_59121a6cb8515486a354825a83227ed6.bindTooltip(
+                `<div>
+                     Audi Brussels Plant Forest (BE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5a745b83b7306fae271383a57878a463 = L.circleMarker(
+                [50.028, 15.199],
+                {"bubblingMouseEvents": true, "color": "#B0483C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B0483C", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_5577ca757755dc97891313ec7996227a = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_39154a80852c6c32f471cd2ed209c77c = $(`<div id="html_39154a80852c6c32f471cd2ed209c77c" style="width: 100.0%; height: 100.0%;"><b>Toyota Motor Manufacturing Czech Republic (Kolín, ex-TPCA)</b><br>Kolin, CZ<br>group: Toyota<br>class: assembly<br>NUTS-2: CZ02<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_5577ca757755dc97891313ec7996227a.setContent(html_39154a80852c6c32f471cd2ed209c77c);
+            
+        
+
+        circle_marker_5a745b83b7306fae271383a57878a463.bindPopup(popup_5577ca757755dc97891313ec7996227a)
+        ;
+
+        
+    
+    
+            circle_marker_5a745b83b7306fae271383a57878a463.bindTooltip(
+                `<div>
+                     Toyota Motor Manufacturing Czech Republic (Kolín, ex-TPCA) (CZ)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_78b72432b0e6ee46a510b31628d22ddd = L.circleMarker(
+                [48.638, 12.492],
+                {"bubblingMouseEvents": true, "color": "#2C6FB3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C6FB3", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.77050983124842, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_1635f09dd8ac39d401618d7adb8714ad = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_242c5d45f5713e140a8a3e3ead71c8b1 = $(`<div id="html_242c5d45f5713e140a8a3e3ead71c8b1" style="width: 100.0%; height: 100.0%;"><b>BMW Group Plant Dingolfing</b><br>Dingolfing, DE<br>group: BMW Group<br>class: assembly<br>NUTS-2: DE22<br>employees: 18,000 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_1635f09dd8ac39d401618d7adb8714ad.setContent(html_242c5d45f5713e140a8a3e3ead71c8b1);
+            
+        
+
+        circle_marker_78b72432b0e6ee46a510b31628d22ddd.bindPopup(popup_1635f09dd8ac39d401618d7adb8714ad)
+        ;
+
+        
+    
+    
+            circle_marker_78b72432b0e6ee46a510b31628d22ddd.bindTooltip(
+                `<div>
+                     BMW Group Plant Dingolfing (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e30e07f20d3b2d97b6b435b50f11fb06 = L.circleMarker(
+                [50.976, 10.316],
+                {"bubblingMouseEvents": true, "color": "#2C6FB3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C6FB3", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.38525491562421, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_0141450e7a950990bed784e41570606d = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_5fdab2bd88135bdce1df48976fedc415 = $(`<div id="html_5fdab2bd88135bdce1df48976fedc415" style="width: 100.0%; height: 100.0%;"><b>BMW Group Plant Eisenach</b><br>Eisenach, DE<br>group: BMW Group<br>class: historic<br>NUTS-2: DEG0<br>employees: 4,500 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_0141450e7a950990bed784e41570606d.setContent(html_5fdab2bd88135bdce1df48976fedc415);
+            
+        
+
+        circle_marker_e30e07f20d3b2d97b6b435b50f11fb06.bindPopup(popup_0141450e7a950990bed784e41570606d)
+        ;
+
+        
+    
+    
+            circle_marker_e30e07f20d3b2d97b6b435b50f11fb06.bindTooltip(
+                `<div>
+                     BMW Group Plant Eisenach (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fbec49e5d740d5ea99bf6254cb48b2e6 = L.circleMarker(
+                [48.537, 12.152],
+                {"bubblingMouseEvents": true, "color": "#2C6FB3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C6FB3", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.39509972887452, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_c4d65a3560442181075465f112a68ca1 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_b1ad5992ff30d4ed1e5dcf9c2c34d24d = $(`<div id="html_b1ad5992ff30d4ed1e5dcf9c2c34d24d" style="width: 100.0%; height: 100.0%;"><b>BMW Group Plant Landshut</b><br>Landshut, DE<br>group: BMW Group<br>class: component<br>NUTS-2: DE22<br>employees: 3,500 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_c4d65a3560442181075465f112a68ca1.setContent(html_b1ad5992ff30d4ed1e5dcf9c2c34d24d);
+            
+        
+
+        circle_marker_fbec49e5d740d5ea99bf6254cb48b2e6.bindPopup(popup_c4d65a3560442181075465f112a68ca1)
+        ;
+
+        
+    
+    
+            circle_marker_fbec49e5d740d5ea99bf6254cb48b2e6.bindTooltip(
+                `<div>
+                     BMW Group Plant Landshut (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_522af72f5a1ab5045fc39ed81196cddc = L.circleMarker(
+                [51.34, 12.375],
+                {"bubblingMouseEvents": true, "color": "#2C6FB3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C6FB3", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.354143466934854, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_d209d90f5bcf67748e42c1172bf0b39e = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_98dfb663becb31cc4a093923b81aef05 = $(`<div id="html_98dfb663becb31cc4a093923b81aef05" style="width: 100.0%; height: 100.0%;"><b>BMW Group Plant Leipzig</b><br>Leipzig, DE<br>group: BMW Group<br>class: assembly<br>NUTS-2: DED5<br>employees: 5,600 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_d209d90f5bcf67748e42c1172bf0b39e.setContent(html_98dfb663becb31cc4a093923b81aef05);
+            
+        
+
+        circle_marker_522af72f5a1ab5045fc39ed81196cddc.bindPopup(popup_d209d90f5bcf67748e42c1172bf0b39e)
+        ;
+
+        
+    
+    
+            circle_marker_522af72f5a1ab5045fc39ed81196cddc.bindTooltip(
+                `<div>
+                     BMW Group Plant Leipzig (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_74e0be385883434233fc94c94130ba2e = L.circleMarker(
+                [48.137, 11.575],
+                {"bubblingMouseEvents": true, "color": "#2C6FB3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C6FB3", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.458250331675945, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_db91d970a6dd2db055621eccf12e7a26 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_702fc78b9254e20c7a3c77c031fc03fc = $(`<div id="html_702fc78b9254e20c7a3c77c031fc03fc" style="width: 100.0%; height: 100.0%;"><b>BMW Group Plant Munich</b><br>Munich, DE<br>group: BMW Group<br>class: assembly<br>NUTS-2: DE21<br>employees: 7,000 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_db91d970a6dd2db055621eccf12e7a26.setContent(html_702fc78b9254e20c7a3c77c031fc03fc);
+            
+        
+
+        circle_marker_74e0be385883434233fc94c94130ba2e.bindPopup(popup_db91d970a6dd2db055621eccf12e7a26)
+        ;
+
+        
+    
+    
+            circle_marker_74e0be385883434233fc94c94130ba2e.bindTooltip(
+                `<div>
+                     BMW Group Plant Munich (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_52b3acd8612fdf5c9ef62004454baba5 = L.circleMarker(
+                [49.02, 12.098],
+                {"bubblingMouseEvents": true, "color": "#2C6FB3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C6FB3", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_479b02f6a8d8de10d0a112ad51784b8f = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_95ba2e6e8b8b40f4e80ae68449887245 = $(`<div id="html_95ba2e6e8b8b40f4e80ae68449887245" style="width: 100.0%; height: 100.0%;"><b>BMW Group Plant Regensburg</b><br>Regensburg, DE<br>group: BMW Group<br>class: assembly<br>NUTS-2: DE23<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_479b02f6a8d8de10d0a112ad51784b8f.setContent(html_95ba2e6e8b8b40f4e80ae68449887245);
+            
+        
+
+        circle_marker_52b3acd8612fdf5c9ef62004454baba5.bindPopup(popup_479b02f6a8d8de10d0a112ad51784b8f)
+        ;
+
+        
+    
+    
+            circle_marker_52b3acd8612fdf5c9ef62004454baba5.bindTooltip(
+                `<div>
+                     BMW Group Plant Regensburg (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b40a752e3c656acc46bc2dc553b02efb = L.circleMarker(
+                [49.317, 12.199],
+                {"bubblingMouseEvents": true, "color": "#2C6FB3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2C6FB3", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.25, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_5422f767102ba014d797a5378fbfccca = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_4dfa54068146e235753494b4cddfa3be = $(`<div id="html_4dfa54068146e235753494b4cddfa3be" style="width: 100.0%; height: 100.0%;"><b>BMW Group Plant Wackersdorf</b><br>Wackersdorf, DE<br>group: BMW Group<br>class: component<br>NUTS-2: DE23<br>employees: 2,500 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_5422f767102ba014d797a5378fbfccca.setContent(html_4dfa54068146e235753494b4cddfa3be);
+            
+        
+
+        circle_marker_b40a752e3c656acc46bc2dc553b02efb.bindPopup(popup_5422f767102ba014d797a5378fbfccca)
+        ;
+
+        
+    
+    
+            circle_marker_b40a752e3c656acc46bc2dc553b02efb.bindTooltip(
+                `<div>
+                     BMW Group Plant Wackersdorf (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bcce0bcb7b7810c7373e902e9a13ed8b = L.circleMarker(
+                [50.938, 6.96],
+                {"bubblingMouseEvents": true, "color": "#30609F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#30609F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_61c21a5d848b56311eb2ed218279e7db = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_e6968cde6885ebc42db6bb36936064d6 = $(`<div id="html_e6968cde6885ebc42db6bb36936064d6" style="width: 100.0%; height: 100.0%;"><b>Cologne Body & Assembly (Niehl)</b><br>Cologne, DE<br>group: Ford<br>class: assembly<br>NUTS-2: DEA2<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_61c21a5d848b56311eb2ed218279e7db.setContent(html_e6968cde6885ebc42db6bb36936064d6);
+            
+        
+
+        circle_marker_bcce0bcb7b7810c7373e902e9a13ed8b.bindPopup(popup_61c21a5d848b56311eb2ed218279e7db)
+        ;
+
+        
+    
+    
+            circle_marker_bcce0bcb7b7810c7373e902e9a13ed8b.bindTooltip(
+                `<div>
+                     Cologne Body & Assembly (Niehl) (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_65d753119599f2bdb2385b7ef8869164 = L.circleMarker(
+                [49.313, 6.751],
+                {"bubblingMouseEvents": true, "color": "#30609F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#30609F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.307764064044152, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_3ad400e20fa9a4feed7ea9a6158ca8c5 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_2db6baebeae41349bd5e9a14958fb39f = $(`<div id="html_2db6baebeae41349bd5e9a14958fb39f" style="width: 100.0%; height: 100.0%;"><b>Saarlouis Body & Assembly</b><br>Saarlouis, DE<br>group: Ford<br>class: assembly<br>NUTS-2: DEC0<br>employees: 6,800 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_3ad400e20fa9a4feed7ea9a6158ca8c5.setContent(html_2db6baebeae41349bd5e9a14958fb39f);
+            
+        
+
+        circle_marker_65d753119599f2bdb2385b7ef8869164.bindPopup(popup_3ad400e20fa9a4feed7ea9a6158ca8c5)
+        ;
+
+        
+    
+    
+            circle_marker_65d753119599f2bdb2385b7ef8869164.bindTooltip(
+                `<div>
+                     Saarlouis Body & Assembly (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_37fce726cb26ec6ce8dd208fe44ba0be = L.circleMarker(
+                [48.94, 9.34],
+                {"bubblingMouseEvents": true, "color": "#6A6A6A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6A6A6A", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.123724356957945, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_71adbef1610a89f2b026aa7764edd542 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_54714f9d84272c596567530ff92443aa = $(`<div id="html_54714f9d84272c596567530ff92443aa" style="width: 100.0%; height: 100.0%;"><b>Mercedes-Benz Plant Affalterbach (AMG)</b><br>Affalterbach, DE<br>group: Mercedes-Benz<br>class: component<br>NUTS-2: DE11<br>employees: 2,400 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_71adbef1610a89f2b026aa7764edd542.setContent(html_54714f9d84272c596567530ff92443aa);
+            
+        
+
+        circle_marker_37fce726cb26ec6ce8dd208fe44ba0be.bindPopup(popup_71adbef1610a89f2b026aa7764edd542)
+        ;
+
+        
+    
+    
+            circle_marker_37fce726cb26ec6ce8dd208fe44ba0be.bindTooltip(
+                `<div>
+                     Mercedes-Benz Plant Affalterbach (AMG) (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_161d37ddbc3d229872be592cbb5e9c7f = L.circleMarker(
+                [52.52, 13.405],
+                {"bubblingMouseEvents": true, "color": "#6A6A6A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6A6A6A", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7282196186948, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_17f3ff8dc2d1ae9f96edb33fcb28ea69 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_50f89cbcbaae4607c088f9dbb59b0990 = $(`<div id="html_50f89cbcbaae4607c088f9dbb59b0990" style="width: 100.0%; height: 100.0%;"><b>Mercedes-Benz Plant Berlin</b><br>Berlin, DE<br>group: Mercedes-Benz<br>class: component<br>NUTS-2: DE30<br>employees: 2,100 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_17f3ff8dc2d1ae9f96edb33fcb28ea69.setContent(html_50f89cbcbaae4607c088f9dbb59b0990);
+            
+        
+
+        circle_marker_161d37ddbc3d229872be592cbb5e9c7f.bindPopup(popup_17f3ff8dc2d1ae9f96edb33fcb28ea69)
+        ;
+
+        
+    
+    
+            circle_marker_161d37ddbc3d229872be592cbb5e9c7f.bindTooltip(
+                `<div>
+                     Mercedes-Benz Plant Berlin (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_72ecc22691ab7272be62ebdcf33d8e5e = L.circleMarker(
+                [53.079, 8.802],
+                {"bubblingMouseEvents": true, "color": "#6A6A6A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6A6A6A", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.40475661845451, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_e7101f4b5745fb02641ec3ebf6f8dac0 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_76acdd5834c99e9f8a813ce743fe0f04 = $(`<div id="html_76acdd5834c99e9f8a813ce743fe0f04" style="width: 100.0%; height: 100.0%;"><b>Mercedes-Benz Plant Bremen</b><br>Bremen, DE<br>group: Mercedes-Benz<br>class: assembly<br>NUTS-2: DE50<br>employees: 11,500 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_e7101f4b5745fb02641ec3ebf6f8dac0.setContent(html_76acdd5834c99e9f8a813ce743fe0f04);
+            
+        
+
+        circle_marker_72ecc22691ab7272be62ebdcf33d8e5e.bindPopup(popup_e7101f4b5745fb02641ec3ebf6f8dac0)
+        ;
+
+        
+    
+    
+            circle_marker_72ecc22691ab7272be62ebdcf33d8e5e.bindTooltip(
+                `<div>
+                     Mercedes-Benz Plant Bremen (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a5add31caff4becd1440404feb27dafb = L.circleMarker(
+                [51.228, 6.782],
+                {"bubblingMouseEvents": true, "color": "#6A6A6A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6A6A6A", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.354143466934854, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_4f563a4c0f7c0ba6ec60bb85c57f8b2f = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_1ee0ae671097022cad15c19fa373e616 = $(`<div id="html_1ee0ae671097022cad15c19fa373e616" style="width: 100.0%; height: 100.0%;"><b>Mercedes-Benz Plant Düsseldorf</b><br>Düsseldorf, DE<br>group: Mercedes-Benz<br>class: assembly<br>NUTS-2: DEA1<br>employees: 5,600 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_4f563a4c0f7c0ba6ec60bb85c57f8b2f.setContent(html_1ee0ae671097022cad15c19fa373e616);
+            
+        
+
+        circle_marker_a5add31caff4becd1440404feb27dafb.bindPopup(popup_4f563a4c0f7c0ba6ec60bb85c57f8b2f)
+        ;
+
+        
+    
+    
+            circle_marker_a5add31caff4becd1440404feb27dafb.bindTooltip(
+                `<div>
+                     Mercedes-Benz Plant Düsseldorf (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8a098f776a6ca699b6888e1c6f477868 = L.circleMarker(
+                [53.551, 9.994],
+                {"bubblingMouseEvents": true, "color": "#6A6A6A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6A6A6A", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.7282196186948, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_482a00115162931383db5a1910878462 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_449300e4476884c07de39ec2fbdb0e14 = $(`<div id="html_449300e4476884c07de39ec2fbdb0e14" style="width: 100.0%; height: 100.0%;"><b>Mercedes-Benz Plant Hamburg</b><br>Hamburg, DE<br>group: Mercedes-Benz<br>class: component<br>NUTS-2: DE60<br>employees: 2,100 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_482a00115162931383db5a1910878462.setContent(html_449300e4476884c07de39ec2fbdb0e14);
+            
+        
+
+        circle_marker_8a098f776a6ca699b6888e1c6f477868.bindPopup(popup_482a00115162931383db5a1910878462)
+        ;
+
+        
+    
+    
+            circle_marker_8a098f776a6ca699b6888e1c6f477868.bindTooltip(
+                `<div>
+                     Mercedes-Benz Plant Hamburg (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2798a429f43c152aa594669e591ff15c = L.circleMarker(
+                [51.27, 14.096],
+                {"bubblingMouseEvents": true, "color": "#6A6A6A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6A6A6A", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.330127018922194, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_aab918bd55880593feb67cc91bae1401 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_a87a36013729e8b4d75d1d109475b2f9 = $(`<div id="html_a87a36013729e8b4d75d1d109475b2f9" style="width: 100.0%; height: 100.0%;"><b>Accumotive GmbH & Co. KG, Kamenz</b><br>Kamenz, DE<br>group: Mercedes-Benz<br>class: component<br>NUTS-2: DED2<br>employees: 1,200 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_aab918bd55880593feb67cc91bae1401.setContent(html_a87a36013729e8b4d75d1d109475b2f9);
+            
+        
+
+        circle_marker_2798a429f43c152aa594669e591ff15c.bindPopup(popup_aab918bd55880593feb67cc91bae1401)
+        ;
+
+        
+    
+    
+            circle_marker_2798a429f43c152aa594669e591ff15c.bindTooltip(
+                `<div>
+                     Accumotive GmbH & Co. KG, Kamenz (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ea025616abc7adccc7f18678ca9fc8f3 = L.circleMarker(
+                [51.186, 11.242],
+                {"bubblingMouseEvents": true, "color": "#6A6A6A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6A6A6A", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.5069390943299865, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_3593d53a4be2fad344a6bd9801d628a8 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_fda623097e8741b81fd6c028d7f3ad4a = $(`<div id="html_fda623097e8741b81fd6c028d7f3ad4a" style="width: 100.0%; height: 100.0%;"><b>MDC Power GmbH, Kölleda & Arnstadt</b><br>Kölleda, DE<br>group: Mercedes-Benz<br>class: component<br>NUTS-2: DEG0<br>employees: 1,300 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_3593d53a4be2fad344a6bd9801d628a8.setContent(html_fda623097e8741b81fd6c028d7f3ad4a);
+            
+        
+
+        circle_marker_ea025616abc7adccc7f18678ca9fc8f3.bindPopup(popup_3593d53a4be2fad344a6bd9801d628a8)
+        ;
+
+        
+    
+    
+            circle_marker_ea025616abc7adccc7f18678ca9fc8f3.bindTooltip(
+                `<div>
+                     MDC Power GmbH, Kölleda & Arnstadt (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_606346bc87baede407f4f49f54d67eab = L.circleMarker(
+                [52.299, 13.253],
+                {"bubblingMouseEvents": true, "color": "#6A6A6A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6A6A6A", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5901699437494745, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_83b9e5ffd2d3e037222fcb17daf19a5e = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_b51c1e22653184e7642fb69bc5b4c5dd = $(`<div id="html_b51c1e22653184e7642fb69bc5b4c5dd" style="width: 100.0%; height: 100.0%;"><b>Mercedes-Benz Plant Ludwigsfelde</b><br>Ludwigsfelde, DE<br>group: Mercedes-Benz<br>class: assembly<br>NUTS-2: DE40<br>employees: 2,000 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_83b9e5ffd2d3e037222fcb17daf19a5e.setContent(html_b51c1e22653184e7642fb69bc5b4c5dd);
+            
+        
+
+        circle_marker_606346bc87baede407f4f49f54d67eab.bindPopup(popup_83b9e5ffd2d3e037222fcb17daf19a5e)
+        ;
+
+        
+    
+    
+            circle_marker_606346bc87baede407f4f49f54d67eab.bindTooltip(
+                `<div>
+                     Mercedes-Benz Plant Ludwigsfelde (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8c3683634504cede70969d5b1cbef22b = L.circleMarker(
+                [48.858, 8.204],
+                {"bubblingMouseEvents": true, "color": "#6A6A6A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6A6A6A", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.762812094883317, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_0c391133c9769be25e9436df9f4b9903 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_0e39744089515d3000d134cbcb084bc8 = $(`<div id="html_0e39744089515d3000d134cbcb084bc8" style="width: 100.0%; height: 100.0%;"><b>Mercedes-Benz Plant Rastatt</b><br>Rastatt, DE<br>group: Mercedes-Benz<br>class: assembly<br>NUTS-2: DE12<br>employees: 6,100 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_0c391133c9769be25e9436df9f4b9903.setContent(html_0e39744089515d3000d134cbcb084bc8);
+            
+        
+
+        circle_marker_8c3683634504cede70969d5b1cbef22b.bindPopup(popup_0c391133c9769be25e9436df9f4b9903)
+        ;
+
+        
+    
+    
+            circle_marker_8c3683634504cede70969d5b1cbef22b.bindTooltip(
+                `<div>
+                     Mercedes-Benz Plant Rastatt (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c14eb5fb1b5e9c9882d191e5da925666 = L.circleMarker(
+                [48.713, 9.003],
+                {"bubblingMouseEvents": true, "color": "#6A6A6A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6A6A6A", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23.385358667337133, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_b751b1c5592fcdf0253a3cada8bac757 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_b59185ae461e8e65391dbb4a5ab43503 = $(`<div id="html_b59185ae461e8e65391dbb4a5ab43503" style="width: 100.0%; height: 100.0%;"><b>Mercedes-Benz Plant Sindelfingen</b><br>Sindelfingen, DE<br>group: Mercedes-Benz<br>class: assembly<br>NUTS-2: DE11<br>employees: 35,000 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_b751b1c5592fcdf0253a3cada8bac757.setContent(html_b59185ae461e8e65391dbb4a5ab43503);
+            
+        
+
+        circle_marker_c14eb5fb1b5e9c9882d191e5da925666.bindPopup(popup_b751b1c5592fcdf0253a3cada8bac757)
+        ;
+
+        
+    
+    
+            circle_marker_c14eb5fb1b5e9c9882d191e5da925666.bindTooltip(
+                `<div>
+                     Mercedes-Benz Plant Sindelfingen (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_01a2f072d0faa6e106f638d7477713c1 = L.circleMarker(
+                [48.778, 9.18],
+                {"bubblingMouseEvents": true, "color": "#6A6A6A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6A6A6A", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.258194519667128, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_7d466caef9178640fc3d3da15191596f = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_7664bf9ea98f89666f5b1437215ec4a2 = $(`<div id="html_7664bf9ea98f89666f5b1437215ec4a2" style="width: 100.0%; height: 100.0%;"><b>Mercedes-Benz Plant Untertürkheim</b><br>Stuttgart, DE<br>group: Mercedes-Benz<br>class: component<br>NUTS-2: DE11<br>employees: 14,900 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_7d466caef9178640fc3d3da15191596f.setContent(html_7664bf9ea98f89666f5b1437215ec4a2);
+            
+        
+
+        circle_marker_01a2f072d0faa6e106f638d7477713c1.bindPopup(popup_7d466caef9178640fc3d3da15191596f)
+        ;
+
+        
+    
+    
+            circle_marker_01a2f072d0faa6e106f638d7477713c1.bindTooltip(
+                `<div>
+                     Mercedes-Benz Plant Untertürkheim (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_18a705118910f006f2dde3f4fcc0cce6 = L.circleMarker(
+                [52.269, 10.521],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.752906583803284, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_51852a21810c3b4714ddb83ee870ded2 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_da9c5fb40fac8d45fb374c3d6966ef86 = $(`<div id="html_da9c5fb40fac8d45fb374c3d6966ef86" style="width: 100.0%; height: 100.0%;"><b>Volkswagen Plant Brunswick</b><br>Brunswick, DE<br>group: Volkswagen Group<br>class: component<br>NUTS-2: DE91<br>employees: 7,400 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_51852a21810c3b4714ddb83ee870ded2.setContent(html_da9c5fb40fac8d45fb374c3d6966ef86);
+            
+        
+
+        circle_marker_18a705118910f006f2dde3f4fcc0cce6.bindPopup(popup_51852a21810c3b4714ddb83ee870ded2)
+        ;
+
+        
+    
+    
+            circle_marker_18a705118910f006f2dde3f4fcc0cce6.bindTooltip(
+                `<div>
+                     Volkswagen Plant Brunswick (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f61e6c09ae045b47badfc0b1410cc93b = L.circleMarker(
+                [50.827, 12.921],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.448623679425842, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_55de5d72f28da0610088970eeebfe946 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_42fa0cdd668bdb016df7a16704440dbb = $(`<div id="html_42fa0cdd668bdb016df7a16704440dbb" style="width: 100.0%; height: 100.0%;"><b>Volkswagen Plant Chemnitz</b><br>Chemnitz, DE<br>group: Volkswagen Group<br>class: component<br>NUTS-2: DED4<br>employees: 1,900 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_55de5d72f28da0610088970eeebfe946.setContent(html_42fa0cdd668bdb016df7a16704440dbb);
+            
+        
+
+        circle_marker_f61e6c09ae045b47badfc0b1410cc93b.bindPopup(popup_55de5d72f28da0610088970eeebfe946)
+        ;
+
+        
+    
+    
+            circle_marker_f61e6c09ae045b47badfc0b1410cc93b.bindTooltip(
+                `<div>
+                     Volkswagen Plant Chemnitz (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ce09070caf436e8c3ea134e19701b25b = L.circleMarker(
+                [51.043, 13.75],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_467d16f747b5f56aead1b198acf44178 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_a3cf6b0394aa5f9091a4698fa3e2426d = $(`<div id="html_a3cf6b0394aa5f9091a4698fa3e2426d" style="width: 100.0%; height: 100.0%;"><b>Volkswagen Plant Dresden</b><br>Dresden, DE<br>group: Volkswagen Group<br>class: assembly<br>NUTS-2: DED2<br>employees: 340 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_467d16f747b5f56aead1b198acf44178.setContent(html_a3cf6b0394aa5f9091a4698fa3e2426d);
+            
+        
+
+        circle_marker_ce09070caf436e8c3ea134e19701b25b.bindPopup(popup_467d16f747b5f56aead1b198acf44178)
+        ;
+
+        
+    
+    
+            circle_marker_ce09070caf436e8c3ea134e19701b25b.bindTooltip(
+                `<div>
+                     Volkswagen Plant Dresden (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c2a821fd85de8f72c8343d26d8ae6b3b = L.circleMarker(
+                [53.367, 7.206],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.180339887498949, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_de5fe4abc5f6eec75bcf56f7922fcc0d = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_f7899a18f7f475fa89958a4a64163787 = $(`<div id="html_f7899a18f7f475fa89958a4a64163787" style="width: 100.0%; height: 100.0%;"><b>Volkswagen Plant Emden</b><br>Emden, DE<br>group: Volkswagen Group<br>class: assembly<br>NUTS-2: DE94<br>employees: 8,000 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_de5fe4abc5f6eec75bcf56f7922fcc0d.setContent(html_f7899a18f7f475fa89958a4a64163787);
+            
+        
+
+        circle_marker_c2a821fd85de8f72c8343d26d8ae6b3b.bindPopup(popup_de5fe4abc5f6eec75bcf56f7922fcc0d)
+        ;
+
+        
+    
+    
+            circle_marker_c2a821fd85de8f72c8343d26d8ae6b3b.bindTooltip(
+                `<div>
+                     Volkswagen Plant Emden (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d08c5ec94a1188332154d0666b440943 = L.circleMarker(
+                [48.771, 11.425],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25.03684784472678, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_1b47e61a3af29e454e1045952e4dfbac = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_397667d36a6bb53df2225831fe1377d4 = $(`<div id="html_397667d36a6bb53df2225831fe1377d4" style="width: 100.0%; height: 100.0%;"><b>Audi Plant Ingolstadt</b><br>Ingolstadt, DE<br>group: Volkswagen Group<br>class: assembly<br>NUTS-2: DE21<br>employees: 40,118 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_1b47e61a3af29e454e1045952e4dfbac.setContent(html_397667d36a6bb53df2225831fe1377d4);
+            
+        
+
+        circle_marker_d08c5ec94a1188332154d0666b440943.bindPopup(popup_1b47e61a3af29e454e1045952e4dfbac)
+        ;
+
+        
+    
+    
+            circle_marker_d08c5ec94a1188332154d0666b440943.bindTooltip(
+                `<div>
+                     Audi Plant Ingolstadt (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d7f9afad096f7a9857ed9c0fc7f1df0f = L.circleMarker(
+                [51.253, 9.415],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.056540723331413, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_74bdcdbf7479460cbb7c25cdc68c0c85 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_edc888c315c85708a60fbab8f108dc6a = $(`<div id="html_edc888c315c85708a60fbab8f108dc6a" style="width: 100.0%; height: 100.0%;"><b>Volkswagen Plant Kassel</b><br>Kassel, DE<br>group: Volkswagen Group<br>class: component<br>NUTS-2: DE73<br>employees: 16,500 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_74bdcdbf7479460cbb7c25cdc68c0c85.setContent(html_edc888c315c85708a60fbab8f108dc6a);
+            
+        
+
+        circle_marker_d7f9afad096f7a9857ed9c0fc7f1df0f.bindPopup(popup_74bdcdbf7479460cbb7c25cdc68c0c85)
+        ;
+
+        
+    
+    
+            circle_marker_d7f9afad096f7a9857ed9c0fc7f1df0f.bindTooltip(
+                `<div>
+                     Volkswagen Plant Kassel (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2f7ae5c0252f8de0a2e99fec1b23ba07 = L.circleMarker(
+                [51.412, 12.291],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2915619758885, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_4c1cb3fe137faa83573491f905b425b8 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_f4f7c8bf3b77ed6871eb3cfdc807741d = $(`<div id="html_f4f7c8bf3b77ed6871eb3cfdc807741d" style="width: 100.0%; height: 100.0%;"><b>Porsche Plant Leipzig</b><br>Leipzig, DE<br>group: Volkswagen Group<br>class: assembly<br>NUTS-2: DED5<br>employees: 4,400 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_4c1cb3fe137faa83573491f905b425b8.setContent(html_f4f7c8bf3b77ed6871eb3cfdc807741d);
+            
+        
+
+        circle_marker_2f7ae5c0252f8de0a2e99fec1b23ba07.bindPopup(popup_4c1cb3fe137faa83573491f905b425b8)
+        ;
+
+        
+    
+    
+            circle_marker_2f7ae5c0252f8de0a2e99fec1b23ba07.bindTooltip(
+                `<div>
+                     Porsche Plant Leipzig (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f7b0cc268d7b8862e08886b147a56f0b = L.circleMarker(
+                [49.192, 9.223],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.619499031659114, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_d07a8445ae3e647ccef7c30b8965869e = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_d315babef3b07b0fa052f1de0ced3407 = $(`<div id="html_d315babef3b07b0fa052f1de0ced3407" style="width: 100.0%; height: 100.0%;"><b>Audi Plant Neckarsulm</b><br>Neckarsulm, DE<br>group: Volkswagen Group<br>class: assembly<br>NUTS-2: DE11<br>employees: 15,614 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_d07a8445ae3e647ccef7c30b8965869e.setContent(html_d315babef3b07b0fa052f1de0ced3407);
+            
+        
+
+        circle_marker_f7b0cc268d7b8862e08886b147a56f0b.bindPopup(popup_d07a8445ae3e647ccef7c30b8965869e)
+        ;
+
+        
+    
+    
+            circle_marker_f7b0cc268d7b8862e08886b147a56f0b.bindTooltip(
+                `<div>
+                     Audi Plant Neckarsulm (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_612785c089577b215f0325c4ec87969a = L.circleMarker(
+                [52.279, 8.047],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.994789404140899, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_0f11cf678084e975ed7f2c044fcaaf68 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_6ae24e705665d694f7afbb9fbc8379d0 = $(`<div id="html_6ae24e705665d694f7afbb9fbc8379d0" style="width: 100.0%; height: 100.0%;"><b>Volkswagen Plant Osnabrück</b><br>Osnabrück, DE<br>group: Volkswagen Group<br>class: assembly<br>NUTS-2: DE94<br>employees: 2,300 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_0f11cf678084e975ed7f2c044fcaaf68.setContent(html_6ae24e705665d694f7afbb9fbc8379d0);
+            
+        
+
+        circle_marker_612785c089577b215f0325c4ec87969a.bindPopup(popup_0f11cf678084e975ed7f2c044fcaaf68)
+        ;
+
+        
+    
+    
+            circle_marker_612785c089577b215f0325c4ec87969a.bindTooltip(
+                `<div>
+                     Volkswagen Plant Osnabrück (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_527c3480bb1c99c39a7e563d5ab8c3e0 = L.circleMarker(
+                [52.154, 10.333],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.825317547305483, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_c801f2318888d2611ed0e2dd028ee9ab = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_fbed1a96ba768c69da727996f2df9d97 = $(`<div id="html_fbed1a96ba768c69da727996f2df9d97" style="width: 100.0%; height: 100.0%;"><b>Volkswagen Plant Salzgitter</b><br>Salzgitter, DE<br>group: Volkswagen Group<br>class: component<br>NUTS-2: DE91<br>employees: 7,500 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_c801f2318888d2611ed0e2dd028ee9ab.setContent(html_fbed1a96ba768c69da727996f2df9d97);
+            
+        
+
+        circle_marker_527c3480bb1c99c39a7e563d5ab8c3e0.bindPopup(popup_c801f2318888d2611ed0e2dd028ee9ab)
+        ;
+
+        
+    
+    
+            circle_marker_527c3480bb1c99c39a7e563d5ab8c3e0.bindTooltip(
+                `<div>
+                     Volkswagen Plant Salzgitter (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_588c78cad4f9a6de12185e5ab0968aa7 = L.circleMarker(
+                [48.832, 9.155],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_89851b1cd32b437f95b18c042f27e20c = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_632a53d5bac52fefd5f3f916448227f9 = $(`<div id="html_632a53d5bac52fefd5f3f916448227f9" style="width: 100.0%; height: 100.0%;"><b>Porsche Plant Stuttgart-Zuffenhausen</b><br>Stuttgart, DE<br>group: Volkswagen Group<br>class: assembly<br>NUTS-2: DE11<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_89851b1cd32b437f95b18c042f27e20c.setContent(html_632a53d5bac52fefd5f3f916448227f9);
+            
+        
+
+        circle_marker_588c78cad4f9a6de12185e5ab0968aa7.bindPopup(popup_89851b1cd32b437f95b18c042f27e20c)
+        ;
+
+        
+    
+    
+            circle_marker_588c78cad4f9a6de12185e5ab0968aa7.bindTooltip(
+                `<div>
+                     Porsche Plant Stuttgart-Zuffenhausen (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6d0b2a0abbb259b486c154463b99c554 = L.circleMarker(
+                [52.422, 10.786],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26.0, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_1e5e535e1fadb11469af55c3ae7551db = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_18b56af786e1c14317495d12664107d0 = $(`<div id="html_18b56af786e1c14317495d12664107d0" style="width: 100.0%; height: 100.0%;"><b>Volkswagen Plant Wolfsburg</b><br>Wolfsburg, DE<br>group: Volkswagen Group<br>class: assembly<br>NUTS-2: DE91<br>employees: 70,000 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_1e5e535e1fadb11469af55c3ae7551db.setContent(html_18b56af786e1c14317495d12664107d0);
+            
+        
+
+        circle_marker_6d0b2a0abbb259b486c154463b99c554.bindPopup(popup_1e5e535e1fadb11469af55c3ae7551db)
+        ;
+
+        
+    
+    
+            circle_marker_6d0b2a0abbb259b486c154463b99c554.bindTooltip(
+                `<div>
+                     Volkswagen Plant Wolfsburg (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b854c5ba0f647cbcbc23d44848dfc135 = L.circleMarker(
+                [50.718, 12.496],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.93010054098575, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_9174a2c953336b6e9a7ca7be5a52daa9 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_12bf867eb8802950ad967b7bec9ec0a5 = $(`<div id="html_12bf867eb8802950ad967b7bec9ec0a5" style="width: 100.0%; height: 100.0%;"><b>Audi Plant Zwickau</b><br>Zwickau, DE<br>group: Volkswagen Group<br>class: historic<br>NUTS-2: DED4<br>employees: 10,700 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_9174a2c953336b6e9a7ca7be5a52daa9.setContent(html_12bf867eb8802950ad967b7bec9ec0a5);
+            
+        
+
+        circle_marker_b854c5ba0f647cbcbc23d44848dfc135.bindPopup(popup_9174a2c953336b6e9a7ca7be5a52daa9)
+        ;
+
+        
+    
+    
+            circle_marker_b854c5ba0f647cbcbc23d44848dfc135.bindTooltip(
+                `<div>
+                     Audi Plant Zwickau (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8d96fb291ec9c4402d0ca3cfc79919c9 = L.circleMarker(
+                [50.718, 12.496],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.93010054098575, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_7f606754e2a38d9fdd189a117ea015a2 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_d4ce89d77f61bf20849a5ae5ed3d6c6b = $(`<div id="html_d4ce89d77f61bf20849a5ae5ed3d6c6b" style="width: 100.0%; height: 100.0%;"><b>Volkswagen Plant Zwickau</b><br>Zwickau, DE<br>group: Volkswagen Group<br>class: assembly<br>NUTS-2: DED4<br>employees: 10,700 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_7f606754e2a38d9fdd189a117ea015a2.setContent(html_d4ce89d77f61bf20849a5ae5ed3d6c6b);
+            
+        
+
+        circle_marker_8d96fb291ec9c4402d0ca3cfc79919c9.bindPopup(popup_7f606754e2a38d9fdd189a117ea015a2)
+        ;
+
+        
+    
+    
+            circle_marker_8d96fb291ec9c4402d0ca3cfc79919c9.bindTooltip(
+                `<div>
+                     Volkswagen Plant Zwickau (DE)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cc8f1579b24a631e208082ffcb3a2510 = L.circleMarker(
+                [39.28, -0.419],
+                {"bubblingMouseEvents": true, "color": "#30609F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#30609F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_04a5ce45299aa9f5cf9605b6bc012042 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_2d4b609534c052b620481ff2d65eeeb3 = $(`<div id="html_2d4b609534c052b620481ff2d65eeeb3" style="width: 100.0%; height: 100.0%;"><b>Valencia Body & Assembly (Almussafes)</b><br>Almussafes, ES<br>group: Ford<br>class: assembly<br>NUTS-2: ES52<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_04a5ce45299aa9f5cf9605b6bc012042.setContent(html_2d4b609534c052b620481ff2d65eeeb3);
+            
+        
+
+        circle_marker_cc8f1579b24a631e208082ffcb3a2510.bindPopup(popup_04a5ce45299aa9f5cf9605b6bc012042)
+        ;
+
+        
+    
+    
+            circle_marker_cc8f1579b24a631e208082ffcb3a2510.bindTooltip(
+                `<div>
+                     Valencia Body & Assembly (Almussafes) (ES)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_46a931a4af1b9e381c88ac4293161388 = L.circleMarker(
+                [42.01, -4.53],
+                {"bubblingMouseEvents": true, "color": "#C6803D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#C6803D", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_387bd46f324f885d7e396b6b8c24418c = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_4cd94fad8e684c4b0a1514160a5c88b1 = $(`<div id="html_4cd94fad8e684c4b0a1514160a5c88b1" style="width: 100.0%; height: 100.0%;"><b>Renault Palencia Plant</b><br>Palencia, ES<br>group: Renault<br>class: assembly<br>NUTS-2: ES41<br>employees: 100 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_387bd46f324f885d7e396b6b8c24418c.setContent(html_4cd94fad8e684c4b0a1514160a5c88b1);
+            
+        
+
+        circle_marker_46a931a4af1b9e381c88ac4293161388.bindPopup(popup_387bd46f324f885d7e396b6b8c24418c)
+        ;
+
+        
+    
+    
+            circle_marker_46a931a4af1b9e381c88ac4293161388.bindTooltip(
+                `<div>
+                     Renault Palencia Plant (ES)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7855f93ebc96fbb167a49b0ebb32d763 = L.circleMarker(
+                [37.389, -5.985],
+                {"bubblingMouseEvents": true, "color": "#C6803D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#C6803D", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_f4400c296ff443329c0d2fb067b00f3d = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_3361276e4f1d4cbc2b61c31623bdf0f3 = $(`<div id="html_3361276e4f1d4cbc2b61c31623bdf0f3" style="width: 100.0%; height: 100.0%;"><b>Renault Seville Plant (ReFactory, gearboxes)</b><br>Seville, ES<br>group: Renault<br>class: component<br>NUTS-2: ES61<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_f4400c296ff443329c0d2fb067b00f3d.setContent(html_3361276e4f1d4cbc2b61c31623bdf0f3);
+            
+        
+
+        circle_marker_7855f93ebc96fbb167a49b0ebb32d763.bindPopup(popup_f4400c296ff443329c0d2fb067b00f3d)
+        ;
+
+        
+    
+    
+            circle_marker_7855f93ebc96fbb167a49b0ebb32d763.bindTooltip(
+                `<div>
+                     Renault Seville Plant (ReFactory, gearboxes) (ES)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0610fff62ee770164b29ca24f91b5fb7 = L.circleMarker(
+                [41.652, -4.724],
+                {"bubblingMouseEvents": true, "color": "#C6803D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#C6803D", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_3f2912bbe3f39f6db365cba876fcbab9 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_3b88f79144856ccc9c1428548e96af74 = $(`<div id="html_3b88f79144856ccc9c1428548e96af74" style="width: 100.0%; height: 100.0%;"><b>Renault Valladolid Plant (Assembly)</b><br>Valladolid, ES<br>group: Renault<br>class: assembly<br>NUTS-2: ES41<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_3f2912bbe3f39f6db365cba876fcbab9.setContent(html_3b88f79144856ccc9c1428548e96af74);
+            
+        
+
+        circle_marker_0610fff62ee770164b29ca24f91b5fb7.bindPopup(popup_3f2912bbe3f39f6db365cba876fcbab9)
+        ;
+
+        
+    
+    
+            circle_marker_0610fff62ee770164b29ca24f91b5fb7.bindTooltip(
+                `<div>
+                     Renault Valladolid Plant (Assembly) (ES)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_538b6618a6da20f0ce5319271202610c = L.circleMarker(
+                [41.793, -1.132],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_e3cb9fbf49ff93aa575d9881ebaa5d39 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_4d8830c8c418fd7eeefe4b96cbae31f7 = $(`<div id="html_4d8830c8c418fd7eeefe4b96cbae31f7" style="width: 100.0%; height: 100.0%;"><b>Stellantis Zaragoza (Figueruelas)</b><br>Figueruelas, ES<br>group: Stellantis<br>class: assembly<br>NUTS-2: ES24<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_e3cb9fbf49ff93aa575d9881ebaa5d39.setContent(html_4d8830c8c418fd7eeefe4b96cbae31f7);
+            
+        
+
+        circle_marker_538b6618a6da20f0ce5319271202610c.bindPopup(popup_e3cb9fbf49ff93aa575d9881ebaa5d39)
+        ;
+
+        
+    
+    
+            circle_marker_538b6618a6da20f0ce5319271202610c.bindTooltip(
+                `<div>
+                     Stellantis Zaragoza (Figueruelas) (ES)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_80618977912b063cdfc6ee466cddd87b = L.circleMarker(
+                [40.339, -3.703],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.330127018922194, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_75175f3059971a9250035e087b356ed0 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_7eba753c06a6707d68795c7c1fb08208 = $(`<div id="html_7eba753c06a6707d68795c7c1fb08208" style="width: 100.0%; height: 100.0%;"><b>Stellantis Villaverde (Madrid)</b><br>Madrid, ES<br>group: Stellantis<br>class: assembly<br>NUTS-2: ES30<br>employees: 1,200 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_75175f3059971a9250035e087b356ed0.setContent(html_7eba753c06a6707d68795c7c1fb08208);
+            
+        
+
+        circle_marker_80618977912b063cdfc6ee466cddd87b.bindPopup(popup_75175f3059971a9250035e087b356ed0)
+        ;
+
+        
+    
+    
+            circle_marker_80618977912b063cdfc6ee466cddd87b.bindTooltip(
+                `<div>
+                     Stellantis Villaverde (Madrid) (ES)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d2ed29c148a927a96a1df1eed6076527 = L.circleMarker(
+                [42.238, -8.724],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_e12c5e71dc7174e0dd302b3dfa4c34bc = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_f6cd6b6d9ab69df0f5eccfd3b76fe1be = $(`<div id="html_f6cd6b6d9ab69df0f5eccfd3b76fe1be" style="width: 100.0%; height: 100.0%;"><b>Stellantis Vigo Centre (PSA Vigo)</b><br>Vigo, ES<br>group: Stellantis<br>class: assembly<br>NUTS-2: ES11<br>employees: 100 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_e12c5e71dc7174e0dd302b3dfa4c34bc.setContent(html_f6cd6b6d9ab69df0f5eccfd3b76fe1be);
+            
+        
+
+        circle_marker_d2ed29c148a927a96a1df1eed6076527.bindPopup(popup_e12c5e71dc7174e0dd302b3dfa4c34bc)
+        ;
+
+        
+    
+    
+            circle_marker_d2ed29c148a927a96a1df1eed6076527.bindTooltip(
+                `<div>
+                     Stellantis Vigo Centre (PSA Vigo) (ES)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d2a0f71b77e42056d30c980bb13e1959 = L.circleMarker(
+                [42.812, -1.644],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.409444095777081, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_b1950dc56ed535252227d76c9957f398 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_271a038a773b2b702c17fe4b3c277e48 = $(`<div id="html_271a038a773b2b702c17fe4b3c277e48" style="width: 100.0%; height: 100.0%;"><b>Volkswagen Navarra Plant Pamplona</b><br>Pamplona, ES<br>group: Volkswagen Group<br>class: assembly<br>NUTS-2: ES22<br>employees: 4,526 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_b1950dc56ed535252227d76c9957f398.setContent(html_271a038a773b2b702c17fe4b3c277e48);
+            
+        
+
+        circle_marker_d2a0f71b77e42056d30c980bb13e1959.bindPopup(popup_b1950dc56ed535252227d76c9957f398)
+        ;
+
+        
+    
+    
+            circle_marker_d2a0f71b77e42056d30c980bb13e1959.bindTooltip(
+                `<div>
+                     Volkswagen Navarra Plant Pamplona (ES)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fb93f023b2802af1d249656393708bc1 = L.circleMarker(
+                [49.054, 7.053],
+                {"bubblingMouseEvents": true, "color": "#444444", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#444444", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.232112384114087, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_9e06c28b31f65a522cf60453b2a55c3c = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_0165b97669f12a7264e5a5966a5c4639 = $(`<div id="html_0165b97669f12a7264e5a5966a5c4639" style="width: 100.0%; height: 100.0%;"><b>Hambach Plant</b><br>Hambach, FR<br>group: Ineos<br>class: assembly<br>NUTS-2: FRF3<br>employees: 1,752 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_9e06c28b31f65a522cf60453b2a55c3c.setContent(html_0165b97669f12a7264e5a5966a5c4639);
+            
+        
+
+        circle_marker_fb93f023b2802af1d249656393708bc1.bindPopup(popup_9e06c28b31f65a522cf60453b2a55c3c)
+        ;
+
+        
+    
+    
+            circle_marker_fb93f023b2802af1d249656393708bc1.bindTooltip(
+                `<div>
+                     Hambach Plant (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_43eeb4e0ead46c42f644a0839eead200 = L.circleMarker(
+                [49.193, 5.94],
+                {"bubblingMouseEvents": true, "color": "#C6803D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#C6803D", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.618051263561058, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_3cb3282d8af3f89326f419e508210e9f = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_af8c0d5e1b5afb3d3d63745279824390 = $(`<div id="html_af8c0d5e1b5afb3d3d63745279824390" style="width: 100.0%; height: 100.0%;"><b>Batilly Plant (SOVAB)</b><br>Batilly, FR<br>group: Renault<br>class: assembly<br>NUTS-2: FRF3<br>employees: 2,020 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_3cb3282d8af3f89326f419e508210e9f.setContent(html_af8c0d5e1b5afb3d3d63745279824390);
+            
+        
+
+        circle_marker_43eeb4e0ead46c42f644a0839eead200.bindPopup(popup_3cb3282d8af3f89326f419e508210e9f)
+        ;
+
+        
+    
+    
+            circle_marker_43eeb4e0ead46c42f644a0839eead200.bindTooltip(
+                `<div>
+                     Batilly Plant (SOVAB) (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_202d9e4fd5131dfdc62414c69385cc51 = L.circleMarker(
+                [49.313, 1.02],
+                {"bubblingMouseEvents": true, "color": "#C6803D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#C6803D", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.279036680770334, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_623886cf2075d8f50d909bf7d416d781 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_d5885fbba31ff219db34a2473a49ca8e = $(`<div id="html_d5885fbba31ff219db34a2473a49ca8e" style="width: 100.0%; height: 100.0%;"><b>Cleon Plant (Ampere)</b><br>Cléon, FR<br>group: Renault<br>class: component<br>NUTS-2: FRD2<br>employees: 3,391 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_623886cf2075d8f50d909bf7d416d781.setContent(html_d5885fbba31ff219db34a2473a49ca8e);
+            
+        
+
+        circle_marker_202d9e4fd5131dfdc62414c69385cc51.bindPopup(popup_623886cf2075d8f50d909bf7d416d781)
+        ;
+
+        
+    
+    
+            circle_marker_202d9e4fd5131dfdc62414c69385cc51.bindTooltip(
+                `<div>
+                     Cleon Plant (Ampere) (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4022d225f17386b554cf17779c989623 = L.circleMarker(
+                [49.922, 1.078],
+                {"bubblingMouseEvents": true, "color": "#C6803D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#C6803D", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_1ce9eead9446e7e9b636c170c8418da0 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_1e9af9d49bfb209d3ee4b1d30d84ec2f = $(`<div id="html_1e9af9d49bfb209d3ee4b1d30d84ec2f" style="width: 100.0%; height: 100.0%;"><b>Alpine Dieppe Jean Redele Plant</b><br>Dieppe, FR<br>group: Renault<br>class: assembly<br>NUTS-2: FRD2<br>employees: 367 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_1ce9eead9446e7e9b636c170c8418da0.setContent(html_1e9af9d49bfb209d3ee4b1d30d84ec2f);
+            
+        
+
+        circle_marker_4022d225f17386b554cf17779c989623.bindPopup(popup_1ce9eead9446e7e9b636c170c8418da0)
+        ;
+
+        
+    
+    
+            circle_marker_4022d225f17386b554cf17779c989623.bindTooltip(
+                `<div>
+                     Alpine Dieppe Jean Redele Plant (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_72f0723c1552075428f1c6961ae16fcc = L.circleMarker(
+                [50.37, 3.08],
+                {"bubblingMouseEvents": true, "color": "#C6803D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#C6803D", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.350442897940269, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_f0686883a9c56b8ffbfdf565a14badc3 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_ef945af8c544b837019be906d3d82288 = $(`<div id="html_ef945af8c544b837019be906d3d82288" style="width: 100.0%; height: 100.0%;"><b>Douai Plant (Ampere)</b><br>Douai, FR<br>group: Renault<br>class: assembly<br>NUTS-2: FRE1<br>employees: 2,581 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_f0686883a9c56b8ffbfdf565a14badc3.setContent(html_ef945af8c544b837019be906d3d82288);
+            
+        
+
+        circle_marker_72f0723c1552075428f1c6961ae16fcc.bindPopup(popup_f0686883a9c56b8ffbfdf565a14badc3)
+        ;
+
+        
+    
+    
+            circle_marker_72f0723c1552075428f1c6961ae16fcc.bindTooltip(
+                `<div>
+                     Douai Plant (Ampere) (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b5d7bfd6b6994b4ec3769f44f7737b2c = L.circleMarker(
+                [48.962, 1.869],
+                {"bubblingMouseEvents": true, "color": "#C6803D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#C6803D", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.791966419101548, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_515a86bda8206058c84581e7060611ff = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_cb4510d2c4a88bd4dd23e42c3e7b315a = $(`<div id="html_cb4510d2c4a88bd4dd23e42c3e7b315a" style="width: 100.0%; height: 100.0%;"><b>Flins Plant / Refactory</b><br>Flins, FR<br>group: Renault<br>class: assembly<br>NUTS-2: FR10<br>employees: 2,147 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_515a86bda8206058c84581e7060611ff.setContent(html_cb4510d2c4a88bd4dd23e42c3e7b315a);
+            
+        
+
+        circle_marker_b5d7bfd6b6994b4ec3769f44f7737b2c.bindPopup(popup_515a86bda8206058c84581e7060611ff)
+        ;
+
+        
+    
+    
+            circle_marker_b5d7bfd6b6994b4ec3769f44f7737b2c.bindTooltip(
+                `<div>
+                     Flins Plant / Refactory (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ebd622727409540e6525af929cd6a087 = L.circleMarker(
+                [48.77, 2.073],
+                {"bubblingMouseEvents": true, "color": "#C6803D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#C6803D", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.847666799823822, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_2bef72579da4c72bde4d24d3f2c18f46 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_b08eb198e77e527fc03abbc709c7be81 = $(`<div id="html_b08eb198e77e527fc03abbc709c7be81" style="width: 100.0%; height: 100.0%;"><b>Technocentre (Ampere)</b><br>Guyancourt, FR<br>group: Renault<br>class: rnd<br>NUTS-2: FR10<br>employees: 7,531 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_2bef72579da4c72bde4d24d3f2c18f46.setContent(html_b08eb198e77e527fc03abbc709c7be81);
+            
+        
+
+        circle_marker_ebd622727409540e6525af929cd6a087.bindPopup(popup_2bef72579da4c72bde4d24d3f2c18f46)
+        ;
+
+        
+    
+    
+            circle_marker_ebd622727409540e6525af929cd6a087.bindTooltip(
+                `<div>
+                     Technocentre (Ampere) (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_50169ee38d58c86164d03e55a5382b8d = L.circleMarker(
+                [48.004, 0.2],
+                {"bubblingMouseEvents": true, "color": "#C6803D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#C6803D", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.781165539923589, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_68ef050fe8616e229700a727012903e9 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_74bcf309070761d610b70dd3010acdff = $(`<div id="html_74bcf309070761d610b70dd3010acdff" style="width: 100.0%; height: 100.0%;"><b>Louis Schweitzer Plant (Le Mans, ACI)</b><br>Le Mans, FR<br>group: Renault<br>class: component<br>NUTS-2: FRG0<br>employees: 2,139 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_68ef050fe8616e229700a727012903e9.setContent(html_74bcf309070761d610b70dd3010acdff);
+            
+        
+
+        circle_marker_50169ee38d58c86164d03e55a5382b8d.bindPopup(popup_68ef050fe8616e229700a727012903e9)
+        ;
+
+        
+    
+    
+            circle_marker_50169ee38d58c86164d03e55a5382b8d.bindTooltip(
+                `<div>
+                     Louis Schweitzer Plant (Le Mans, ACI) (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5d6245f13b157afca24c44dd45c0ec6d = L.circleMarker(
+                [50.28, 3.97],
+                {"bubblingMouseEvents": true, "color": "#C6803D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#C6803D", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5070976929776725, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_910333b2669a587d9fd430f0bcc6b348 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_37f07ee33d94560907b2a04d6a7e1c49 = $(`<div id="html_37f07ee33d94560907b2a04d6a7e1c49" style="width: 100.0%; height: 100.0%;"><b>Maubeuge Plant (MCA, Ampere)</b><br>Maubeuge, FR<br>group: Renault<br>class: assembly<br>NUTS-2: FRE1<br>employees: 1,941 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_910333b2669a587d9fd430f0bcc6b348.setContent(html_37f07ee33d94560907b2a04d6a7e1c49);
+            
+        
+
+        circle_marker_5d6245f13b157afca24c44dd45c0ec6d.bindPopup(popup_910333b2669a587d9fd430f0bcc6b348)
+        ;
+
+        
+    
+    
+            circle_marker_5d6245f13b157afca24c44dd45c0ec6d.bindTooltip(
+                `<div>
+                     Maubeuge Plant (MCA, Ampere) (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4505430a96b089385e87ec3da857f8bf = L.circleMarker(
+                [45.77, 5.0],
+                {"bubblingMouseEvents": true, "color": "#C6803D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#C6803D", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_24836b44f965d5ee66256c7188b5853c = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_57383f5b5b08a8d2b80a33920310c204 = $(`<div id="html_57383f5b5b08a8d2b80a33920310c204" style="width: 100.0%; height: 100.0%;"><b>Meyzieu / Villeurbanne Plant (ACI)</b><br>Meyzieu, FR<br>group: Renault<br>class: component<br>NUTS-2: FRK2<br>employees: 118 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_24836b44f965d5ee66256c7188b5853c.setContent(html_57383f5b5b08a8d2b80a33920310c204);
+            
+        
+
+        circle_marker_4505430a96b089385e87ec3da857f8bf.bindPopup(popup_24836b44f965d5ee66256c7188b5853c)
+        ;
+
+        
+    
+    
+            circle_marker_4505430a96b089385e87ec3da857f8bf.bindTooltip(
+                `<div>
+                     Meyzieu / Villeurbanne Plant (ACI) (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cc0991661ee8b427b1335e2f06c6c667 = L.circleMarker(
+                [50.483, 2.573],
+                {"bubblingMouseEvents": true, "color": "#C6803D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#C6803D", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_ad1c37d669c55ea7d3f04eb815478691 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_1c317fc4e99b8b88b5502530641e44fd = $(`<div id="html_1c317fc4e99b8b88b5502530641e44fd" style="width: 100.0%; height: 100.0%;"><b>Ruitz Plant (STA, Ampere)</b><br>Ruitz, FR<br>group: Renault<br>class: component<br>NUTS-2: FRE1<br>employees: n/a <i>nan</i><br>geo confidence: medium</div>`)[0];
+                popup_ad1c37d669c55ea7d3f04eb815478691.setContent(html_1c317fc4e99b8b88b5502530641e44fd);
+            
+        
+
+        circle_marker_cc0991661ee8b427b1335e2f06c6c667.bindPopup(popup_ad1c37d669c55ea7d3f04eb815478691)
+        ;
+
+        
+    
+    
+            circle_marker_cc0991661ee8b427b1335e2f06c6c667.bindTooltip(
+                `<div>
+                     Ruitz Plant (STA, Ampere) (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cbdeb85e515cf4f86918f728439e0c82 = L.circleMarker(
+                [49.48, 0.28],
+                {"bubblingMouseEvents": true, "color": "#C6803D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#C6803D", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.588772226527039, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_24eff87affbc9b4cb966168316eabee8 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_a09a6a61ff18bd9787acd561fd5dda38 = $(`<div id="html_a09a6a61ff18bd9787acd561fd5dda38" style="width: 100.0%; height: 100.0%;"><b>Sandouville Plant</b><br>Sandouville, FR<br>group: Renault<br>class: assembly<br>NUTS-2: FRD2<br>employees: 1,999 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_24eff87affbc9b4cb966168316eabee8.setContent(html_a09a6a61ff18bd9787acd561fd5dda38);
+            
+        
+
+        circle_marker_cbdeb85e515cf4f86918f728439e0c82.bindPopup(popup_24eff87affbc9b4cb966168316eabee8)
+        ;
+
+        
+    
+    
+            circle_marker_cbdeb85e515cf4f86918f728439e0c82.bindTooltip(
+                `<div>
+                     Sandouville Plant (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_13ffb7d52d972425ebedfb30bcdd0ad3 = L.circleMarker(
+                [48.038, -1.7],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.055730756894662, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_d2023d9e19cd8235cbf816b200badf8a = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_6d6d3328cc02c46817b40cf5cfc7c28c = $(`<div id="html_6d6d3328cc02c46817b40cf5cfc7c28c" style="width: 100.0%; height: 100.0%;"><b>Rennes Plant - La Janais</b><br>Chartres-de-Bretagne (Rennes), FR<br>group: Stellantis<br>class: assembly<br>NUTS-2: FRH0<br>employees: 2,347 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_d2023d9e19cd8235cbf816b200badf8a.setContent(html_6d6d3328cc02c46817b40cf5cfc7c28c);
+            
+        
+
+        circle_marker_13ffb7d52d972425ebedfb30bcdd0ad3.bindPopup(popup_d2023d9e19cd8235cbf816b200badf8a)
+        ;
+
+        
+    
+    
+            circle_marker_13ffb7d52d972425ebedfb30bcdd0ad3.bindTooltip(
+                `<div>
+                     Rennes Plant - La Janais (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_26514b2bdbe1418770dbe3177bcf5ced = L.circleMarker(
+                [49.153, -0.34],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.117417273000151, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_4cb470e81797e00a206f1eb6906a90dd = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_fbbd5f432be206284f26a28ece99661d = $(`<div id="html_fbbd5f432be206284f26a28ece99661d" style="width: 100.0%; height: 100.0%;"><b>Stellantis Caen</b><br>Cormelles-le-Royal (Caen), FR<br>group: Stellantis<br>class: component<br>NUTS-2: FRD1<br>employees: 1,085 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_4cb470e81797e00a206f1eb6906a90dd.setContent(html_fbbd5f432be206284f26a28ece99661d);
+            
+        
+
+        circle_marker_26514b2bdbe1418770dbe3177bcf5ced.bindPopup(popup_4cb470e81797e00a206f1eb6906a90dd)
+        ;
+
+        
+    
+    
+            circle_marker_26514b2bdbe1418770dbe3177bcf5ced.bindTooltip(
+                `<div>
+                     Stellantis Caen (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f1adbf0cf9e483dabe49c18982ce1720 = L.circleMarker(
+                [50.3, 3.35],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.541040064825375, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_3e78561d4083a41be3453a189ee8d361 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_bfa741dd501d5de380e004fb2d41629a = $(`<div id="html_bfa741dd501d5de380e004fb2d41629a" style="width: 100.0%; height: 100.0%;"><b>Hordain Plant (Sevelnord)</b><br>Lieu-Saint-Amand / Hordain, FR<br>group: Stellantis<br>class: assembly<br>NUTS-2: FRE1<br>employees: 1,965 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_3e78561d4083a41be3453a189ee8d361.setContent(html_bfa741dd501d5de380e004fb2d41629a);
+            
+        
+
+        circle_marker_f1adbf0cf9e483dabe49c18982ce1720.bindPopup(popup_3e78561d4083a41be3453a189ee8d361)
+        ;
+
+        
+    
+    
+            circle_marker_f1adbf0cf9e483dabe49c18982ce1720.bindTooltip(
+                `<div>
+                     Hordain Plant (Sevelnord) (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_97042f56d8af230f299ee6a20bacd6fa = L.circleMarker(
+                [49.12, 6.18],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_9a8e3e05c2e3875ea111b455562cbc20 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_1bc779fb986cda795f43df61042efb72 = $(`<div id="html_1bc779fb986cda795f43df61042efb72" style="width: 100.0%; height: 100.0%;"><b>Metz Plant</b><br>Metz, FR<br>group: Stellantis<br>class: component<br>NUTS-2: FRF3<br>employees: 1,003 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_9a8e3e05c2e3875ea111b455562cbc20.setContent(html_1bc779fb986cda795f43df61042efb72);
+            
+        
+
+        circle_marker_97042f56d8af230f299ee6a20bacd6fa.bindPopup(popup_9a8e3e05c2e3875ea111b455562cbc20)
+        ;
+
+        
+    
+    
+            circle_marker_97042f56d8af230f299ee6a20bacd6fa.bindTooltip(
+                `<div>
+                     Metz Plant (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d9fab4522637baa34ef5aa5a08d09aa8 = L.circleMarker(
+                [47.79, 7.37],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.207275735589734, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_ff25cd6a15cf3c47f5ba8fde3927f6c0 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_2c741cff1138b4a8cfe290ca4fade59a = $(`<div id="html_2c741cff1138b4a8cfe290ca4fade59a" style="width: 100.0%; height: 100.0%;"><b>Mulhouse Plant</b><br>Sausheim (Mulhouse), FR<br>group: Stellantis<br>class: assembly<br>NUTS-2: FRF1<br>employees: 4,311 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_ff25cd6a15cf3c47f5ba8fde3927f6c0.setContent(html_2c741cff1138b4a8cfe290ca4fade59a);
+            
+        
+
+        circle_marker_d9fab4522637baa34ef5aa5a08d09aa8.bindPopup(popup_ff25cd6a15cf3c47f5ba8fde3927f6c0)
+        ;
+
+        
+    
+    
+            circle_marker_d9fab4522637baa34ef5aa5a08d09aa8.bindTooltip(
+                `<div>
+                     Mulhouse Plant (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d3e181a8bd4efe610cbcdcdb2b838f1e = L.circleMarker(
+                [47.51, 6.83],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.421551093105636, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_765471c7b7460bac56c820dbeb370c4b = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_1ac4b4eaebc74812bfbaab1ca38c4a7f = $(`<div id="html_1ac4b4eaebc74812bfbaab1ca38c4a7f" style="width: 100.0%; height: 100.0%;"><b>Sochaux Plant</b><br>Sochaux, FR<br>group: Stellantis<br>class: assembly<br>NUTS-2: FRC2<br>employees: 5,681 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_765471c7b7460bac56c820dbeb370c4b.setContent(html_1ac4b4eaebc74812bfbaab1ca38c4a7f);
+            
+        
+
+        circle_marker_d3e181a8bd4efe610cbcdcdb2b838f1e.bindPopup(popup_765471c7b7460bac56c820dbeb370c4b)
+        ;
+
+        
+    
+    
+            circle_marker_d3e181a8bd4efe610cbcdcdb2b838f1e.bindTooltip(
+                `<div>
+                     Sochaux Plant (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3867b0104d404b50d44dadca3a7c713c = L.circleMarker(
+                [50.33, 3.49],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.369639573237134, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_756d3ae856a87c966e32b728be2ce6b8 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_4f92b484b323b6a9513d713cce71bced = $(`<div id="html_4f92b484b323b6a9513d713cce71bced" style="width: 100.0%; height: 100.0%;"><b>Valenciennes Plant</b><br>Trith-Saint-Léger (Valenciennes), FR<br>group: Stellantis<br>class: component<br>NUTS-2: FRE1<br>employees: 1,222 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_756d3ae856a87c966e32b728be2ce6b8.setContent(html_4f92b484b323b6a9513d713cce71bced);
+            
+        
+
+        circle_marker_3867b0104d404b50d44dadca3a7c713c.bindPopup(popup_756d3ae856a87c966e32b728be2ce6b8)
+        ;
+
+        
+    
+    
+            circle_marker_3867b0104d404b50d44dadca3a7c713c.bindTooltip(
+                `<div>
+                     Valenciennes Plant (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f4c549192dc8103e29208be1f3234735 = L.circleMarker(
+                [49.24, 6.2],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0124844139408555, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_45b5dfd59781427543198ebd5e4c8d37 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_b683f65f4a3c5de91b6fe303d2dd4691 = $(`<div id="html_b683f65f4a3c5de91b6fe303d2dd4691" style="width: 100.0%; height: 100.0%;"><b>Tremery Plant</b><br>Trémery, FR<br>group: Stellantis<br>class: component<br>NUTS-2: FRF3<br>employees: 1,608 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_45b5dfd59781427543198ebd5e4c8d37.setContent(html_b683f65f4a3c5de91b6fe303d2dd4691);
+            
+        
+
+        circle_marker_f4c549192dc8103e29208be1f3234735.bindPopup(popup_45b5dfd59781427543198ebd5e4c8d37)
+        ;
+
+        
+    
+    
+            circle_marker_f4c549192dc8103e29208be1f3234735.bindTooltip(
+                `<div>
+                     Tremery Plant (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5eb2db9794d785630d028790c458b044 = L.circleMarker(
+                [47.62, 6.16],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.131093937943448, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_22f820571a5f56c08a142787219e3bd4 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_28577ebf214bf8ee9011f722ba2e50b9 = $(`<div id="html_28577ebf214bf8ee9011f722ba2e50b9" style="width: 100.0%; height: 100.0%;"><b>Vesoul Site</b><br>Vesoul, FR<br>group: Stellantis<br>class: logistics<br>NUTS-2: FRC2<br>employees: 1,685 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_22f820571a5f56c08a142787219e3bd4.setContent(html_28577ebf214bf8ee9011f722ba2e50b9);
+            
+        
+
+        circle_marker_5eb2db9794d785630d028790c458b044.bindPopup(popup_22f820571a5f56c08a142787219e3bd4)
+        ;
+
+        
+    
+    
+            circle_marker_5eb2db9794d785630d028790c458b044.bindTooltip(
+                `<div>
+                     Vesoul Site (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fe38c542f78b7da0fc53a403313ac475 = L.circleMarker(
+                [49.75, 4.74],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_eb533091727cdd48e6a5d5862670f28f = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_3766556b89f926da1c733c92cc5952bb = $(`<div id="html_3766556b89f926da1c733c92cc5952bb" style="width: 100.0%; height: 100.0%;"><b>Charleville Foundry</b><br>Villers-Semeuse (Charleville-Mézières), FR<br>group: Stellantis<br>class: component<br>NUTS-2: FRF2<br>employees: n/a <i>nan</i><br>geo confidence: medium</div>`)[0];
+                popup_eb533091727cdd48e6a5d5862670f28f.setContent(html_3766556b89f926da1c733c92cc5952bb);
+            
+        
+
+        circle_marker_fe38c542f78b7da0fc53a403313ac475.bindPopup(popup_eb533091727cdd48e6a5d5862670f28f)
+        ;
+
+        
+    
+    
+            circle_marker_fe38c542f78b7da0fc53a403313ac475.bindTooltip(
+                `<div>
+                     Charleville Foundry (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e86512593457421d12ff5facff818483 = L.circleMarker(
+                [50.38, 3.6],
+                {"bubblingMouseEvents": true, "color": "#B0483C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B0483C", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.882039461745258, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_2471faf30b4fc0936b0ee73116aa1bd7 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_c37a1a16c4a657fb5ed68abe2a655b5b = $(`<div id="html_c37a1a16c4a657fb5ed68abe2a655b5b" style="width: 100.0%; height: 100.0%;"><b>Toyota Motor Manufacturing France (TMMF)</b><br>Onnaing (Valenciennes), FR<br>group: Toyota<br>class: assembly<br>NUTS-2: FRE1<br>employees: 5,049 <i>commune_all_APE</i><br>geo confidence: medium</div>`)[0];
+                popup_2471faf30b4fc0936b0ee73116aa1bd7.setContent(html_c37a1a16c4a657fb5ed68abe2a655b5b);
+            
+        
+
+        circle_marker_e86512593457421d12ff5facff818483.bindPopup(popup_2471faf30b4fc0936b0ee73116aa1bd7)
+        ;
+
+        
+    
+    
+            circle_marker_e86512593457421d12ff5facff818483.bindTooltip(
+                `<div>
+                     Toyota Motor Manufacturing France (TMMF) (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_35640abe0b9fbbb1a6a854022bf7eb06 = L.circleMarker(
+                [50.38, 3.6],
+                {"bubblingMouseEvents": true, "color": "#B0483C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B0483C", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.636262174650632, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_873a09a768aaf48e532a0e6f85b20912 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_3f6027074c583b5b2b25fbb5550ae688 = $(`<div id="html_3f6027074c583b5b2b25fbb5550ae688" style="width: 100.0%; height: 100.0%;"><b>Toyota Motor Manufacturing France (TMMF)</b><br>Onnaing (Valenciennes), FR<br>group: Toyota<br>class: assembly<br>NUTS-2: FRE1<br>employees: 3,732 <i>plant_reported</i><br>geo confidence: medium</div>`)[0];
+                popup_873a09a768aaf48e532a0e6f85b20912.setContent(html_3f6027074c583b5b2b25fbb5550ae688);
+            
+        
+
+        circle_marker_35640abe0b9fbbb1a6a854022bf7eb06.bindPopup(popup_873a09a768aaf48e532a0e6f85b20912)
+        ;
+
+        
+    
+    
+            circle_marker_35640abe0b9fbbb1a6a854022bf7eb06.bindTooltip(
+                `<div>
+                     Toyota Motor Manufacturing France (TMMF) (FR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c6c07836a6a96b5706231a24e7155012 = L.circleMarker(
+                [51.507, -3.577],
+                {"bubblingMouseEvents": true, "color": "#30609F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#30609F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.153882032022076, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_3b3e8127f55d5419e2040ff2df3012f0 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_ceb23843cb61ab31cf74dee2d2869eaa = $(`<div id="html_ceb23843cb61ab31cf74dee2d2869eaa" style="width: 100.0%; height: 100.0%;"><b>Ford Bridgend Engine Plant</b><br>Bridgend, GB<br>group: Ford<br>class: component<br>NUTS-2: UKL1<br>employees: 1,700 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_3b3e8127f55d5419e2040ff2df3012f0.setContent(html_ceb23843cb61ab31cf74dee2d2869eaa);
+            
+        
+
+        circle_marker_c6c07836a6a96b5706231a24e7155012.bindPopup(popup_3b3e8127f55d5419e2040ff2df3012f0)
+        ;
+
+        
+    
+    
+            circle_marker_c6c07836a6a96b5706231a24e7155012.bindTooltip(
+                `<div>
+                     Ford Bridgend Engine Plant (GB)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d3fca40edeb5392ae5ec677eefb24bad = L.circleMarker(
+                [51.539, 0.15],
+                {"bubblingMouseEvents": true, "color": "#30609F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#30609F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.5901699437494745, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_2347093ecf2eecda6a465ebb1344c138 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_030689eb6d61b1a5d9ad94233856f6de = $(`<div id="html_030689eb6d61b1a5d9ad94233856f6de" style="width: 100.0%; height: 100.0%;"><b>Ford Dagenham (engines)</b><br>Dagenham, GB<br>group: Ford<br>class: component<br>NUTS-2: UKI5<br>employees: 2,000 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_2347093ecf2eecda6a465ebb1344c138.setContent(html_030689eb6d61b1a5d9ad94233856f6de);
+            
+        
+
+        circle_marker_d3fca40edeb5392ae5ec677eefb24bad.bindPopup(popup_2347093ecf2eecda6a465ebb1344c138)
+        ;
+
+        
+    
+    
+            circle_marker_d3fca40edeb5392ae5ec677eefb24bad.bindTooltip(
+                `<div>
+                     Ford Dagenham (engines) (GB)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a0c97111ad2b4020b55ebdda5c298862 = L.circleMarker(
+                [52.861, -1.531],
+                {"bubblingMouseEvents": true, "color": "#B0483C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B0483C", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_724054875612ab9b442e73d3d6e15f5a = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_65053fd8dc69f70a40700412d4298515 = $(`<div id="html_65053fd8dc69f70a40700412d4298515" style="width: 100.0%; height: 100.0%;"><b>Toyota Manufacturing UK (Burnaston)</b><br>Burnaston, GB<br>group: Toyota<br>class: assembly<br>NUTS-2: UKF1<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_724054875612ab9b442e73d3d6e15f5a.setContent(html_65053fd8dc69f70a40700412d4298515);
+            
+        
+
+        circle_marker_a0c97111ad2b4020b55ebdda5c298862.bindPopup(popup_724054875612ab9b442e73d3d6e15f5a)
+        ;
+
+        
+    
+    
+            circle_marker_a0c97111ad2b4020b55ebdda5c298862.bindTooltip(
+                `<div>
+                     Toyota Manufacturing UK (Burnaston) (GB)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a898e63f2c635ab3c7a6f14f8725d3f0 = L.circleMarker(
+                [53.218, -3.049],
+                {"bubblingMouseEvents": true, "color": "#B0483C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B0483C", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.705517503711221, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_b5f8a63cefe5b6cfbba34dda33cca75b = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_48392215485e1652488ca0de4cd9dfc1 = $(`<div id="html_48392215485e1652488ca0de4cd9dfc1" style="width: 100.0%; height: 100.0%;"><b>Toyota Manufacturing UK (Deeside, engines)</b><br>Deeside, GB<br>group: Toyota<br>class: component<br>NUTS-2: UKL2<br>employees: 3,800 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_b5f8a63cefe5b6cfbba34dda33cca75b.setContent(html_48392215485e1652488ca0de4cd9dfc1);
+            
+        
+
+        circle_marker_a898e63f2c635ab3c7a6f14f8725d3f0.bindPopup(popup_b5f8a63cefe5b6cfbba34dda33cca75b)
+        ;
+
+        
+    
+    
+            circle_marker_a898e63f2c635ab3c7a6f14f8725d3f0.bindTooltip(
+                `<div>
+                     Toyota Manufacturing UK (Deeside, engines) (GB)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_584b7b5f5ad93e55e75cd45bdfb33bf3 = L.circleMarker(
+                [46.907, 19.692],
+                {"bubblingMouseEvents": true, "color": "#6A6A6A", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6A6A6A", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2915619758885, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_3326f5021e4c3cf0c1f5939710878a25 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_cc6fa64f1adebb099a824097a3899a57 = $(`<div id="html_cc6fa64f1adebb099a824097a3899a57" style="width: 100.0%; height: 100.0%;"><b>Mercedes-Benz Manufacturing Hungary Plant Kecskemét</b><br>Kecskemet, HU<br>group: Mercedes-Benz<br>class: assembly<br>NUTS-2: HU33<br>employees: 4,400 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_3326f5021e4c3cf0c1f5939710878a25.setContent(html_cc6fa64f1adebb099a824097a3899a57);
+            
+        
+
+        circle_marker_584b7b5f5ad93e55e75cd45bdfb33bf3.bindPopup(popup_3326f5021e4c3cf0c1f5939710878a25)
+        ;
+
+        
+    
+    
+            circle_marker_584b7b5f5ad93e55e75cd45bdfb33bf3.bindTooltip(
+                `<div>
+                     Mercedes-Benz Manufacturing Hungary Plant Kecskemét (HU)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_71a3b5b111089e489daecf20ea76bbeb = L.circleMarker(
+                [47.689, 17.635],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.668508514099114, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_921cfb3358beb650051f134f5024e57e = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_42df53afe0f8f41a7513c56389aa98ce = $(`<div id="html_42df53afe0f8f41a7513c56389aa98ce" style="width: 100.0%; height: 100.0%;"><b>Audi Hungaria Plant Győr</b><br>Gyor, HU<br>group: Volkswagen Group<br>class: assembly<br>NUTS-2: HU22<br>employees: 11,957 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_921cfb3358beb650051f134f5024e57e.setContent(html_42df53afe0f8f41a7513c56389aa98ce);
+            
+        
+
+        circle_marker_71a3b5b111089e489daecf20ea76bbeb.bindPopup(popup_921cfb3358beb650051f134f5024e57e)
+        ;
+
+        
+    
+    
+            circle_marker_71a3b5b111089e489daecf20ea76bbeb.bindTooltip(
+                `<div>
+                     Audi Hungaria Plant Győr (HU)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bda4bba77c192f15762ce125552e63c4 = L.circleMarker(
+                [42.066, 14.445],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_9a31ec86dee9511c66ed882928d047a6 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_06a035db7c36a7aa2b8cdcce851cf320 = $(`<div id="html_06a035db7c36a7aa2b8cdcce851cf320" style="width: 100.0%; height: 100.0%;"><b>Sevel Sud Plant (Val di Sangro)</b><br>Atessa, IT<br>group: Stellantis<br>class: assembly<br>NUTS-2: ITF1<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_9a31ec86dee9511c66ed882928d047a6.setContent(html_06a035db7c36a7aa2b8cdcce851cf320);
+            
+        
+
+        circle_marker_bda4bba77c192f15762ce125552e63c4.bindPopup(popup_9a31ec86dee9511c66ed882928d047a6)
+        ;
+
+        
+    
+    
+            circle_marker_bda4bba77c192f15762ce125552e63c4.bindTooltip(
+                `<div>
+                     Sevel Sud Plant (Val di Sangro) (IT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5ff8de591dd2de9e7d26de94ef97a7e4 = L.circleMarker(
+                [41.492, 13.83],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_3be018a3c097d8c3d09a1fa2b45c772a = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_5c94a477d8d7c0206a01aa5449b23a22 = $(`<div id="html_5c94a477d8d7c0206a01aa5449b23a22" style="width: 100.0%; height: 100.0%;"><b>Cassino Plant (Piedimonte San Germano)</b><br>Cassino, IT<br>group: Stellantis<br>class: assembly<br>NUTS-2: ITI4<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_3be018a3c097d8c3d09a1fa2b45c772a.setContent(html_5c94a477d8d7c0206a01aa5449b23a22);
+            
+        
+
+        circle_marker_5ff8de591dd2de9e7d26de94ef97a7e4.bindPopup(popup_3be018a3c097d8c3d09a1fa2b45c772a)
+        ;
+
+        
+    
+    
+            circle_marker_5ff8de591dd2de9e7d26de94ef97a7e4.bindTooltip(
+                `<div>
+                     Cassino Plant (Piedimonte San Germano) (IT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_61490ae2551461f08f14dd4e14c96bf7 = L.circleMarker(
+                [40.993, 15.653],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_90c28fcd1431d0fa3dfc97dd208e59ee = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_7b055cbb9e733196d444b357ca5ea972 = $(`<div id="html_7b055cbb9e733196d444b357ca5ea972" style="width: 100.0%; height: 100.0%;"><b>Stellantis Melfi Plant (SATA)</b><br>Melfi, IT<br>group: Stellantis<br>class: assembly<br>NUTS-2: ITF5<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_90c28fcd1431d0fa3dfc97dd208e59ee.setContent(html_7b055cbb9e733196d444b357ca5ea972);
+            
+        
+
+        circle_marker_61490ae2551461f08f14dd4e14c96bf7.bindPopup(popup_90c28fcd1431d0fa3dfc97dd208e59ee)
+        ;
+
+        
+    
+    
+            circle_marker_61490ae2551461f08f14dd4e14c96bf7.bindTooltip(
+                `<div>
+                     Stellantis Melfi Plant (SATA) (IT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b2cd0cc97da121e7ed7b11e69b961828 = L.circleMarker(
+                [40.911, 14.391],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_5726edffb51963c5138d90d4f0b07c3d = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_45fc3ccee6224dbd18736f3abbedb2f2 = $(`<div id="html_45fc3ccee6224dbd18736f3abbedb2f2" style="width: 100.0%; height: 100.0%;"><b>Giambattista Vico Plant (Pomigliano d'Arco)</b><br>Pomigliano d'Arco, IT<br>group: Stellantis<br>class: assembly<br>NUTS-2: ITF3<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_5726edffb51963c5138d90d4f0b07c3d.setContent(html_45fc3ccee6224dbd18736f3abbedb2f2);
+            
+        
+
+        circle_marker_b2cd0cc97da121e7ed7b11e69b961828.bindPopup(popup_5726edffb51963c5138d90d4f0b07c3d)
+        ;
+
+        
+    
+    
+            circle_marker_b2cd0cc97da121e7ed7b11e69b961828.bindTooltip(
+                `<div>
+                     Giambattista Vico Plant (Pomigliano d'Arco) (IT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6aeb10814f8fcd4482fed84a59b68c18 = L.circleMarker(
+                [45.028, 7.622],
+                {"bubblingMouseEvents": true, "color": "#7A5C99", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7A5C99", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_19b5dca972e1f2a0f802b8b9ade2152c = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_1cf0585ddfe20c74920a0f9ccd3bdfb5 = $(`<div id="html_1cf0585ddfe20c74920a0f9ccd3bdfb5" style="width: 100.0%; height: 100.0%;"><b>Mirafiori Plant (Turin)</b><br>Turin, IT<br>group: Stellantis<br>class: assembly<br>NUTS-2: ITC1<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_19b5dca972e1f2a0f802b8b9ade2152c.setContent(html_1cf0585ddfe20c74920a0f9ccd3bdfb5);
+            
+        
+
+        circle_marker_6aeb10814f8fcd4482fed84a59b68c18.bindPopup(popup_19b5dca972e1f2a0f802b8b9ade2152c)
+        ;
+
+        
+    
+    
+            circle_marker_6aeb10814f8fcd4482fed84a59b68c18.bindTooltip(
+                `<div>
+                     Mirafiori Plant (Turin) (IT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c5fef41e6a4bfa8a413017b8865ee512 = L.circleMarker(
+                [50.771, 16.285],
+                {"bubblingMouseEvents": true, "color": "#B0483C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B0483C", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_56e545428123d5cef20fb15cb8a41bf6 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_11b8c5e1c4e722a8a1162a699634b355 = $(`<div id="html_11b8c5e1c4e722a8a1162a699634b355" style="width: 100.0%; height: 100.0%;"><b>Toyota Motor Manufacturing Poland (Wałbrzych/Jelcz)</b><br>Walbrzych, PL<br>group: Toyota<br>class: component<br>NUTS-2: PL51<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_56e545428123d5cef20fb15cb8a41bf6.setContent(html_11b8c5e1c4e722a8a1162a699634b355);
+            
+        
+
+        circle_marker_c5fef41e6a4bfa8a413017b8865ee512.bindPopup(popup_56e545428123d5cef20fb15cb8a41bf6)
+        ;
+
+        
+    
+    
+            circle_marker_c5fef41e6a4bfa8a413017b8865ee512.bindTooltip(
+                `<div>
+                     Toyota Motor Manufacturing Poland (Wałbrzych/Jelcz) (PL)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2a129ad9c6ea5e7dbe3444f39dfb5112 = L.circleMarker(
+                [52.407, 16.925],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.110110602126895, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_c9b0821827f7941cb956cd1d99ebe975 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_3d89032d03ea1b94de15b782d13ada3b = $(`<div id="html_3d89032d03ea1b94de15b782d13ada3b" style="width: 100.0%; height: 100.0%;"><b>Volkswagen Poznań Plant</b><br>Poznan, PL<br>group: Volkswagen Group<br>class: assembly<br>NUTS-2: PL41<br>employees: 11,000 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_c9b0821827f7941cb956cd1d99ebe975.setContent(html_3d89032d03ea1b94de15b782d13ada3b);
+            
+        
+
+        circle_marker_2a129ad9c6ea5e7dbe3444f39dfb5112.bindPopup(popup_c9b0821827f7941cb956cd1d99ebe975)
+        ;
+
+        
+    
+    
+            circle_marker_2a129ad9c6ea5e7dbe3444f39dfb5112.bindTooltip(
+                `<div>
+                     Volkswagen Poznań Plant (PL)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3f89e4aafa8c60ec9b6358326598a637 = L.circleMarker(
+                [52.326, 17.566],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_d5d7204aca3a28831cac722fb7511077 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_d5e0ea84d812b32b42b485761340934b = $(`<div id="html_d5e0ea84d812b32b42b485761340934b" style="width: 100.0%; height: 100.0%;"><b>Volkswagen Września Plant</b><br>Wrzesnia, PL<br>group: Volkswagen Group<br>class: assembly<br>NUTS-2: PL41<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_d5d7204aca3a28831cac722fb7511077.setContent(html_d5e0ea84d812b32b42b485761340934b);
+            
+        
+
+        circle_marker_3f89e4aafa8c60ec9b6358326598a637.bindPopup(popup_d5d7204aca3a28831cac722fb7511077)
+        ;
+
+        
+    
+    
+            circle_marker_3f89e4aafa8c60ec9b6358326598a637.bindTooltip(
+                `<div>
+                     Volkswagen Września Plant (PL)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ff94d171f6bf48ab35f30954215ac6bc = L.circleMarker(
+                [38.57, -8.9],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.94776508408664, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_3313f128269bf85def98fc50f5a08000 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_32ea1f1ef74adc50bc7a918b8a38af7f = $(`<div id="html_32ea1f1ef74adc50bc7a918b8a38af7f" style="width: 100.0%; height: 100.0%;"><b>Volkswagen AutoEuropa Plant Palmela</b><br>Palmela, PT<br>group: Volkswagen Group<br>class: assembly<br>NUTS-2: PT1B<br>employees: 5,124 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_3313f128269bf85def98fc50f5a08000.setContent(html_32ea1f1ef74adc50bc7a918b8a38af7f);
+            
+        
+
+        circle_marker_ff94d171f6bf48ab35f30954215ac6bc.bindPopup(popup_3313f128269bf85def98fc50f5a08000)
+        ;
+
+        
+    
+    
+            circle_marker_ff94d171f6bf48ab35f30954215ac6bc.bindTooltip(
+                `<div>
+                     Volkswagen AutoEuropa Plant Palmela (PT)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a91b26bb5d2418b338bcbac6f2dd3464 = L.circleMarker(
+                [44.319, 23.8],
+                {"bubblingMouseEvents": true, "color": "#30609F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#30609F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_dae93b16fb4f739402be34d2befe7359 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_655a4ab1266e9bd6a00a40d0973ca285 = $(`<div id="html_655a4ab1266e9bd6a00a40d0973ca285" style="width: 100.0%; height: 100.0%;"><b>Ford Craiova (ex-Automobile Craiova)</b><br>Craiova, RO<br>group: Ford<br>class: assembly<br>NUTS-2: RO41<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_dae93b16fb4f739402be34d2befe7359.setContent(html_655a4ab1266e9bd6a00a40d0973ca285);
+            
+        
+
+        circle_marker_a91b26bb5d2418b338bcbac6f2dd3464.bindPopup(popup_dae93b16fb4f739402be34d2befe7359)
+        ;
+
+        
+    
+    
+            circle_marker_a91b26bb5d2418b338bcbac6f2dd3464.bindTooltip(
+                `<div>
+                     Ford Craiova (ex-Automobile Craiova) (RO)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_030d7841ad29dd852907dbfad75f2b85 = L.circleMarker(
+                [60.017, 30.652],
+                {"bubblingMouseEvents": true, "color": "#30609F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#30609F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_59429ee47c268c5e7d8b558de6ca5d7c = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_09c9fd75e0c81e7154e7d8c9ceaf55f4 = $(`<div id="html_09c9fd75e0c81e7154e7d8c9ceaf55f4" style="width: 100.0%; height: 100.0%;"><b>Ford Sollers Vsevolozhsk</b><br>Vsevolozhsk, RU<br>group: Ford<br>class: assembly<br>NUTS-2: — (outside Eurostat)<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_59429ee47c268c5e7d8b558de6ca5d7c.setContent(html_09c9fd75e0c81e7154e7d8c9ceaf55f4);
+            
+        
+
+        circle_marker_030d7841ad29dd852907dbfad75f2b85.bindPopup(popup_59429ee47c268c5e7d8b558de6ca5d7c)
+        ;
+
+        
+    
+    
+            circle_marker_030d7841ad29dd852907dbfad75f2b85.bindTooltip(
+                `<div>
+                     Ford Sollers Vsevolozhsk (RU)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3db03f5839b4757af1ef30b1849ad034 = L.circleMarker(
+                [59.931, 30.341],
+                {"bubblingMouseEvents": true, "color": "#B0483C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B0483C", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_c840bbba012754d7a5180626146f1f04 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_baacec79035ae049f061926d2d976003 = $(`<div id="html_baacec79035ae049f061926d2d976003" style="width: 100.0%; height: 100.0%;"><b>Toyota Motor Manufacturing Russia (St Petersburg)</b><br>Saint Petersburg, RU<br>group: Toyota<br>class: assembly<br>NUTS-2: — (outside Eurostat)<br>employees: n/a <i>nan</i><br>geo confidence: high</div>`)[0];
+                popup_c840bbba012754d7a5180626146f1f04.setContent(html_baacec79035ae049f061926d2d976003);
+            
+        
+
+        circle_marker_3db03f5839b4757af1ef30b1849ad034.bindPopup(popup_c840bbba012754d7a5180626146f1f04)
+        ;
+
+        
+    
+    
+            circle_marker_3db03f5839b4757af1ef30b1849ad034.bindTooltip(
+                `<div>
+                     Toyota Motor Manufacturing Russia (St Petersburg) (RU)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7e10b6e4b896b5e59152a1fb225ceee2 = L.circleMarker(
+                [48.148, 17.108],
+                {"bubblingMouseEvents": true, "color": "#2E8B6F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2E8B6F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.110110602126895, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_6cb6e314c889e0bbb8749d1c992a4a35 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_5ecd7e0ebdbcad28f3cfb19cdc43d6ec = $(`<div id="html_5ecd7e0ebdbcad28f3cfb19cdc43d6ec" style="width: 100.0%; height: 100.0%;"><b>Volkswagen Slovakia Plant Bratislava</b><br>Bratislava, SK<br>group: Volkswagen Group<br>class: assembly<br>NUTS-2: SK01<br>employees: 11,000 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_6cb6e314c889e0bbb8749d1c992a4a35.setContent(html_5ecd7e0ebdbcad28f3cfb19cdc43d6ec);
+            
+        
+
+        circle_marker_7e10b6e4b896b5e59152a1fb225ceee2.bindPopup(popup_6cb6e314c889e0bbb8749d1c992a4a35)
+        ;
+
+        
+    
+    
+            circle_marker_7e10b6e4b896b5e59152a1fb225ceee2.bindTooltip(
+                `<div>
+                     Volkswagen Slovakia Plant Bratislava (SK)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ea1926d900e6cc438c57e24dd2df2e87 = L.circleMarker(
+                [40.766, 29.941],
+                {"bubblingMouseEvents": true, "color": "#30609F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#30609F", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.67766952966369, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_c11a17e0776f296d60cf09a84a7bdf0e = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_f4cd466d1025a7b72628365358a22c3f = $(`<div id="html_f4cd466d1025a7b72628365358a22c3f" style="width: 100.0%; height: 100.0%;"><b>Ford Otosan Kocaeli (Gölcük)</b><br>Kocaeli, TR<br>group: Ford<br>class: assembly<br>NUTS-2: — (outside Eurostat)<br>employees: 20,000 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_c11a17e0776f296d60cf09a84a7bdf0e.setContent(html_f4cd466d1025a7b72628365358a22c3f);
+            
+        
+
+        circle_marker_ea1926d900e6cc438c57e24dd2df2e87.bindPopup(popup_c11a17e0776f296d60cf09a84a7bdf0e)
+        ;
+
+        
+    
+    
+            circle_marker_ea1926d900e6cc438c57e24dd2df2e87.bindTooltip(
+                `<div>
+                     Ford Otosan Kocaeli (Gölcük) (TR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0ddc9d4e9cda8c34a6fb71698488b8d6 = L.circleMarker(
+                [40.783, 30.403],
+                {"bubblingMouseEvents": true, "color": "#B0483C", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B0483C", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.185586535436919, "stroke": true, "weight": 1.4}
+            ).addTo(map_c0aef4079de4a91e7ab25c6b8fbe1514);
+        
+    
+        var popup_048d7a414d71f7c2535e78da8d665008 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_bedcabb9d203d3a3f9887c3cc66f6f96 = $(`<div id="html_bedcabb9d203d3a3f9887c3cc66f6f96" style="width: 100.0%; height: 100.0%;"><b>Toyota Motor Manufacturing Türkiye (Sakarya/Adapazarı)</b><br>Sakarya, TR<br>group: Toyota<br>class: assembly<br>NUTS-2: — (outside Eurostat)<br>employees: 5,400 <i>plant_reported</i><br>geo confidence: high</div>`)[0];
+                popup_048d7a414d71f7c2535e78da8d665008.setContent(html_bedcabb9d203d3a3f9887c3cc66f6f96);
+            
+        
+
+        circle_marker_0ddc9d4e9cda8c34a6fb71698488b8d6.bindPopup(popup_048d7a414d71f7c2535e78da8d665008)
+        ;
+
+        
+    
+    
+            circle_marker_0ddc9d4e9cda8c34a6fb71698488b8d6.bindTooltip(
+                `<div>
+                     Toyota Motor Manufacturing Türkiye (Sakarya/Adapazarı) (TR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
