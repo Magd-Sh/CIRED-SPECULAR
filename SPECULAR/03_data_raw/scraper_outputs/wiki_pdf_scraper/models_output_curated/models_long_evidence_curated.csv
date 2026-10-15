@@ -1,0 +1,140 @@
+plant_id,plant_name,brand,country,model,year_start,year_end,confidence,source,evidence
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Volkswagen Golf,1980,2007,High,en/fr/de WP 'Audi Brussels',"1980–2007: VW Golf (3,870,701 units)"
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Volkswagen Polo,2006,2009,High,en/fr/de WP 'Audi Brussels',"2006–2009: VW Polo (146,019 units)"
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Audi A3,2004,2009,High,en/fr/de WP 'Audi Brussels',2004–2009: Audi A3
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Audi A3 Sportback,2007,2010,High,en/fr/de WP 'Audi Brussels',2007–2010: Audi A3 Sportback
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Audi A1,2010,2018,High,en/fr/de WP 'Audi Brussels',"2010–2018: Audi A1 (909,164 units)"
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Audi e-tron,2018,2022,High,en/fr/de WP 'Audi Brussels',"2018–2022: Audi e-tron (160,000 units)"
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Audi e-tron Sportback,2019,2022,Medium,en/fr/de WP 'Audi Brussels',DE: 'seit 2019'; EN/FR say 2020
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Audi Q8 e-tron,2022,2025,High,en/fr/de WP 'Audi Brussels',Dec 2022–Feb 2025 (plant closed 28 Feb 2025)
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Audi Q8 e-tron Sportback,2022,2025,High,en/fr/de WP 'Audi Brussels',Dec 2022–Feb 2025
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,Volkswagen Golf,1974,,High,en/de WP 'Volkswagenwerk Wolfsburg',Lead plant for the Golf since 1974
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,Volkswagen Golf Variant,2006,,Medium,en/de WP 'Volkswagenwerk Wolfsburg',Golf estate at Wolfsburg
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,Volkswagen Touran,2006,,High,en/de WP 'Volkswagenwerk Wolfsburg',Touran (1T/5T)
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,Volkswagen Tiguan,2007,,High,en/de WP 'Volkswagenwerk Wolfsburg',Tiguan since 2007
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,Volkswagen Golf Sportsvan,2014,2020,Medium,en/de WP 'Volkswagenwerk Wolfsburg',Golf Sportsvan 2014–2020
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,Volkswagen Tiguan Allspace,2017,2024,Medium,en/de WP 'Volkswagenwerk Wolfsburg',Tiguan Allspace
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,SEAT Tarraco,2018,2024,Medium,en/de WP 'Volkswagenwerk Wolfsburg',SEAT Tarraco 2018–2024
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,Volkswagen ID.3,2023,,Medium,en/de WP 'Volkswagenwerk Wolfsburg',ID.3 assembly added 2023
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,Volkswagen Tayron,2024,,Medium,en/de WP 'Volkswagenwerk Wolfsburg',Tayron from 2024
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Werk Sindelfingen,mercedes,Germany,Mercedes-Benz S-Class,2006,,High,de WP 'Werk Sindelfingen',S-Klasse built only here (W221/W222/W223)
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Werk Sindelfingen,mercedes,Germany,Mercedes-Benz E-Class,2006,,High,de WP 'Werk Sindelfingen',E-Klasse Limousine + T-Modell
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Werk Sindelfingen,mercedes,Germany,Mercedes-Benz CLS,2006,2023,Medium,de WP 'Werk Sindelfingen',CLS (C219/C218/C257); discontinued 2023
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Werk Sindelfingen,mercedes,Germany,Maybach 57/62,2006,2012,High,de WP 'Werk Sindelfingen',Maybach-Manufaktur 2002–2012
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Werk Sindelfingen,mercedes,Germany,Mercedes-Maybach S-Class,2015,,High,de WP 'Werk Sindelfingen',Maybach S-Klasse
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Werk Sindelfingen,mercedes,Germany,Mercedes-AMG GT 4-Door,2018,,High,de WP 'Werk Sindelfingen',AMG GT 4-Türer (X290)
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Werk Sindelfingen,mercedes,Germany,Mercedes-Benz EQS,2021,,High,de WP 'Werk Sindelfingen',"EQS (V297), Factory 56, first BEV here"
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Werk Sindelfingen,mercedes,Germany,Mercedes-Benz GLC,2015,,Low,de WP 'Werk Sindelfingen',listed as built here to cover demand peaks
+DE_MERCEDES_RASTATT,Mercedes-Benz Werk Rastatt,mercedes,Germany,Mercedes-Benz A-Class,2006,,High,de WP 'Werk Rastatt',A-Klasse since 1997 (W169/W176/W177)
+DE_MERCEDES_RASTATT,Mercedes-Benz Werk Rastatt,mercedes,Germany,Mercedes-Benz B-Class,2006,,High,de WP 'Werk Rastatt',B-Klasse since 2005
+DE_MERCEDES_RASTATT,Mercedes-Benz Werk Rastatt,mercedes,Germany,Mercedes-Benz GLA,2013,,High,de WP 'Werk Rastatt',GLA (X156/H247)
+DE_MERCEDES_RASTATT,Mercedes-Benz Werk Rastatt,mercedes,Germany,Mercedes-Benz EQA,2021,,High,de WP 'Werk Rastatt',EQA (H243) from 2021
+DE_MERCEDES_BREMEN,Mercedes-Benz Werk Bremen,mercedes,Germany,Mercedes-Benz C-Class,2006,,High,de WP 'Werk Bremen',Stammwerk der C-Klasse
+DE_MERCEDES_BREMEN,Mercedes-Benz Werk Bremen,mercedes,Germany,Mercedes-Benz E-Class Coupe/Cabriolet,2009,2023,Medium,de WP 'Werk Bremen',C207/C238
+DE_MERCEDES_BREMEN,Mercedes-Benz Werk Bremen,mercedes,Germany,Mercedes-Benz GLC,2015,,High,de WP 'Werk Bremen',Lead plant for GLC
+DE_MERCEDES_BREMEN,Mercedes-Benz Werk Bremen,mercedes,Germany,Mercedes-Benz GLC Coupé,2016,,Medium,de WP 'Werk Bremen',GLC Coupé
+DE_MERCEDES_BREMEN,Mercedes-Benz Werk Bremen,mercedes,Germany,Mercedes-Benz SL,2012,2020,Medium,de WP 'Werk Bremen',SL (R231)
+DE_MERCEDES_BREMEN,Mercedes-Benz Werk Bremen,mercedes,Germany,Mercedes-Benz SLC,2011,2020,Medium,de WP 'Werk Bremen',SLK/SLC (R172)
+DE_MERCEDES_BREMEN,Mercedes-Benz Werk Bremen,mercedes,Germany,Mercedes-Benz EQC,2019,2023,High,de WP 'Werk Bremen',EQC (N293) 2019–2023
+DE_BMW_DINGOLFING,BMW Group Werk Dingolfing,bmw,Germany,BMW 5 Series,2006,,High,de WP 'Werk Dingolfing',5er core model since 1973
+DE_BMW_DINGOLFING,BMW Group Werk Dingolfing,bmw,Germany,BMW 6 Series,2006,2018,Medium,de WP 'Werk Dingolfing',6er coupe/cabrio
+DE_BMW_DINGOLFING,BMW Group Werk Dingolfing,bmw,Germany,BMW 7 Series,2006,,High,de WP 'Werk Dingolfing',7er flagship
+DE_BMW_DINGOLFING,BMW Group Werk Dingolfing,bmw,Germany,BMW 8 Series,2018,,High,de WP 'Werk Dingolfing',8er (G14/G15/G16) from 2018
+DE_BMW_DINGOLFING,BMW Group Werk Dingolfing,bmw,Germany,BMW 4 Series,2014,,Medium,de WP 'Werk Dingolfing',article lists 4er built here
+DE_BMW_DINGOLFING,BMW Group Werk Dingolfing,bmw,Germany,BMW iX,2021,,High,de WP 'Werk Dingolfing',BMW iX since July 2021
+DE_VW_DRESDEN,Transparent Factory (Dresden),vw,Germany,Volkswagen Phaeton,2006,2016,High,en WP 'Transparent Factory',Phaeton produced until 2016
+DE_VW_DRESDEN,Transparent Factory (Dresden),vw,Germany,Volkswagen e-Golf,2017,2020,High,en WP 'Transparent Factory',electric Golf from 2017
+DE_VW_DRESDEN,Transparent Factory (Dresden),vw,Germany,Volkswagen ID.3,2021,2025,High,en WP 'Transparent Factory',ID.3 Jan 2021 until closure Dec 2025
+HU_AUDI_GYOR,Audi Hungaria (Győr),audi,Hungary,Audi TT Coupé,2006,2023,High,en WP 'Audi Hungaria',TT Coupé built here (gen2/gen3) until 2023
+HU_AUDI_GYOR,Audi Hungaria (Győr),audi,Hungary,Audi TT Roadster,2006,2023,High,en WP 'Audi Hungaria',TT Roadster
+HU_AUDI_GYOR,Audi Hungaria (Győr),audi,Hungary,Audi A3 Cabriolet,2008,2020,Medium,en WP 'Audi Hungaria',A3 Cabriolet from 2007/08
+HU_AUDI_GYOR,Audi Hungaria (Győr),audi,Hungary,Audi A3 Sedan,2013,2020,Medium,en WP 'Audi Hungaria',A3 sedan fully built from 2013
+HU_AUDI_GYOR,Audi Hungaria (Győr),audi,Hungary,Audi Q3,2018,,High,en WP 'Audi Hungaria',Q3 (2nd gen) from 2018/19
+HU_AUDI_GYOR,Audi Hungaria (Győr),audi,Hungary,Audi Q3 Sportback,2019,,High,en WP 'Audi Hungaria',Q3 Sportback from 2019
+HU_AUDI_GYOR,Audi Hungaria (Győr),audi,Hungary,Cupra Terramar,2024,,Medium,en WP 'Audi Hungaria',Q3 sibling from 2024
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Audi Q7,2006,,High,en WP 'Volkswagen Bratislava Plant',Q7 (2005–present)
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Audi Q8,2018,,High,en WP 'Volkswagen Bratislava Plant',Q8 (2018–present)
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Porsche Cayenne,2006,,High,en WP 'Volkswagen Bratislava Plant',Cayenne (2002–present)
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Porsche Cayenne Coupé,2019,,High,en WP 'Volkswagen Bratislava Plant',Cayenne Coupé (2019–present)
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Volkswagen Touareg,2006,,High,en WP 'Volkswagen Bratislava Plant',Touareg (2002–present)
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Škoda Superb,2023,,High,en WP 'Volkswagen Bratislava Plant',Superb (2023–present)
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Volkswagen Passat,2023,,High,en WP 'Volkswagen Bratislava Plant',Passat (2023–present)
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Volkswagen Polo,2006,2007,High,en WP 'Volkswagen Bratislava Plant',VW Polo (1999–2007)
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Škoda Octavia,2008,2010,High,en WP 'Volkswagen Bratislava Plant',Octavia (2008–2010)
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Volkswagen up!,2011,2023,High,en WP 'Volkswagen Bratislava Plant',up! (2011–2023)
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,SEAT Mii,2011,2021,High,en WP 'Volkswagen Bratislava Plant',Mii (2011–2021)
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Škoda Citigo,2011,2020,High,en WP 'Volkswagen Bratislava Plant',Citigo (2011–2020)
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Škoda Karoq,2020,2023,High,en WP 'Volkswagen Bratislava Plant',Karoq (2020–2023)
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Bentley Bentayga,2016,,Medium,en WP 'Volkswagen Bratislava Plant',Bentayga assembly/bodies since 2016
+DE_VW_ZWICKAU,Volkswagen Zwickau-Mosel Plant,vw,Germany,Volkswagen Golf,2006,2020,Medium,en WP 'VW Zwickau-Mosel Plant',Golf built until ICE end (last ICE 26 Jun 2020)
+DE_VW_ZWICKAU,Volkswagen Zwickau-Mosel Plant,vw,Germany,Volkswagen Passat,2006,2020,Medium,en WP 'VW Zwickau-Mosel Plant',Passat (incl. Variant)
+DE_VW_ZWICKAU,Volkswagen Zwickau-Mosel Plant,vw,Germany,Volkswagen ID.3,2020,,High,en WP 'VW Zwickau-Mosel Plant',ID.3 from 2019/2020 (plant went all-electric)
+DE_VW_ZWICKAU,Volkswagen Zwickau-Mosel Plant,vw,Germany,Volkswagen ID.4,2020,,High,en WP 'VW Zwickau-Mosel Plant',ID.4
+DE_VW_ZWICKAU,Volkswagen Zwickau-Mosel Plant,vw,Germany,Volkswagen ID.5,2021,,High,en WP 'VW Zwickau-Mosel Plant',ID.5
+DE_VW_ZWICKAU,Volkswagen Zwickau-Mosel Plant,vw,Germany,Audi Q4 e-tron,2021,,High,en WP 'VW Zwickau-Mosel Plant',Q4 e-tron from 2021
+DE_VW_ZWICKAU,Volkswagen Zwickau-Mosel Plant,vw,Germany,Cupra Born,2021,,Medium,en WP 'VW Zwickau-Mosel Plant',Cupra Born from 2021
+DE_AUDI_INGOLSTADT,Audi Werk Ingolstadt,audi,Germany,Audi A3,2006,,High,Wikipedia + well-documented production facts,Ingolstadt lead plant for A3/A3 Sportback
+DE_AUDI_INGOLSTADT,Audi Werk Ingolstadt,audi,Germany,Audi A4,2006,,High,Wikipedia + well-documented production facts,A4 sedan/Avant
+DE_AUDI_INGOLSTADT,Audi Werk Ingolstadt,audi,Germany,Audi A5,2007,,Medium,Wikipedia + well-documented production facts,A5 coupe/Sportback
+DE_AUDI_INGOLSTADT,Audi Werk Ingolstadt,audi,Germany,Audi Q5,2008,2017,Medium,Wikipedia + well-documented production facts,Q5 (8R) until move to Mexico ~2017
+DE_AUDI_INGOLSTADT,Audi Werk Ingolstadt,audi,Germany,Audi Q2,2016,,High,Wikipedia + well-documented production facts,Q2 from 2016
+DE_AUDI_INGOLSTADT,Audi Werk Ingolstadt,audi,Germany,Audi A3 Sedan,2013,2020,Low,Wikipedia + well-documented production facts,A3 sedan period
+DE_AUDI_NECKARSULM,Audi Werk Neckarsulm,audi,Germany,Audi A6,2006,,High,Wikipedia + well-documented production facts,Neckarsulm lead plant for A6
+DE_AUDI_NECKARSULM,Audi Werk Neckarsulm,audi,Germany,Audi A7,2010,,High,Wikipedia + well-documented production facts,A7 Sportback from 2010
+DE_AUDI_NECKARSULM,Audi Werk Neckarsulm,audi,Germany,Audi A8,2006,,High,Wikipedia + well-documented production facts,A8 flagship
+DE_AUDI_NECKARSULM,Audi Werk Neckarsulm,audi,Germany,Audi A4,2006,2015,Medium,Wikipedia + well-documented production facts,A4 also built here (older gens)
+DE_AUDI_NECKARSULM,Audi Werk Neckarsulm,audi,Germany,Audi R8,2007,2024,High,Wikipedia + well-documented production facts,R8 hand-built (Böllinger Höfe) until 2024
+DE_AUDI_NECKARSULM,Audi Werk Neckarsulm,audi,Germany,Audi e-tron GT,2020,,High,Wikipedia + well-documented production facts,e-tron GT (Böllinger Höfe) from 2020
+DE_AUDI_NECKARSULM,Audi Werk Neckarsulm,audi,Germany,Audi A6 e-tron,2024,,Medium,Wikipedia + well-documented production facts,A6 e-tron from 2024
+DE_BMW_MUNICH,BMW Werk München,bmw,Germany,BMW 3 Series,2006,,High,Wikipedia + well-documented production facts,Munich is the home of the 3 Series
+DE_BMW_MUNICH,BMW Werk München,bmw,Germany,BMW M3,2007,,Medium,Wikipedia + well-documented production facts,M3 variant
+DE_BMW_MUNICH,BMW Werk München,bmw,Germany,BMW 4 Series,2014,,Low,Wikipedia + well-documented production facts,also built across Munich/Dingolfing/Regensburg
+DE_BMW_MUNICH,BMW Werk München,bmw,Germany,BMW i4,2021,,High,Wikipedia + well-documented production facts,i4 (electric) from 2021
+DE_BMW_REGENSBURG,BMW Werk Regensburg,bmw,Germany,BMW 1 Series,2006,,High,Wikipedia + well-documented production facts,1 Series core at Regensburg
+DE_BMW_REGENSBURG,BMW Werk Regensburg,bmw,Germany,BMW 3 Series,2006,,Medium,Wikipedia + well-documented production facts,3 Series also built here
+DE_BMW_REGENSBURG,BMW Werk Regensburg,bmw,Germany,BMW Z4,2006,2016,Medium,Wikipedia + well-documented production facts,Z4 until move to Graz 2016
+DE_BMW_REGENSBURG,BMW Werk Regensburg,bmw,Germany,BMW X2,2018,,Medium,Wikipedia + well-documented production facts,X2 from 2018
+DE_BMW_REGENSBURG,BMW Werk Regensburg,bmw,Germany,BMW X1,2022,,Medium,Wikipedia + well-documented production facts,X1 (U11) from 2022
+DE_BMW_LEIPZIG,BMW Werk Leipzig,bmw,Germany,BMW 1 Series,2006,,High,Wikipedia + well-documented production facts,1 Series at Leipzig
+DE_BMW_LEIPZIG,BMW Werk Leipzig,bmw,Germany,BMW 2 Series,2014,,High,Wikipedia + well-documented production facts,2 Series Active/Gran Tourer + Coupé
+DE_BMW_LEIPZIG,BMW Werk Leipzig,bmw,Germany,BMW i3,2013,2022,High,Wikipedia + well-documented production facts,i3 (2013–2022)
+DE_BMW_LEIPZIG,BMW Werk Leipzig,bmw,Germany,BMW i8,2014,2020,High,Wikipedia + well-documented production facts,i8 (2014–2020)
+DE_BMW_LEIPZIG,BMW Werk Leipzig,bmw,Germany,BMW X1,2022,,Medium,Wikipedia + well-documented production facts,X1 also built here
+DE_PORSCHE_LEIPZIG,Porsche Werk Leipzig,porsche,Germany,Porsche Carrera GT,2006,2006,Medium,Wikipedia + well-documented production facts,Carrera GT until 2006
+DE_PORSCHE_LEIPZIG,Porsche Werk Leipzig,porsche,Germany,Porsche Cayenne,2006,,High,Wikipedia + well-documented production facts,Cayenne finishing/assembly at Leipzig
+DE_PORSCHE_LEIPZIG,Porsche Werk Leipzig,porsche,Germany,Porsche Panamera,2009,,High,Wikipedia + well-documented production facts,Panamera from 2009
+DE_PORSCHE_LEIPZIG,Porsche Werk Leipzig,porsche,Germany,Porsche Macan,2014,,High,Wikipedia + well-documented production facts,Macan from 2014 (incl. electric Macan)
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Werk Zuffenhausen,porsche,Germany,Porsche 911,2006,,High,en WP factories list,911 home plant
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Werk Zuffenhausen,porsche,Germany,Porsche Boxster,2006,,High,en WP factories list,Boxster (718)
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Werk Zuffenhausen,porsche,Germany,Porsche Cayman,2006,,High,en WP factories list,Cayman (718)
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Werk Zuffenhausen,porsche,Germany,Porsche 918 Spyder,2013,2015,High,en WP factories list,918 Spyder 2013–2015
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Werk Zuffenhausen,porsche,Germany,Porsche Taycan,2019,,High,en WP factories list,Taycan from 2019
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary (Kecskemét),mercedes,Hungary,Mercedes-Benz B-Class,2012,2018,High,Wikipedia + well-documented production facts,B-Klasse (W246) from 2012
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary (Kecskemét),mercedes,Hungary,Mercedes-Benz CLA,2013,,High,Wikipedia + well-documented production facts,CLA (C117/C118) from 2013
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary (Kecskemét),mercedes,Hungary,Mercedes-Benz CLA Shooting Brake,2015,,Medium,Wikipedia + well-documented production facts,CLA Shooting Brake
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary (Kecskemét),mercedes,Hungary,Mercedes-Benz GLB,2019,,High,Wikipedia + well-documented production facts,GLB from 2019
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary (Kecskemét),mercedes,Hungary,Mercedes-Benz GLA,2020,,Medium,Wikipedia + well-documented production facts,GLA (H247) shared with Rastatt
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary (Kecskemét),mercedes,Hungary,Mercedes-Benz EQB,2021,,High,Wikipedia + well-documented production facts,EQB from 2021
+ES_VW_NAVARRA,Volkswagen Navarra (Pamplona),vw,Spain,Volkswagen Polo,2006,,High,Wikipedia + well-documented production facts,Polo lead plant (Landaben)
+ES_VW_NAVARRA,Volkswagen Navarra (Pamplona),vw,Spain,Volkswagen T-Cross,2019,,High,Wikipedia + well-documented production facts,T-Cross from 2019
+ES_VW_NAVARRA,Volkswagen Navarra (Pamplona),vw,Spain,Volkswagen Taigo,2021,,Medium,Wikipedia + well-documented production facts,Taigo from 2021
+PL_VWN_POZNAN,Volkswagen Poznań,vw,Poland,Volkswagen Caddy,2006,,High,Wikipedia + well-documented production facts,Caddy (commercial/MPV)
+PL_VWN_POZNAN,Volkswagen Poznań,vw,Poland,Volkswagen Transporter,2006,2024,Medium,Wikipedia + well-documented production facts,T5/T6 variants
+PL_VWN_WRZESNIA,Volkswagen Września,vw,Poland,Volkswagen Crafter,2016,,High,Wikipedia + well-documented production facts,Crafter since plant opened 2016
+PL_VWN_WRZESNIA,Volkswagen Września,vw,Poland,MAN TGE,2017,,High,Wikipedia + well-documented production facts,MAN TGE (badge sibling)
+PT_VW_PALMELA,Volkswagen Autoeuropa (Palmela),vw,Portugal,Volkswagen Eos,2006,2015,Medium,Wikipedia + well-documented production facts,Eos until 2015
+PT_VW_PALMELA,Volkswagen Autoeuropa (Palmela),vw,Portugal,Volkswagen Sharan,2006,2010,Medium,Wikipedia + well-documented production facts,Sharan until ~2010 (moved to Wolfsburg)
+PT_VW_PALMELA,Volkswagen Autoeuropa (Palmela),vw,Portugal,Volkswagen Scirocco,2008,2017,High,Wikipedia + well-documented production facts,Scirocco 2008–2017
+PT_VW_PALMELA,Volkswagen Autoeuropa (Palmela),vw,Portugal,Volkswagen T-Roc,2017,,High,Wikipedia + well-documented production facts,T-Roc from 2017
+HU_BMW_DEBRECEN,BMW Group Plant Debrecen,bmw,Hungary,BMW iX3,2025,,Medium,Wikipedia + well-documented production facts,"Neue Klasse iX3, production from 2025"
+DE_VW_EMDEN,Volkswagen Emden,vw,Germany,Volkswagen Passat,2006,2022,High,Wikipedia + well-documented production facts,Passat lead plant until 2022
+DE_VW_EMDEN,Volkswagen Emden,vw,Germany,Volkswagen CC/Arteon,2008,2022,Medium,Wikipedia + well-documented production facts,CC (2008) then Arteon
+DE_VW_EMDEN,Volkswagen Emden,vw,Germany,Volkswagen ID.4,2022,,High,Wikipedia + well-documented production facts,ID.4 after EV conversion
+DE_VW_EMDEN,Volkswagen Emden,vw,Germany,Volkswagen ID.7,2023,,High,Wikipedia + well-documented production facts,ID.7 from 2023
+DE_VW_OSNABRUECK,Volkswagen Osnabrück,vw,Germany,Volkswagen Golf Cabriolet,2011,2016,Medium,Wikipedia + well-documented production facts,Golf Cabriolet 2011–2016
+DE_VW_OSNABRUECK,Volkswagen Osnabrück,vw,Germany,Porsche Boxster/Cayman,2012,2016,Medium,Wikipedia + well-documented production facts,981 Boxster/Cayman built here
+DE_VW_OSNABRUECK,Volkswagen Osnabrück,vw,Germany,Volkswagen T-Roc Cabriolet,2020,,High,Wikipedia + well-documented production facts,T-Roc Cabriolet from 2020
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Werk Düsseldorf,mercedes,Germany,Mercedes-Benz Sprinter,2006,,High,Wikipedia + well-documented production facts,Main Sprinter van plant
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Werk Düsseldorf,mercedes,Germany,Mercedes-Benz eSprinter,2019,,Medium,Wikipedia + well-documented production facts,eSprinter from 2019
+DE_MERCEDES_LUDWIGSFELDE,Mercedes-Benz Werk Ludwigsfelde,mercedes,Germany,Mercedes-Benz Sprinter,2006,,High,Wikipedia + well-documented production facts,Sprinter van production
+DE_MERCEDES_LUDWIGSFELDE,Mercedes-Benz Werk Ludwigsfelde,mercedes,Germany,Mercedes-Benz Vario,2006,2013,Low,Wikipedia + well-documented production facts,Vario until ~2013

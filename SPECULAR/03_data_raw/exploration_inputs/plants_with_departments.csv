@@ -1,0 +1,625 @@
+plant_id,City ,year,employees,production_volume,status,Department
+FR_RENAULT_BATILLY,Batilly,2025,1938.0,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2024,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2023,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2022,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2021,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2020,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2019,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2018,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2017,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2016,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2015,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2014,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2013,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2012,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2011,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2010,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2009,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2008,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2007,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2006,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2005,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2004,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2003,,,,Meurthe-et-Moselle
+FR_RENAULT_BATILLY,Batilly,2002,,,,Meurthe-et-Moselle
+FR_RENAULT_CLEON,Cléon,2025,3124.0,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2024,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2023,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2022,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2021,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2020,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2019,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2018,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2017,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2016,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2015,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2014,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2013,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2012,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2011,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2010,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2009,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2008,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2007,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2006,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2005,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2004,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2003,,,,Seine-Maritime
+FR_RENAULT_CLEON,Cléon,2002,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2025,380.0,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2024,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2023,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2022,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2021,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2020,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2019,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2018,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2017,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2016,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2015,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2014,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2013,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2012,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2011,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2010,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2009,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2008,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2007,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2006,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2005,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2004,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2003,,,,Seine-Maritime
+FR_RENAULT_DIEPPE,Dieppe,2002,,,,Seine-Maritime
+FR_RENAULT_DOUAI,Douai,2025,4265.0,,,Nord
+FR_RENAULT_DOUAI,Douai,2024,,,,Nord
+FR_RENAULT_DOUAI,Douai,2023,,,,Nord
+FR_RENAULT_DOUAI,Douai,2022,,,,Nord
+FR_RENAULT_DOUAI,Douai,2021,,,,Nord
+FR_RENAULT_DOUAI,Douai,2020,,,,Nord
+FR_RENAULT_DOUAI,Douai,2019,,,,Nord
+FR_RENAULT_DOUAI,Douai,2018,,,,Nord
+FR_RENAULT_DOUAI,Douai,2017,,,,Nord
+FR_RENAULT_DOUAI,Douai,2016,,,,Nord
+FR_RENAULT_DOUAI,Douai,2015,,,,Nord
+FR_RENAULT_DOUAI,Douai,2014,,,,Nord
+FR_RENAULT_DOUAI,Douai,2013,,,,Nord
+FR_RENAULT_DOUAI,Douai,2012,,,,Nord
+FR_RENAULT_DOUAI,Douai,2011,,,,Nord
+FR_RENAULT_DOUAI,Douai,2010,,,,Nord
+FR_RENAULT_DOUAI,Douai,2009,,,,Nord
+FR_RENAULT_DOUAI,Douai,2008,,,,Nord
+FR_RENAULT_DOUAI,Douai,2007,,,,Nord
+FR_RENAULT_DOUAI,Douai,2006,,,,Nord
+FR_RENAULT_DOUAI,Douai,2005,,,,Nord
+FR_RENAULT_DOUAI,Douai,2004,,,,Nord
+FR_RENAULT_DOUAI,Douai,2003,,,,Nord
+FR_RENAULT_DOUAI,Douai,2002,,,,Nord
+FR_RENAULT_LE_MANS,Le Mans,2025,1712.0,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2024,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2023,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2022,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2021,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2020,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2019,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2018,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2017,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2016,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2015,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2014,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2013,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2012,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2011,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2010,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2009,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2008,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2007,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2006,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2005,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2004,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2003,,,,Sarthe
+FR_RENAULT_LE_MANS,Le Mans,2002,,,,Sarthe
+FR_RENAULT_MAUBEUGE,Maubeuge,2025,1835.0,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2024,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2023,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2022,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2021,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2020,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2019,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2018,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2017,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2016,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2015,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2014,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2013,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2012,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2011,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2010,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2009,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2008,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2007,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2006,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2005,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2004,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2003,,,,Nord
+FR_RENAULT_MAUBEUGE,Maubeuge,2002,,,,Nord
+FR_RENAULT_MEYZIEU,Meyzieu,2025,106.0,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2024,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2023,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2022,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2021,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2020,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2019,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2018,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2017,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2016,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2015,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2014,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2013,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2012,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2011,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2010,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2009,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2008,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2007,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2006,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2005,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2004,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2003,,,,Rhône
+FR_RENAULT_MEYZIEU,Meyzieu,2002,,,,Rhône
+FR_RENAULT_RUITZ,Ruitz,2025,331.0,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2024,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2023,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2022,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2021,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2020,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2019,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2018,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2017,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2016,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2015,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2014,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2013,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2012,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2011,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2010,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2009,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2008,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2007,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2006,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2005,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2004,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2003,,,,Pas-de-Calais
+FR_RENAULT_RUITZ,Ruitz,2002,,,,Pas-de-Calais
+FR_RENAULT_SANDOUVILLE,Sandouville,2025,1865.0,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2024,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2023,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2022,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2021,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2020,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2019,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2018,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2017,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2016,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2015,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2014,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2013,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2012,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2011,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2010,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2009,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2008,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2007,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2006,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2005,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2004,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2003,,,,Seine-Maritime
+FR_RENAULT_SANDOUVILLE,Sandouville,2002,,,,Seine-Maritime
+FR_RENAULT_FLINS,Flins,2025,2212.0,,,Yvelines
+FR_RENAULT_FLINS,Flins,2024,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2023,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2022,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2021,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2020,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2019,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2018,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2017,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2016,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2015,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2014,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2013,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2012,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2011,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2010,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2009,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2008,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2007,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2006,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2005,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2004,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2003,,,,Yvelines
+FR_RENAULT_FLINS,Flins,2002,,,,Yvelines
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2025,360.0,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2024,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2023,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2022,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2021,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2020,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2019,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2018,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2017,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2016,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2015,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2014,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2013,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2012,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2011,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2010,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2009,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2008,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2007,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2006,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2005,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2004,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2003,,,Closed,Eure
+FR_RENAULT_SAINT_ANDRE_DE_LEURE,Saint André de l'Eure,2002,,,Closed,Eure
+FR_RENAULT_GUYANCOURT,Guyancourt,2025,9100.0,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2024,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2023,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2022,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2021,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2020,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2019,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2018,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2017,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2016,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2015,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2014,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2013,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2012,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2011,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2010,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2009,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2008,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2007,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2006,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2005,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2004,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2003,,,,Yvelines
+FR_RENAULT_GUYANCOURT,Guyancourt,2002,,,,Yvelines
+FR_STELLANTIS_SOCHAUX,Sochaux,2025,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2024,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2023,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2022,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2021,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2020,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2019,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2018,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2017,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2016,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2015,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2014,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2013,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2012,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2011,12221.0,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2010,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2009,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2008,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2007,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2006,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2005,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2004,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2003,,,,Doubs
+FR_STELLANTIS_SOCHAUX,Sochaux,2002,,,,Doubs
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2025,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2024,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2023,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2022,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2021,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2020,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2019,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2018,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2017,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2016,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2015,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2014,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2013,7600.0,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2012,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2011,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2010,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2009,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2008,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2007,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2006,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2005,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2004,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2003,,,,Haut-Rhin
+FR_STELLANTIS_SAUSHEIM_MULHOUSE,"Sausheim, Mulhouse",2002,,,,Haut-Rhin
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2025,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2024,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2023,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2022,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2021,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2020,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2019,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2018,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2017,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2016,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2015,4639.0,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2014,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2013,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2012,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2011,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2010,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2009,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2008,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2007,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2006,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2005,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2004,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2003,,,,Ille-et-Vilaine
+FR_STELLANTIS_CHARTRES_DE_BRETAGNE_RENNES,"Chartres-de-Bretagne, Rennes, La Janais",2002,,,,Ille-et-Vilaine
+FR_STELLANTIS_POISSY,Poissy,2025,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2024,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2023,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2022,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2021,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2020,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2019,4000.0,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2018,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2017,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2016,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2015,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2014,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2013,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2012,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2011,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2010,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2009,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2008,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2007,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2006,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2005,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2004,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2003,,,,Yvelines
+FR_STELLANTIS_POISSY,Poissy,2002,,,,Yvelines
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2025,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2024,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2023,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2022,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2021,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2020,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2019,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2018,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2017,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2016,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2015,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2014,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2013,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2012,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2011,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2010,2800.0,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2009,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2008,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2007,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2006,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2005,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2004,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2003,,,,Nord
+FR_STELLANTIS_LIEU_SAINT_AMAND_HORDAIN,"Lieu-Saint-Amand, Hordain",2002,,,,Nord
+FR_STELLANTIS_TREMERY,Trémery,2025,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2024,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2023,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2022,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2021,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2020,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2019,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2018,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2017,2800.0,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2016,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2015,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2014,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2013,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2012,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2011,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2010,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2009,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2008,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2007,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2006,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2005,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2004,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2003,,,,Moselle
+FR_STELLANTIS_TREMERY,Trémery,2002,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2025,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2024,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2023,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2022,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2021,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2020,999.0,,,Moselle
+FR_STELLANTIS_METZ,Metz,2019,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2018,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2017,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2016,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2015,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2014,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2013,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2012,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2011,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2010,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2009,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2008,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2007,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2006,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2005,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2004,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2003,,,,Moselle
+FR_STELLANTIS_METZ,Metz,2002,,,,Moselle
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2025,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2024,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2023,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2022,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2021,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2020,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2019,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2018,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2017,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2016,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2015,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2014,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2013,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2012,2256.0,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2011,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2010,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2009,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2008,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2007,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2006,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2005,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2004,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2003,,,,Nord
+FR_STELLANTIS_TRITH_SAINT_LEGER_VALENCIENNES,"Trith-Saint-Léger, Valenciennes",2002,,,,Nord
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2025,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2024,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2023,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2022,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2021,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2020,1098.0,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2019,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2018,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2017,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2016,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2015,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2014,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2013,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2012,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2011,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2010,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2009,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2008,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2007,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2006,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2005,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2004,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2003,,,,Calvados
+FR_STELLANTIS_CORMELLES_LE_ROYAL_CAEN,"Cormelles-le-Royal, Caen",2002,,,,Calvados
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2025,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2024,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2023,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2022,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2021,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2020,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2019,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2018,1614.0,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2017,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2016,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2015,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2014,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2013,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2012,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2011,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2010,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2009,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2008,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2007,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2006,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2005,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2004,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2003,,,,Ardennes
+FR_STELLANTIS_VILLERS_SEMEUSE_CHARLEVILLE_MEZIERES,"Villers-Semeuse, Charleville-Mézières",2002,,,,Ardennes
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2025,570.0,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2024,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2023,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2022,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2021,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2020,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2019,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2018,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2017,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2016,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2015,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2014,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2013,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2012,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2011,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2010,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2009,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2008,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2007,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2006,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2005,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2004,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2003,,,,Allier
+FR_STELLANTIS_DOMPIERRE_SUR_BESBRE,Dompierre-sur-Besbre,2002,,,,Allier
+FR_STELLANTIS_VESOUL,Vesoul,2025,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2024,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2023,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2022,3000.0,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2021,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2020,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2019,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2018,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2017,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2016,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2015,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2014,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2013,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2012,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2011,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2010,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2009,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2008,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2007,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2006,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2005,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2004,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2003,,,,Haute-Saône
+FR_STELLANTIS_VESOUL,Vesoul,2002,,,,Haute-Saône
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2025,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2024,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2023,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2022,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2021,4918.0,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2020,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2019,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2018,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2017,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2016,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2015,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2014,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2013,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2012,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2011,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2010,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2009,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2008,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2007,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2006,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2005,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2004,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2003,,,,Nord
+FR_TOYOTA_ONNAING_VALENCIENNES,"Onnaing, Valenciennes",2002,,,,Nord
+FR_INEOS_HAMBACH,Hambach,2025,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2024,1300.0,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2023,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2022,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2021,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2020,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2019,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2018,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2017,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2016,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2015,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2014,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2013,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2012,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2011,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2010,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2009,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2008,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2007,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2006,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2005,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2004,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2003,,,,Moselle
+FR_INEOS_HAMBACH,Hambach,2002,,,,Moselle

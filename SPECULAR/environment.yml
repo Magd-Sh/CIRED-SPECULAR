@@ -1,0 +1,27 @@
+# mamba env create -f environment.yml && mamba activate specular
+#
+# The analysis needs only the first block. The second is for re-running the
+# scrapers, which also require API keys (see .env.example) and outbound network.
+name: specular
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  # --- analysis ---
+  - pandas>=2.0
+  - numpy>=1.24
+  - matplotlib>=3.7
+  - openpyxl>=3.1          # reading the .xlsx inputs
+  - scipy>=1.10
+  # --- scrapers (optional) ---
+  - requests>=2.31
+  - beautifulsoup4>=4.12
+  - lxml>=4.9
+  # --- exploration notebooks (optional) ---
+  - jupyterlab            # to open 01_code/exploration/ and 01_code/analysis/
+  # geopandas is needed by ONE cell of 01_code/exploration/iea_facility_counts.ipynb,
+  # the spatial join of IEA sites onto NUTS polygons. Nothing else here uses it,
+  # and the analysis does point-in-polygon by hand precisely to avoid it. Install
+  # it separately if you want that cell:  mamba install -c conda-forge geopandas
+  - pip
+  - pip:
+      - tqdm

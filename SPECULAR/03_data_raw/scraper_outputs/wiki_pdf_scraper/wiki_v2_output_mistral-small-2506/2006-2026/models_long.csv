@@ -1,0 +1,529 @@
+plant_id,plant_name,brand,country,model,model_surfaces,year_start,year_end,source_langs,methods,year_conflict,evidence
+DE_AUDI_INGOLSTADT,Audi Plant Ingolstadt,audi,Germany,Audi A5,Audi A5,2007,,"de,en,fr","llm_rev_de,llm_rev_en,llm_rev_fr",0,The Audi A5 is a mid-size luxury car produced by the German automaker Audi since 2007.
+DE_AUDI_INGOLSTADT,Audi Plant Ingolstadt,audi,Germany,Audi S5,Audi S5 | Audi S5 (5F),2007,,"de,en,fr","llm_rev_de,llm_rev_en,llm_rev_fr",1,"The Audi S5 is a high-performance version of the Audi A5, produced by the German automaker Audi since 2007."
+DE_AUDI_INGOLSTADT,Audi Plant Ingolstadt,audi,Germany,Audi S5 Coupé,Audi S5 Coupé,2007,,de,llm_rev_de,1,Produktionszeitraum seit 2007
+DE_AUDI_INGOLSTADT,Audi Plant Ingolstadt,audi,Germany,Audi S5 Sportback,Audi S5 Sportback,2009,,"de,en","llm_rev_de,llm_rev_en",1,"The Audi S5 Sportback was unveiled at the 2009 Frankfurt Motor Show, and went on sale in the spring of 2010."
+DE_AUDI_INGOLSTADT,Audi Plant Ingolstadt,audi,Germany,Audi S5 Cabriolet,Audi S5 Cabriolet,2009,,"de,en,fr","llm_rev_de,llm_rev_en,llm_rev_fr",1,"The cabriolets are built at Audi's factory in Neckarsulm, Germany."
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,[[Volkswagen Golf]],[[Volkswagen Golf]],1980,2007,en,regex_rev_en,0,"1980 – 2007: [[Volkswagen Golf]] (3,870,701 units)"
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Golf,Golf | VW Golf,1980,2009,"de,fr","llm_rev_de,regex_rev_fr",1,die Produktion des Golf bei Volkswagen Vorst 2009 eingestellt
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,[[Audi A3]],[[Audi A3]],2004,2009,en,regex_rev_en,0,2004 – 2009: [[Audi A3]]
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi A3,Audi A3,2004,2009,fr,regex_rev_fr,0,2004 – 2009 : Audi A3
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi A1,Audi A1,2006,,"de,en,fr","llm_rev_de,llm_rev_en,llm_rev_fr",1,"In 2010 the company planned to produce 50,000 Audi A1s with the number at least doubled in 2011."
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,[[Volkswagen Polo]],[[Volkswagen Polo]],2006,2009,en,regex_rev_en,0,"2006 – 2009: [[Volkswagen Polo]] (146,019 units)"
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,VW Polo,VW Polo,2006,2009,fr,regex_rev_fr,0,2006 – 2009 : VW Polo (146 019 unités)
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi A3 Sportback,Audi A3 Sportback,2007,2010,fr,regex_rev_fr,0,2007 – 2010 : Audi A3 Sportback
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi S1,Audi S1,2010,,fr,llm_rev_fr,0,Depuis 2010 le site assure la production exclusive de l’Audi A1 (3 et 5 portes) et de ses déclinaisons (Audi S1).
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi e-tron,Audi e-tron | Audi e-tron Quattro,2018,,"de,en,fr","llm_rev_de,llm_rev_en,llm_rev_fr",1,"2018 – 2022: Audi e-tron (160,000 units)"
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi Q8 e-tron,Audi Q8 e-tron | Audi Q8 e-tron Quattro,2018,,"de,en,fr,it","llm_rev_de,llm_rev_en,llm_rev_fr,llm_rev_it,regex_rev_fr",1,December 2022 – February 2025: Audi Q8 e-tron
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi SUV électrique,Audi SUV électrique,2018,,fr,"llm_rev_fr,regex_rev_fr",0,2018 - : Audi SUV électrique
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi e-tron Sportback,Audi e-tron Sportback,2019,,"de,en,fr","llm_rev_de,llm_rev_en,llm_rev_fr",1,2020 – 2022: Audi e-tron Sportback
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,[[Audi e-tron Sportback]],[[Audi e-tron Sportback]],2020,2022,"en,fr","regex_rev_en,regex_rev_fr",0,2020 – 2022: [[Audi e-tron Sportback]]
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,"[[Audi Q8 e-tron Sportback]]<ref name=""auto""/>","[[Audi Q8 e-tron Sportback]]<ref name=""auto""/>",2022,2025,en,regex_rev_en,0,"December 2022 – February 2025: [[Audi Q8 e-tron Sportback]]<ref name=""auto""/>"
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi Q8 e-tron Sportback,Audi Q8 e-tron Sportback,2022,,"en,fr","llm_rev_en,llm_rev_fr,regex_rev_fr",0,December 2022 – February 2025: Audi Q8 e-tron Sportback
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi SQ8 e-tron Quattro,Audi SQ8 e-tron Quattro,2022,,fr,llm_rev_fr,0,2022 - maintenant : Audi Q8 e-tron
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi SQ8 e-tron Sportback,Audi SQ8 e-tron Sportback,2022,,fr,llm_rev_fr,0,2022 - maintenant : Audi Q8 e-tron Sportback
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi Q4 e-tron Quattro,Audi Q4 e-tron Quattro,2022,,fr,llm_rev_fr,0,2022 - maintenant : Audi Q4 e-tron Quattro
+DE_AUDI_ZWICKAU,Audi Plant Zwickau,audi,Germany,Volkswagen Golf,Volkswagen Golf,1990,,"fr,it","llm_rev_fr,llm_rev_it",1,the group allemand Volkswagen AG qui assemble des Golf
+DE_AUDI_ZWICKAU,Audi Plant Zwickau,audi,Germany,Volkswagen Passat,Volkswagen Passat,1990,,"fr,it","llm_rev_fr,llm_rev_it",1,the group allemand Volkswagen AG qui assemble des Golf et des Passat
+DE_AUDI_ZWICKAU,Audi Plant Zwickau,audi,Germany,Audi A4,Audi A4,1994,,"de,en","llm_rev_de,llm_rev_en",1,"The article mentions that Volkswagen built a new factory outside Zwickau, which is now a supplier for the automobile industry, including Audi."
+DE_AUDI_ZWICKAU,Audi Plant Zwickau,audi,Germany,Audi A3,Audi A3,1996,,"de,fr,it","llm_rev_de,llm_rev_fr,llm_rev_it",1,"From October 1957 until April 1991, the Trabant was manufactured in Zwickau. Today, Volkswagen builds the Golf and Passat models in the Mosel district of Zwicka"
+DE_AUDI_ZWICKAU,Audi Plant Zwickau,audi,Germany,Audi TT,Audi TT,1998,,"de,it","llm_rev_de,llm_rev_it",0,The Audi TT was also produced at the Zwickau plant during this period.
+DE_AUDI_ZWICKAU,Audi Plant Zwickau,audi,Germany,Audi ID.3,Audi ID.3 | Volkswagen ID.3,2006,,"en,it","llm_rev_en,llm_rev_it",1,Volkswagen assembles its ID.3 models
+DE_AUDI_ZWICKAU,Audi Plant Zwickau,audi,Germany,Audi A1,Audi A1,2009,,"de,en,it","llm_rev_de,llm_rev_en,llm_rev_it",1,Audi Plant Zwickau assembles the Audi A1.
+DE_AUDI_ZWICKAU,Audi Plant Zwickau,audi,Germany,Audi A1 Sportback,Audi A1 Sportback,2010,,"de,en,it","llm_rev_de,llm_rev_en,llm_rev_it",0,Audi Plant Zwickau assembles the Audi A1 Sportback.
+DE_AUDI_ZWICKAU,Audi Plant Zwickau,audi,Germany,Audi Q3,Audi Q3,2011,,it,llm_rev_it,0,Audi Plant Zwickau has been producing the Audi Q3 since 2011.
+DE_AUDI_ZWICKAU,Audi Plant Zwickau,audi,Germany,Audi S1,Audi S1,2014,,"de,en,it","llm_rev_de,llm_rev_en,llm_rev_it",0,Audi Plant Zwickau assembles the Audi S1.
+DE_AUDI_ZWICKAU,Audi Plant Zwickau,audi,Germany,Audi ID.4,Audi ID.4,2020,,en,llm_rev_en,0,Volkswagen assembles its ID.4 models
+DE_AUDI_ZWICKAU,Audi Plant Zwickau,audi,Germany,Audi ID.5,Audi ID.5,2020,,en,llm_rev_en,0,Volkswagen assembles its ID.5 models
+DE_AUDI_ZWICKAU,Audi Plant Zwickau,audi,Germany,Audi Q4 e-tron,Audi Q4 e-tron,2021,,en,llm_rev_en,0,"In 2021, production of the Audi Q4 e-tron began at the Zwickau-Mosel plant, marking the return of the manufacture of Audi badged cars in Zwickau for the first t"
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 5er,BMW 5er | BMW 5er (Gran Turismo) | BMW 5er (Limousine / Touring) | BMW 5er (Limousine) | BMW 5er (Touring),1967,,de,llm_rev_de,1,The article lists BMW 5er (Limousine) as part of the product palette.
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 6er,BMW 6er | BMW 6er (Cabrio) | BMW 6er (Coupé) | BMW 6er (Gran Turismo),1967,,de,llm_rev_de,1,The article lists BMW 6er (Coupé) as part of the product palette.
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 7er,BMW 7er | BMW 7er (Limousine),1967,,de,llm_rev_de,1,The article lists BMW 7er (Limousine) as part of the product palette.
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 5 Series,BMW 5 Series | BMW 5 Series (Sedan / Touring),1973,,en,llm_rev_en,0,"on September 27, 1973, the first BMW 5 Series left the production line."
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 7 Series,BMW 7 Series,1977,,en,llm_rev_en,0,BMW 7 Series listed as currently produced
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW M5,BMW M5,1985,,"de,en","llm_rev_de,llm_rev_en",0,BMW M5 listed as currently produced
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 4 Series,BMW 4 Series,2013,,en,llm_rev_en,0,BMW 4 Series listed as currently produced
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 3er Gran Turismo,BMW 3er Gran Turismo,2013,,de,llm_rev_de,0,Im März 2013 wurde der BMW 3er Gran Turismo in das Produktionsprogramm aufgenommen.
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 3er,BMW 3er (Gran Turismo),2013,,de,llm_rev_de,0,BMW 3er (Gran Turismo)
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 4er,BMW 4er | BMW 4er (Coupé) | BMW 4er (Gran Coupé),2013,,de,llm_rev_de,0,BMW 4er (Coupé)
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW M4,BMW M4,2014,,en,llm_rev_en,0,BMW M4 listed as currently produced
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 4er Gran Coupé,BMW 4er Gran Coupé,2014,,de,llm_rev_de,0,Ab dem Frühjahr 2014 wird mit dem BMW 4er Gran Coupé das 17. Modell im BMW-Werk Dingolfing produziert.
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 6 Series,BMW 6 Series (Gran Turismo),2017,,en,llm_rev_en,0,BMW 6 Series listed as currently produced
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 8 Series,BMW 8 Series | BMW 8 Series (Coupé / Cabrio),2018,,en,llm_rev_en,0,The new BMW 8 Series is produced at the BMW Group plant Dingolfing.
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 8er,BMW 8er | BMW 8er (Coupé / Cabrio / Gran Coupé),2018,,de,llm_rev_de,1,Ab 2018 wird im BMW Group Werk Dingolfing der neue BMW 8er produziert.
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW M8,BMW M8 (Coupé / Cabrio / Gran Coupé),2019,,de,llm_rev_de,0,BMW M8 (Coupé / Cabrio / Gran Coupé)
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW iX,BMW iX,2021,,"de,en","llm_rev_de,llm_rev_en",0,"Since July 2021, the plant in Lower Bavaria has also produced the company’s new technology and innovation flagship: the fully-electric BMW iX."
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW iNEXT,BMW iNEXT,2021,,de,llm_rev_de,0,Der vollelektrische BMW iNEXT soll ab 2021 in Dingolfing gefertigt werden.
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW iX Series,BMW iX Series,2022,,en,llm_rev_en,0,BMW iX Series
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,BMW R 32,BMW R 32,1923,,fr,llm_rev_fr,0,"BMW fabrique sa première moto en 1923, la BMW R 32"
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,K1200LT,K1200LT,1990,2009,en,llm_rev_en,0,Models are K1200LT
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F650GS,F650GS,2000,2007,en,llm_rev_en,0,The F650GS was powered by a single cylinder 652cc Austrian built Rotax engine. All F650 motorcycles produced from 2000 to 2007 used a 652 cc engine built in Aus
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R1200GS,R1200GS,2004,,en,llm_rev_en,1,"In 2007, the company introduced the DOHC Boxer HP2 Sport. The award-winning BMW R 1200 RT is the company's most popular touring motorcycle in the United States,"
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R1200GS Adventure,R1200GS Adventure,2004,,en,llm_rev_en,1,"The most popular model is the R1200GS and its sibling R1200GS Adventure, which sold 24,467 units – accounting for 28% of BMW's annual production."
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R 1200 RT,BMW R 1200 RT | R 1200 RT,2004,,de,llm_rev_de,1,"The R 1200 GS, introduced in 2005, is mentioned as part of the model range."
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R 1200 R,BMW R 1200 R | R 1200 R,2004,,"de,fr","llm_rev_de,llm_rev_fr",1,"R 1200 R : Naked Bike, Luft-/ölgekühlter Zweizylinder-Boxermotor, 1.170 cm³, 80 kW/109 PS, 115 Nm, 198 kg trocken"
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R 1200 GS,BMW R 1200 GS | R 1200 GS | R 1250 GS,2004,,"de,fr","llm_rev_de,llm_rev_fr",1,"R 1200 GS : Reiseenduro , Luft-/ölgekühlter Zweizylinder-Boxermotor, 1.170 cm³, 72 kW/98 PS, 115 Nm, 199 kg trocken"
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R 1200GS,R 1200GS,2004,,fr,llm_rev_fr,0,90 142 units produced from 2004 to 2007
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R1200RT,R1200RT,2005,,en,llm_rev_en,0,"Models are R1200GS, R1200R, R1200RT and R1200S."
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R 1200 GS Adventure,R 1200 GS Adventure,2005,,fr,llm_rev_fr,0,18 320 units produced from 2005 to 2007
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R 1200GS Adventure,R 1200GS Adventure,2005,,fr,llm_rev_fr,0,18 320 units produced from 2005 to 2007
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F800GS,F800GS,2006,,en,llm_rev_en,1,"Models are F650GS, F800GS, F800R, F800S and F800ST."
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F800S,F800S,2006,,en,llm_rev_en,0,"Models are F650GS, F800GS, F800R, F800S and F800ST."
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F800ST,F800ST,2006,,en,llm_rev_en,0,"Models are F650GS, F800GS, F800R, F800S and F800ST."
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R1200R,R1200R,2006,,en,llm_rev_en,0,"Models are R1200GS, R1200R, R1200RT and R1200S."
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R1200S,R1200S,2006,,en,llm_rev_en,0,"Models are R1200GS, R1200R, R1200RT and R1200S."
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R1200RS,R1200RS,2006,2018,en,llm_rev_en,0,Models are R1200RS
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,G650GS,G650GS,2006,,en,llm_rev_en,1,Models are G650GS
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,K 1200 R,K 1200 R,2006,,de,llm_rev_de,0,The K 1200 R was introduced in 2006.
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F 800 S,F 800 S,2006,,de,llm_rev_de,0,The F 800 S was introduced in 2006.
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F 800 ST,F 800 ST,2006,,de,llm_rev_de,0,seit 2006
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R 1200 S,R 1200 S,2006,,fr,llm_rev_fr,0,bicylindre à plat 1 170 cm 3 / 122 ch
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,G450X,G450X,2007,,en,llm_rev_en,1,BMW entered the serious off-road competition motorcycle market with the release of the BMW G450X motorcycle
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F 800 GS Adventure,F 800 GS Adventure,2008,,de,llm_rev_de,0,seit 2008
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,S1000RR,S1000RR,2009,,en,llm_rev_en,0,"BMW Motorrad announced its entry to the 2009 Superbike World Championship season, when it will race the BMW S1000RR."
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F800R,F800R,2009,,en,llm_rev_en,0,"Models are F650GS, F800GS, F800R, F800S and F800ST."
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,K1300GT,K1300GT,2009,,en,llm_rev_en,0,"Models are K1200LT, K1300GT, K1300R and K1300S."
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,K1300R,K1300R,2009,,en,llm_rev_en,0,"Models are K1200LT, K1300GT, K1300R and K1300S."
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,K1300S,K1300S,2009,,en,llm_rev_en,0,"Models are K1200LT, K1300GT, K1300R and K1300S."
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,S1000R,S1000R,2009,,en,llm_rev_en,1,Models included S1000R
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,S1000XR,S1000XR,2009,,en,llm_rev_en,1,Models included S1000XR
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,G650 Xmoto,G650 Xmoto,2009,,en,llm_rev_en,0,Models are G650 Xmoto
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,G650 Xchallenge,G650 Xchallenge,2009,,en,llm_rev_en,0,Models are G650 Xchallenge
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,G650 Xcountry,G650 Xcountry,2009,,en,llm_rev_en,0,Models are G650 Xcountry
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,S 1000 RR,BMW S 1000 RR | S 1000 RR,2009,,de,llm_rev_de,0,seit 2009
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F 800 R,F 800 R,2009,,de,llm_rev_de,0,seit 2009
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,K1600GT,K1600GT,2011,,en,llm_rev_en,0,"In 2011, BMW Motorrad launched the six-cylinder 1,649 cc K1600GT and K1600GTL."
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,K1600GTL,K1600GTL,2011,,en,llm_rev_en,0,"In 2011, BMW Motorrad launched the six-cylinder 1,649 cc K1600GT and K1600GTL."
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,K1600B,K1600B,2011,,en,llm_rev_en,0,Models are K1600B
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,K1600 Grand America,K1600 Grand America,2011,,en,llm_rev_en,0,"In 2011, BMW launched the K1600 range—the K1600GT and K1600GTL—featuring a new 1,649 cc (100.6 cu in) straight-six engine"
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,G650 Sertão,G650 Sertão,2012,,en,llm_rev_en,0,Models are G650 Sertão
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F 800 GT,F 800 GT,2012,,de,llm_rev_de,0,seit 2012
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R nineT,R NineT | R nineT,2013,,"en,fr","llm_rev_en,llm_rev_fr",1,Models are R nineT
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F800GT,F800GT,2013,,en,llm_rev_en,0,Models are F800GT
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,S 1000 R,S 1000 R,2013,,de,llm_rev_de,0,seit 2013
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,CE04,CE04,2014,,en,llm_rev_en,0,Models are CE04
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R 12,R 12,2014,,en,llm_rev_en,0,"This family also includes the R nineT, R 12, R 12 NineT"
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R 12 NineT,R 12 NineT,2014,,en,llm_rev_en,0,"This family also includes the R nineT, R 12, R 12 NineT"
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R 1200 RS,R 1200 RS,2015,,de,llm_rev_de,0,seit 2015
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,S 1000 XR,S 1000 XR,2015,,de,llm_rev_de,0,seit 2015
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,G310R,G310R,2016,,en,llm_rev_en,0,"Arriving in 2016, is the BMW G310R, a single-cylinder liquid-cooled model manufactured in India by TVS Motor Company."
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,G 310 R,G 310 R,2016,,de,llm_rev_de,0,seit 2016
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,G 310 GS,G 310 GS,2017,,de,llm_rev_de,0,ab 2017
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R1250GS,R1250GS,2018,,en,llm_rev_en,1,Models are R1250GS
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F750GS,F750GS,2018,,en,llm_rev_en,0,Models are F750GS
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F850GS,F850GS,2018,,en,llm_rev_en,0,Models are F850GS
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F850GS Adventure,F850GS Adventure,2018,,en,llm_rev_en,0,Models are F850GS Adventure
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F900R,F900R,2018,,en,llm_rev_en,0,Models are F900R
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F900XR,F900XR,2018,,en,llm_rev_en,0,Models are F900XR
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,C400GT,C400GT,2018,,en,llm_rev_en,0,Models are C400GT
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F900GS Adventure,F900GS Adventure,2018,,en,llm_rev_en,0,"Models are F750GS, F800GS, F900GS Adventure, F850GS, F850GS Adventure, F900R, F900GS, F900XR"
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F900GS,F900GS,2018,,en,llm_rev_en,0,"Models are F750GS, F800GS, F900GS Adventure, F850GS, F850GS Adventure, F900R, F900GS, F900XR"
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F 750 GS,F 750 GS,2018,,de,llm_rev_de,0,seit 2018
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F 850 GS,F 850 GS,2018,,de,llm_rev_de,0,seit 2018
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,C 400 X,C 400 X,2018,,de,llm_rev_de,0,seit 2018
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,C 400 GT,C 400 GT,2018,,de,llm_rev_de,0,seit 2018
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R1250GS Adventure,R1250GS Adventure,2019,,en,llm_rev_en,0,Models are R1250GS Adventure
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R1250RT,R1250RT,2019,,en,llm_rev_en,0,Models are R1250RT
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R1250R,R1250R,2019,,en,llm_rev_en,0,Models are R1250R
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R1250RS,R1250RS,2019,,en,llm_rev_en,0,Models are R1250RS
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R1300GS,R1300GS,2019,,en,llm_rev_en,0,"Models are R1250GS, R1250GS Adventure, R1250RT, R1250R, R1250RS, R1300GS"
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R18,R18,2020,,en,llm_rev_en,0,"In April 2020 BMW launched its cruiser BMW R18 with BMW's largest boxer engine featuring 1,802 cc (110.0 cu in), 90 hp (67 kW) and 158 N⋅m (117 lbf⋅ft)."
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,R 18,R 18,2020,,de,llm_rev_de,0,seit 2020
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F 900 XR,F 900 XR,2020,,de,llm_rev_de,0,seit 2020
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,F 900 R,F 900 R,2020,,de,llm_rev_de,0,seit 2020
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,BMW iX,BMW iX,2020,,fr,llm_rev_fr,0,The plant in Berlin produces the BMW iX.
+DE_BMW_EISENACH,BMW Group Plant Eisenach,bmw,Germany,BMW 303,BMW 303,1933,,"de,en,it","llm_rev_de,llm_rev_en,llm_rev_it",1,The first car of which was the BMW 303.
+DE_BMW_EISENACH,BMW Group Plant Eisenach,bmw,Germany,BMW 315,BMW 315,1933,,en,llm_rev_en,0,Later successors were the BMW 315.
+DE_BMW_EISENACH,BMW Group Plant Eisenach,bmw,Germany,BMW 319,BMW 319,1933,,en,llm_rev_en,0,Later successors were the BMW 319.
+DE_BMW_EISENACH,BMW Group Plant Eisenach,bmw,Germany,BMW 327,BMW 327,1933,,en,llm_rev_en,1,Later successors were the BMW 327.
+DE_BMW_EISENACH,BMW Group Plant Eisenach,bmw,Germany,BMW 328,BMW 328,1933,,"de,en,es,it","llm_rev_de,llm_rev_en,llm_rev_es,llm_rev_it",1,Later successors were the elegant sports coupe BMW 328.
+DE_BMW_LANDSHUT,BMW Group Plant Landshut,bmw,Germany,BMW X5,BMW X5 | BMW X5 (E53) | BMW X5 (E70) | BMW X5 (F15),1999,,"de,en,es,fr,it","llm_rev_de,llm_rev_en,llm_rev_es,llm_rev_fr,llm_rev_it",1,"The X5, along with the BMW Z4 roadster, are currently manufactured exclusively in BMW's South Carolina plant in Spartanburg, South Carolina."
+DE_BMW_LANDSHUT,BMW Group Plant Landshut,bmw,Germany,BMW X5 E53,BMW X5 E53,1999,2007,"de,it","llm_rev_de,llm_rev_it",1,Der X5 wurde 1999 erstmals vorgestellt. Die erste Generation wurde 2006 vom Nachfolgemodell BMW E70 abgelöst.
+DE_BMW_LANDSHUT,BMW Group Plant Landshut,bmw,Germany,BMW X5 E70,BMW X5 E70,2007,,"de,fr,it","llm_rev_de,llm_rev_fr,llm_rev_it",0,BMW X5 E70 (seit März 2007)
+DE_BMW_LANDSHUT,BMW Group Plant Landshut,bmw,Germany,BMW X5 F15,BMW X5 F15,2013,2018,fr,llm_rev_fr,0,BMW X5 (type F15) Années de production 2013 - 2018
+DE_BMW_LANDSHUT,BMW Group Plant Landshut,bmw,Germany,BMW X5 G05,BMW X5 G05,2018,,fr,llm_rev_fr,0,BMW X5 (type G05) Années de production 2018 -
+DE_BMW_MUNICH,BMW Group Plant Munich,bmw,Germany,BMW i4,BMW i4,2021,,"en,es,fr,it","llm_rev_en,llm_rev_es,llm_rev_fr,llm_rev_it",0,2021 (planned)
+DE_BMW_MUNICH,BMW Group Plant Munich,bmw,Germany,BMW i4 eDrive40,BMW i4 eDrive40,2021,,en,llm_rev_en,0,"Models introduced at launch include the high-performance M50 with a dual-motor xDrive all-wheel system, the first battery-electric vehicle by BMW's motorsport d"
+DE_BMW_MUNICH,BMW Group Plant Munich,bmw,Germany,BMW i4 M50,BMW i4 M50,2021,,en,llm_rev_en,0,"Models introduced at launch include the high-performance M50 with a dual-motor xDrive all-wheel system, the first battery-electric vehicle by BMW's motorsport d"
+DE_BMW_MUNICH,BMW Group Plant Munich,bmw,Germany,BMW i4 eDrive35,BMW i4 eDrive35,2022,,en,llm_rev_en,0,"The base RWD model eDrive35, featuring the same battery and electric motor as the China-exclusive BMW i3 eDrive35L, was added in August 2022."
+DE_BMW_MUNICH,BMW Group Plant Munich,bmw,Germany,BMW i4 xDrive40,BMW i4 xDrive40,2023,,en,llm_rev_en,0,"The xDrive40, a mid-range AWD model positioned below the M Performance M50, was announced in May 2023 for North America."
+DE_BMW_LEIPZIG,BMW Group Plant Leipzig,bmw,Germany,BMW i3,BMW i3,2013,,"de,en,es,fr,it","llm_rev_de,llm_rev_en,llm_rev_es,llm_rev_fr,llm_rev_it",0,The i3 is expected to go into mass production in 2013 with deliveries in several world markets by that year end.
+DE_BMW_LEIPZIG,BMW Group Plant Leipzig,bmw,Germany,BMW i3s,BMW i3s,2017,,"de,fr","llm_rev_de,llm_rev_fr",0,"Am 29. August 2017 stellte BMW das Modell Life Cycle Impulse (LCI) des BMW i3 vor, sowie das Modell i3s."
+DE_BMW_LEIPZIG,BMW Group Plant Leipzig,bmw,Germany,BMW i3 120 Ah,BMW i3 120 Ah,2018,,de,llm_rev_de,0,"Im September 2018 wurde eine weitere Version vorgestellt, der BMW i3 120 Ah"
+DE_BMW_WACKERSDORF,BMW Group Plant Wackersdorf,bmw,Germany,BMW i3,BMW i3,2013,,"de,en,es,fr,it","llm_rev_de,llm_rev_en,llm_rev_es,llm_rev_fr,llm_rev_it",0,The i3 is expected to go into mass production in 2013 with deliveries in several world markets by that year end.
+DE_BMW_WACKERSDORF,BMW Group Plant Wackersdorf,bmw,Germany,BMW i3s,BMW i3s,2017,,"de,fr","llm_rev_de,llm_rev_fr",0,"Am 29. August 2017 stellte BMW das Modell Life Cycle Impulse (LCI) des BMW i3 vor, sowie das Modell i3s."
+DE_BMW_WACKERSDORF,BMW Group Plant Wackersdorf,bmw,Germany,BMW i3 120 Ah,BMW i3 120 Ah,2018,,de,llm_rev_de,0,"Im September 2018 wurde eine weitere Version vorgestellt, der BMW i3 120 Ah"
+DE_BMW_REGENSBURG,BMW Group Plant Regensburg,bmw,Germany,BMW 3 Series,BMW 3 Series | BMW 3 Series (E30) | BMW 3-Series (E30),1975,,"en,it","llm_rev_en,llm_rev_it",1,The BMW E30 is a compact executive car with rear-wheel-drive layout (except the all-wheel-drive 325iX) produced by BMW. The BMW M3 was first introduced on the E
+DE_BMW_REGENSBURG,BMW Group Plant Regensburg,bmw,Germany,BMW 324d,BMW 324d,1985,,de,llm_rev_de,0,Mit der Entwicklung des 324d sowie mit dem zwei Jahre später erhältlichen 324td erstmals in der Geschichte von BMW ein Dieselmotor ohne bzw. mit Turbolader
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,C36 AMG,C36 AMG | Mercedes-Benz C36 AMG,1993,,"en,es","llm_rev_en,llm_rev_es",1,1995-1997 C36 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,C 36 AMG,C 36 AMG,1993,,it,llm_rev_it,0,la prima autovettura nata dalla collaborazione delle due aziende
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,E50 AMG,E50 AMG | Mercedes-Benz E50 AMG,1996,,"en,es","llm_rev_en,llm_rev_es",0,1996-1997 E50 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,E 50 AMG,E 50 AMG,1996,,it,llm_rev_it,0,viene presentata al salone dell'automobile di Ginevra la E 50 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,C55 AMG,C55 AMG,1998,2006,en,llm_rev_en,1,"1998-2001 SL55 AMG, 1999-2002 E55 AMG, 2001-2002 CLK55 AMG"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SL55 AMG,Mercedes-Benz SL55 AMG | SL55 AMG,1998,2006,en,llm_rev_en,1,"1998-2001 SL55 AMG, 1999-2002 E55 AMG, 2001-2002 CLK55 AMG"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,E55 AMG,E55 AMG | Mercedes-Benz E55 AMG,1999,2006,en,llm_rev_en,1,"1998-2001 SL55 AMG, 1999-2002 E55 AMG, 2001-2002 CLK55 AMG"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,ML 55 AMG,ML 55 AMG,1999,,it,llm_rev_it,0,la ML 55 AMG come modello più richiesto
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SLK 32 AMG,SLK 32 AMG,2001,,it,llm_rev_it,0,vengono presentate le SLK 32 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SL 55 AMG,SL 55 AMG,2001,,it,llm_rev_it,0,vengono presentate le SL 55 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CLK 55 AMG,CLK 55 AMG,2001,,it,llm_rev_it,0,vengono presentate le CLK 55 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,E 55 AMG,E 55 AMG,2001,,it,llm_rev_it,0,vengono presentate le E 55 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,C 30 CDI AMG,C 30 CDI AMG,2001,,it,llm_rev_it,0,vengono presentate le C 30 CDI AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,S 55 AMG,S 55 AMG,2001,,it,llm_rev_it,0,vengono presentate le S 55 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CL 55 AMG,CL 55 AMG,2001,,it,llm_rev_it,0,vengono presentate le CL 55 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz SL 65 AMG,Mercedes-Benz SL 65 AMG | SL 65 AMG,2004,,"de,it","llm_rev_de,llm_rev_it",1,"AMG produces since the year 2004 in a small series one of the most powerful roadsters in the world, the SL 65 AMG"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CLK 63 AMG,CLK 63 AMG,2004,,"de,fr,it","llm_rev_de,llm_rev_fr,llm_rev_it",1,ab 2007
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CLS 63 AMG,CLS 63 AMG,2004,,"de,it","llm_rev_de,llm_rev_it",1,ab 2006
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SLK 55 AMG,SLK 55 AMG,2004,,"de,fr,it","llm_rev_de,llm_rev_fr,llm_rev_it",1,2004–heute
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,C 55 AMG,C 55 AMG,2004,,it,llm_rev_it,0,vengono presentate le C 55 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,G 55 AMG,G 55 AMG,2004,,it,llm_rev_it,0,vengono presentate le G 55 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,S 65 AMG,S 65 AMG,2004,,it,llm_rev_it,0,vengono presentate le S 65 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,R 63 AMG,R 63 AMG,2004,,it,llm_rev_it,0,vengono presentate le R 63 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CLK DTM AMG,CLK DTM AMG,2005,2006,en,llm_rev_en,0,2005-2006 CLK DTM AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,S65 AMG,S65 AMG,2005,2006,en,llm_rev_en,0,2005-2006 S65 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CL65 AMG,CL65 AMG,2005,2006,en,llm_rev_en,0,2005-2006 CL65 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CL 63 AMG,CL 63 AMG | Mercedes-Benz CL 63 AMG,2006,,"de,fr","llm_rev_de,llm_rev_fr",1,ab 2006
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SLK 55 AMG Black Series,SLK 55 AMG Black Series,2006,,de,llm_rev_de,0,2006–heute
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,R63 AMG,R63 AMG,2007,,en,llm_rev_en,0,2007 R63 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,S63 AMG,Mercedes-Benz S63 AMG | S63 AMG,2007,,en,llm_rev_en,1,2007 S63 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,ML63 AMG,ML63 AMG,2007,,en,llm_rev_en,0,2007 ML63 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CLK63 AMG,CLK63 AMG,2007,,en,llm_rev_en,0,2007 CLK63 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CLS63 AMG,CLS63 AMG,2007,,en,llm_rev_en,0,2007 CLS63 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,E63 AMG,E63 AMG | Mercedes-Benz E63 AMG,2007,,en,llm_rev_en,1,2007 E63 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,C 63 AMG,C 63 AMG | Mercedes-Benz C 63 AMG,2007,,"de,fr","llm_rev_de,llm_rev_fr",1,ab 2007
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,E 63 AMG,E 63 AMG,2007,,"de,fr","llm_rev_de,llm_rev_fr",1,ab 2007
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,ML 63 AMG,ML 63 AMG,2007,,"de,fr","llm_rev_de,llm_rev_fr",1,ab 2007
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,S 63 AMG,S 63 AMG,2007,,de,llm_rev_de,0,ab 2007
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz E 63 AMG T,Mercedes-Benz E 63 AMG T,2007,,de,llm_rev_de,0,ab 2007
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CLK 63 AMG Black Series,CLK 63 AMG Black Series,2007,2007,fr,llm_rev_fr,0,"CLK 63 AMG Black Series (2007, 700 exemplaires)"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CL 65 AMG 40th Anniversary,CL 65 AMG 40th Anniversary,2007,2007,fr,llm_rev_fr,0,"CL 65 AMG 40th Anniversary (2007, 40 exemplaires)"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,C63 AMG,C63 AMG | Mercedes-Benz C63 AMG,2008,,en,llm_rev_en,0,M156 L 6.3 V8 models
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CL63 AMG,CL63 AMG,2008,,en,llm_rev_en,1,2008 CL63 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SL65 AMG,SL65 AMG,2008,,en,llm_rev_en,0,2008 SL65 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,AMG C63,AMG C63,2008,,en,llm_rev_en,0,2008 C63 AMG (Sedan and Wagon) (facelifted for the 2012 model year)
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SL 63 AMG,SL 63 AMG,2008,,de,llm_rev_de,0,ab 2008
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SL 65 AMG Black Series,SL 65 AMG Black Series,2008,,de,llm_rev_de,0,ab 2008
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz SLS AMG,Mercedes-Benz SLS AMG | SLS AMG,2008,,"de,es,fr","llm_rev_de,llm_rev_es,llm_rev_fr",1,The Mercedes-Benz SLS AMG is the first vehicle that was brought to market in 2010 after a 36-month development period.
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SLK55 AMG,SLK55 AMG,2009,,en,llm_rev_en,0,"M113 5.4 L ""55"" V8 models (naturally aspirated)"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,G55 AMG,G55 AMG,2009,,en,llm_rev_en,0,"M113 5.4 L ""55"" V8 models (supercharged)"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SL63 AMG,SL63 AMG,2009,,en,llm_rev_en,0,2009 SL63 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,AMG SLS,AMG SLS,2010,,en,llm_rev_en,0,2010 SLS AMG (M159)
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,AMG CLS 63,AMG CLS 63,2011,,en,llm_rev_en,0,AMG CLS 63
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,AMG G 63,AMG G 63,2011,,en,llm_rev_en,0,AMG G 63
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,AMG GLE 63,AMG GLE 63,2011,,en,llm_rev_en,0,AMG GLE 63
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,AMG GLS 63,AMG GLS 63,2011,,en,llm_rev_en,0,AMG GLS 63
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,AMG S 63,AMG S 63,2011,,en,llm_rev_en,0,AMG S 63
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,AMG SL 63,AMG SL 63,2011,,en,llm_rev_en,0,AMG SL 63
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,AMG A 45,AMG A 45,2012,,en,llm_rev_en,0,"The 2.0 L Turbo I4 was created for use in the smaller, 45 AMG models, such as the A-Class"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,AMG CLA 45,AMG CLA 45,2012,,en,llm_rev_en,0,"The 2.0 L Turbo I4 was created for use in the smaller, 45 AMG models, such as the CLA-Class"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,AMG GLA 45,AMG GLA 45,2012,,en,llm_rev_en,0,"The 2.0 L Turbo I4 was created for use in the smaller, 45 AMG models, such as the GLA-Class"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,AMG SLK 55,AMG SLK 55,2012,,en,llm_rev_en,0,"The M152 is a naturally aspirated, detuned version of the M157 Biturbo V8. This V8 will be used for the 2012 SLK55 AMG"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,AMG E63,AMG E63,2012,,en,llm_rev_en,0,File:2012 Mercedes-Benz E 63 AMG (W212) sedan (2012-10-26) 01.jpg Mercedes-Benz E63 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG SL 63,Mercedes-AMG SL 63 (R231),2012,,en,llm_rev_en,0,Mercedes-AMG SL 63 (R231)
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,A 45 AMG,A 45 AMG,2013,,"en,fr","llm_rev_en,llm_rev_fr",1,2013 A45 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CLA 45 AMG,CLA 45 AMG,2013,,"en,fr","llm_rev_en,llm_rev_fr",1,2014 CLA45 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG A 45,Mercedes-AMG A 45,2013,,en,llm_rev_en,1,"The 2.0 L Turbo I4 was created for use in the smaller, 45 AMG models, such as the A-Class"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG CLA 45,Mercedes-AMG CLA 45,2013,,en,llm_rev_en,0,"The 2.0 L Turbo I4 was created for use in the smaller, 45 AMG models, such as the CLA-Class"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GLA 45,Mercedes-AMG GLA 45,2013,,en,llm_rev_en,0,"The 2.0 L Turbo I4 was created for use in the smaller, 45 AMG models, such as the GLA-Class"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,AMG GT,AMG GT | Mercedes-Benz AMG GT,2014,,"de,en,it","llm_rev_de,llm_rev_en,llm_rev_it",1,The Mercedes AMG GT will be launched to the UK market in April 2015.
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,GLA 45 AMG,GLA 45 AMG,2014,,"en,fr","llm_rev_en,llm_rev_fr",1,2015 GLA45 AMG
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GT,Mercedes-AMG GT,2014,,"de,en,es,fr","llm_rev_de,llm_rev_en,llm_rev_es,llm_rev_fr",1,Mercedes-AMG GT
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,AMG GT S,AMG GT S,2015,,en,llm_rev_en,0,The Mercedes AMG GT will be launched to the UK market in April 2015.
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG C 43,Mercedes-AMG C 43,2015,,en,llm_rev_en,1,"With the launch of the 3.0-l V6 gasoline engine with direct injection and twin turbo- charging, called M276 DELA 30, a new member has been added to the approved"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GLE 63,Mercedes-AMG GLE 63,2015,,en,llm_rev_en,0,"Rumoured in 2009 and confirmed in 2010, AMG developed the M157, a 5.5-litre V8 with direct fuel injection and twin turbochargers."
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG C 63,Mercedes-AMG C 63,2015,,en,llm_rev_en,1,Mercedes-AMG C 63
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG C 63 Coupe,Mercedes-AMG C 63 Coupe,2015,,en,llm_rev_en,1,Mercedes-AMG C 63 Coupe
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG SLC 43,Mercedes-AMG SLC 43,2016,,en,llm_rev_en,0,Mercedes-AMG SLC 43
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GLC 43,Mercedes-AMG GLC 43,2016,,en,llm_rev_en,1,Mercedes-AMG GLC 43
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GLC 63,Mercedes-AMG GLC 63,2016,,en,llm_rev_en,1,Mercedes-AMG GLC 63
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GLC 63 Coupe,Mercedes-AMG GLC 63 Coupe,2016,,en,llm_rev_en,1,Mercedes-AMG GLC 63 Coupe
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GT R,Mercedes-AMG GT R,2016,,es,llm_rev_es,0,"Con motivo del Festival de Goodwood se presenta la versión más radical del Mercedes-AMG GT , el Mercedes-AMG GT R"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz AMG GT-R,Mercedes-Benz AMG GT-R,2016,,it,llm_rev_it,0,equipaggia la Mercedes-Benz AMG GT-R
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG E 53,Mercedes-AMG E 53 (A238/C238/W213/S213),2017,,en,llm_rev_en,1,Mercedes-AMG E 53 (A238/C238/W213/S213)
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG E 63,Mercedes-AMG E 63,2017,,en,llm_rev_en,1,Mercedes-AMG E 63
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG S 65/C 2017–present,Mercedes-AMG S 65/C 2017–present,2017,,en,llm_rev_en,0,Mercedes-AMG S 65/C 2017–present
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG A 35,Mercedes-AMG A 35,2018,,en,llm_rev_en,0,"As part of the official Mercedes product line, the AMG models are sold side-by-side with regular production models, unlike those offered by other Mercedes tunin"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG CLA 35,Mercedes-AMG CLA 35,2018,,en,llm_rev_en,0,Mercedes-AMG CLA 35
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GLA 35,Mercedes-AMG GLA 35,2018,,en,llm_rev_en,0,Mercedes-AMG GLA 35
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GLB 35,Mercedes-AMG GLB 35,2018,,en,llm_rev_en,1,Mercedes-AMG GLB 35
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG A 45/A 45 S 4MATIC+,Mercedes-AMG A 45/A 45 S 4MATIC+,2018,,en,llm_rev_en,0,Mercedes-AMG A 45/A 45 S 4MATIC+
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG CLA 45/CLA 45 S 4MATIC+,Mercedes-AMG CLA 45/CLA 45 S 4MATIC+,2018,,en,llm_rev_en,0,Mercedes-AMG CLA 45/CLA 45 S 4MATIC+
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GLA 45/GLA 45 S 4MATIC+,Mercedes-AMG GLA 45/GLA 45 S 4MATIC+,2018,,en,llm_rev_en,0,Mercedes-AMG GLA 45/GLA 45 S 4MATIC+
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GT 43 4-Door Coupé,Mercedes-AMG GT 43 4-Door Coupé,2018,,en,llm_rev_en,0,Mercedes-AMG GT 43 4-Door Coupé
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG CLS 53,Mercedes-AMG CLS 53 (C257),2018,,en,llm_rev_en,0,Mercedes-AMG CLS 53 (C257)
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GT 53 4-Door Coupé,Mercedes-AMG GT 53 4-Door Coupé,2018,,en,llm_rev_en,0,Mercedes-AMG GT 53 4-Door Coupé
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GLE 53,Mercedes-AMG GLE 53,2018,,en,llm_rev_en,1,Mercedes-AMG GLE 53
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GT 63 4-Door Coupé,Mercedes-AMG GT 63 4-Door Coupé,2018,,en,llm_rev_en,0,Mercedes-AMG GT 63 4-Door Coupé
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG S 63,Mercedes-AMG S 63,2018,,en,llm_rev_en,0,Mercedes-AMG S 63
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG G 63 second generation,Mercedes-AMG G 63 (W463) second generation,2018,,en,llm_rev_en,0,Mercedes-AMG G 63 (W463) second generation
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG SL 55 4MATIC+,Mercedes-AMG SL 55 4MATIC+,2018,,en,llm_rev_en,0,Current AMG models
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG SL 63 4MATIC+,Mercedes-AMG SL 63 4MATIC+,2018,,en,llm_rev_en,0,Current AMG models
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GT 4 portes,Mercedes-AMG GT 4 portes,2018,,fr,llm_rev_fr,0,AMG présente la Mercedes-AMG GT 4 portes
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz AMG GT 4-Door,Mercedes-Benz AMG GT 4-Door,2018,,it,llm_rev_it,0,equipaggia la Mercedes-Benz AMG GT 4-Door
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG ONE,Mercedes-AMG ONE | Mercedes-AMG One,2021,,"de,en","llm_rev_de,llm_rev_en",1,"As part of the official Mercedes product line, the AMG models are sold side by side with regular production models, unlike those offered by other Mercedes tunin"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GT 4-Door Coupé E-PERFORMANCE,Mercedes-AMG GT 4-Door Coupé E-PERFORMANCE,2021,,en,llm_rev_en,0,"As part of the official Mercedes product line, the AMG models are sold side by side with regular production models, unlike those offered by other Mercedes tunin"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG SL 63 S E-PERFORMANCE,Mercedes-AMG SL 63 S E-PERFORMANCE,2021,,en,llm_rev_en,0,"As part of the official Mercedes product line, the AMG models are sold side by side with regular production models, unlike those offered by other Mercedes tunin"
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG SL 43,Mercedes-AMG SL 43,2021,,de,llm_rev_de,0,Die siebte Generation des Roadsters SL (R 232) wurde erstmals gänzlich durch AMG entwickelt.
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG SL,Mercedes-AMG SL,2021,,fr,llm_rev_fr,0,AMG lance la Mercedes-AMG SL
+DE_MERCEDES_BREMEN,Mercedes-Benz Plant Bremen,mercedes,Germany,Mercedes-Benz C-Class,Mercedes-Benz C-Class,1993,,en,llm_rev_en,0,The plant mainly produced the C-Class
+DE_MERCEDES_BREMEN,Mercedes-Benz Plant Bremen,mercedes,Germany,Mercedes-Benz GLC,GLC | Mercedes-Benz GLC,2008,,"de,en","llm_rev_de,llm_rev_en",1,Mercedes-Benz GLC (Mercedes-Benz GLK-Class) 2008–
+DE_MERCEDES_BREMEN,Mercedes-Benz Plant Bremen,mercedes,Germany,Mercedes-AMG SL Roadster,Mercedes-AMG SL Roadster,2022,,en,llm_rev_en,0,Mercedes-AMG SL Roadster 2022–
+DE_MERCEDES_BREMEN,Mercedes-Benz Plant Bremen,mercedes,Germany,Mercedes-Benz EQE,EQE | Mercedes-Benz EQE,2022,,"de,en","llm_rev_de,llm_rev_en",1,Mercedes-Benz EQE 2022–
+DE_MERCEDES_BREMEN,Mercedes-Benz Plant Bremen,mercedes,Germany,Mercedes-Benz CLE,CLE | Mercedes-Benz CLE,2023,,"de,en","llm_rev_de,llm_rev_en",1,Mercedes-Benz CLE 2023–
+DE_MERCEDES_BREMEN,Mercedes-Benz Plant Bremen,mercedes,Germany,SL,SL,2023,,de,llm_rev_de,1,Zurzeit werden in Bremen folgende Modelle gefertigt: SL
+DE_MERCEDES_BREMEN,Mercedes-Benz Plant Bremen,mercedes,Germany,GT,GT,2023,,de,llm_rev_de,1,Zurzeit werden in Bremen folgende Modelle gefertigt: GT
+DE_MERCEDES_BREMEN,Mercedes-Benz Plant Bremen,mercedes,Germany,C-Klasse Limousine,C-Klasse Limousine,2023,,de,llm_rev_de,1,Zurzeit werden in Bremen folgende Modelle gefertigt: C-Klasse Limousine
+DE_MERCEDES_BREMEN,Mercedes-Benz Plant Bremen,mercedes,Germany,C-Klasse T-Modell,C-Klasse T-Modell,2023,,de,llm_rev_de,1,Zurzeit werden in Bremen folgende Modelle gefertigt: C-Klasse T-Modell
+DE_MERCEDES_BREMEN,Mercedes-Benz Plant Bremen,mercedes,Germany,GLC Coupé,GLC Coupé,2023,,de,llm_rev_de,1,Zurzeit werden in Bremen folgende Modelle gefertigt: GLC Coupé
+DE_MERCEDES_BREMEN,Mercedes-Benz Plant Bremen,mercedes,Germany,Mercedes-Maybach SL,Mercedes-Maybach SL,2024,,en,llm_rev_en,0,Mercedes-Maybach SL 2024–
+DE_MERCEDES_BREMEN,Mercedes-Benz Plant Bremen,mercedes,Germany,GLC mit EQ-Technologie,GLC mit EQ-Technologie,2026,,de,llm_rev_de,0,Stand 2026 werden in Bremen folgende Modelle gefertigt: GLC mit EQ-Technologie
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Plant Düsseldorf,mercedes,Germany,Mercedes-Benz Sprinter,Mercedes-Benz Sprinter | Mercedes-Benz Sprinter (NCV 3),1995,,"de,en,es,fr,it","llm_rev_de,llm_rev_en,llm_rev_es,llm_rev_fr,llm_rev_it",1,"The Mercedes-Benz Sprinter is a tall delivery van, pickup truck and minibus built by DaimlerChrysler and sold under its Mercedes-Benz, Dodge, and Freightliner b"
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Plant Düsseldorf,mercedes,Germany,Mercedes-Benz Sprinter I,Mercedes-Benz Sprinter I,1995,2006,fr,llm_rev_fr,0,La première génération du Sprinter (mod. 903) a été lancée en Europe en 1995 pour remplacer l'obsolète Mercedes-Benz TN datant de 1977.
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Plant Düsseldorf,mercedes,Germany,Mercedes-Benz Sprinter II,Mercedes-Benz Sprinter II,2006,,fr,llm_rev_fr,0,La 2 e génération du Sprinter (mod. 906) a été lancée au début de l'année 2007.
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Plant Düsseldorf,mercedes,Germany,Mercedes-Benz Sprinter III,Mercedes-Benz Sprinter III,2018,,fr,llm_rev_fr,0,Le nouveau Sprinter est sorti des usines Mercedes-Benz a Düsseldorf et Ludwigsfelde le 6 avril 2018.
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Benz S-Class,Mercedes-Benz S-Class (W222),2013,,en,llm_rev_en,0,"The newest S-Class debuted on 15 May 2013 in Hamburg, Germany and entered production in June."
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,S 400 Hybrid,S 400 Hybrid,2013,,en,llm_rev_en,0,Early models included S 400 Hybrid
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,S 500,S 500,2013,,en,llm_rev_en,0,Early models included S 500
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,S 350 BlueTEC,Mercedes-Benz S 350 BlueTEC | S 350 BlueTEC,2013,,"de,en,fr","llm_rev_de,llm_rev_en,llm_rev_fr",0,Early models included S 350 BlueTEC
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,S 63 AMG,S 63 AMG,2013,,en,llm_rev_en,0,"S 63 AMG, S 63 AMG 4Matic (2013–)"
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,S 63 AMG 4Matic,S 63 AMG 4Matic,2013,,en,llm_rev_en,0,"S 63 AMG, S 63 AMG 4Matic (2013–)"
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Benz S-Klasse,Mercedes-Benz S-Klasse (Baureihe 222) | Mercedes-Benz S-Klasse (W 222),2013,,de,llm_rev_de,0,Die Produktion lief am 12. Juni 2013 an
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Benz Classe S,Mercedes-Benz Classe S (Type 222) | Mercedes-Benz Classe S (W222),2013,2020,"fr,it","llm_rev_fr,llm_rev_it",0,"La première mondiale a eu lieu le 15 mai 2013 à Hambourg. La production a commencé le 12 juin, tandis que la date de sortie était fixée au 20 juillet. Le constr"
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Benz W222,Mercedes-Benz W222,2013,,it,llm_rev_it,0,dal 2013
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Benz Classe S W222,Mercedes-Benz Classe S W222,2013,,it,llm_rev_it,0,La W222 è stata presentata il 15 maggio 2013
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,S 65 AMG,S 65 AMG,2014,,en,llm_rev_en,0,S 65 AMG (2014–)
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Benz S 500 PLUG-IN HYBRID,Mercedes-Benz S 500 PLUG-IN HYBRID,2014,2017,"de,fr","llm_rev_de,llm_rev_fr",0,Mercedes-Benz S 500 PLUG-IN HYBRID (2014–2017)
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Maybach S 400,Mercedes-Maybach S 400,2015,,de,llm_rev_de,0,"Im Februar 2015 erscheint mit dem Mercedes-Maybach S 400 (China, Russland) eine nochmals verlängerte Variante."
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Maybach S 500 4MATIC,Mercedes-Maybach S 500 4MATIC,2015,,de,llm_rev_de,0,"Im Februar 2015 erschien mit dem Mercedes-Maybach S 400 (China, Russland), S 500 und S 600 eine nochmals verlängerte Variante (X 222)."
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Maybach S 400 4Matic,Mercedes-Maybach S 400 4Matic,2015,2017,de,llm_rev_de,0,Mit Einführung der Ausstattungsvariante Maybach auf dem chinesischen Automarkt im Februar 2015
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Benz S 500 Maybach 4MATIC,Mercedes-Benz S 500 Maybach 4MATIC,2015,2017,fr,llm_rev_fr,0,Mercedes S 500 Maybach 4MATIC (2015–2017)
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Maybach S 600 Pullman,Mercedes-Maybach S 600 Pullman | Mercedes-Maybach S 600 Pullman (VV 222),2016,,de,llm_rev_de,0,Anfang 2016 wird der Mercedes-Maybach S 600 Pullman eingeführt.
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Benz S 600 Maybach Pullman,Mercedes-Benz S 600 Maybach Pullman,2016,2018,fr,llm_rev_fr,0,Mercedes S 600 Maybach Pullman (2016–2018)
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-AMG S 65 Final Edition,Mercedes-AMG S 65 Final Edition,2019,,de,llm_rev_de,0,Mercedes-AMG S 65 Final Edition (2019)
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Maybach S 650 Pullmann,Mercedes-Maybach S 650 Pullmann,2019,,de,llm_rev_de,0,Mercedes-Maybach S 650 Pullmann (2019)
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Benz S 650 Maybach Pullman,Mercedes-Benz S 650 Maybach Pullman,2019,,fr,llm_rev_fr,0,Mercedes S 650 Maybach Pullman (2019)
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz M282,Mercedes-Benz M282,2018,,en,llm_rev_en,0,"The M282 is produced by MDC Power GmbH at the Kölleda plant in Thuringia, Germany."
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 160,Mercedes-Benz A 160,2018,,de,llm_rev_de,0,seit 06/2018
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 180,Mercedes-Benz A 180,2018,,de,llm_rev_de,0,seit 06/2018
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 200,Mercedes-Benz A 200,2018,,de,llm_rev_de,0,seit 05/2018
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz M 282,M 282 | Mercedes-Benz M 282,2018,,de,llm_rev_de,0,"Der M 282 ist ein Vierzylinder - Ottomotor von Mercedes-Benz. Der Motor ist das Nachfolgemodell der 1,6-Liter-Variante des M 270 und wurde bei Markteinführung i"
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz B 200,Mercedes-Benz B 200,2018,,de,llm_rev_de,0,seit 12/2018
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 160 W177,Mercedes-Benz A 160 W177,2018,,it,llm_rev_it,0,dal 07/2018
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 180 W177,Mercedes-Benz A 180 W177,2018,,it,llm_rev_it,0,dal 07/2018
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 180 L Sedan Z177,Mercedes-Benz A 180 L Sedan Z177,2018,,it,llm_rev_it,0,dal 05/2018 (solo mercato cinese)
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 200 W177,Mercedes-Benz A 200 W177,2018,,it,llm_rev_it,0,dal 04/2018
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 200 Berlina V177,Mercedes-Benz A 200 Berlina V177,2018,,it,llm_rev_it,0,dal 11/2018
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 200 L Sedan Z177,Mercedes-Benz A 200 L Sedan Z177,2018,,it,llm_rev_it,0,dal 05/2018
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz B 180 W247,Mercedes-Benz B 180 W247,2018,,it,llm_rev_it,0,dal 12/2018
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz B 200 W247,Mercedes-Benz B 200 W247,2018,,it,llm_rev_it,0,dal 12/2018
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 250 e,Mercedes-Benz A 250 e,2019,,de,llm_rev_de,0,ab 08/2019
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz B 160,Mercedes-Benz B 160,2019,,de,llm_rev_de,0,seit 04/2019
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz B 180,Mercedes-Benz B 180,2019,,de,llm_rev_de,0,seit 2019
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz CLA 180,Mercedes-Benz CLA 180,2019,,de,llm_rev_de,0,seit 03/2019
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz CLA 200,Mercedes-Benz CLA 200,2019,,de,llm_rev_de,0,seit 03/2019
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz B 250 e,Mercedes-Benz B 250 e,2019,,de,llm_rev_de,0,seit 11/2019
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz B 160 W247,Mercedes-Benz B 160 W247,2019,,it,llm_rev_it,0,dal 04/2019
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 180 Berlina V177,Mercedes-Benz A 180 Berlina V177,2019,,it,llm_rev_it,0,dal 06/2019
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz CLA 180 C118,Mercedes-Benz CLA 180 C118,2019,,it,llm_rev_it,0,dal 02/2019
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz CLA 200 C118,Mercedes-Benz CLA 200 C118,2019,,it,llm_rev_it,0,dal 02/2019
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz GLB 200 X247,Mercedes-Benz GLB 200 X247,2019,,it,llm_rev_it,0,dal 11/2019
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 250e W177 / V177,Mercedes-Benz A 250e W177 / V177,2019,,it,llm_rev_it,0,dal 08/2019
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz CLA 250 e,Mercedes-Benz CLA 250 e,2020,,de,llm_rev_de,0,seit 06/2020
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz GLA 180 H247,Mercedes-Benz GLA 180 H247,2020,,it,llm_rev_it,0,dal 07/2020
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz GLB 180 X247,Mercedes-Benz GLB 180 X247,2020,,it,llm_rev_it,0,dal 04/2020
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz CLA 250e C118 / X118,Mercedes-Benz CLA 250e C118 / X118,2020,,it,llm_rev_it,0,dal 06/2020
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz B 250e W247,Mercedes-Benz B 250e W247,2020,,it,llm_rev_it,0,dal 06/2020
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz GLA 200 H247,Mercedes-Benz GLA 200 H247,2020,,it,llm_rev_it,0,dal 02/2020
+DE_MERCEDES_LUDWIGSFELDE,Mercedes-Benz Plant Ludwigsfelde,mercedes,Germany,Mercedes-Benz Sprinter,Mercedes-Benz Sprinter | Mercedes-Benz Sprinter (NCV 3),1995,,"de,en,es,fr,it","llm_rev_de,llm_rev_en,llm_rev_es,llm_rev_fr,llm_rev_it",1,"The Mercedes-Benz Sprinter is a tall delivery van, pickup truck and minibus built by DaimlerChrysler and sold under its Mercedes-Benz, Dodge, and Freightliner b"
+DE_MERCEDES_LUDWIGSFELDE,Mercedes-Benz Plant Ludwigsfelde,mercedes,Germany,Mercedes-Benz Sprinter I,Mercedes-Benz Sprinter I,1995,2006,fr,llm_rev_fr,0,La première génération du Sprinter (mod. 903) a été lancée en Europe en 1995 pour remplacer l'obsolète Mercedes-Benz TN datant de 1977.
+DE_MERCEDES_LUDWIGSFELDE,Mercedes-Benz Plant Ludwigsfelde,mercedes,Germany,Mercedes-Benz Sprinter II,Mercedes-Benz Sprinter II,2006,,fr,llm_rev_fr,0,La 2 e génération du Sprinter (mod. 906) a été lancée au début de l'année 2007.
+DE_MERCEDES_LUDWIGSFELDE,Mercedes-Benz Plant Ludwigsfelde,mercedes,Germany,Mercedes-Benz Sprinter III,Mercedes-Benz Sprinter III,2018,,fr,llm_rev_fr,0,Le nouveau Sprinter est sorti des usines Mercedes-Benz a Düsseldorf et Ludwigsfelde le 6 avril 2018.
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz E-Class,Mercedes-Benz E-Class,1968,,fr,llm_rev_fr,1,The plant has been producing the Mercedes-Benz E-Class since 1968.
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz S-Class,Mercedes-Benz S-Class,1972,,fr,llm_rev_fr,1,The plant is known for producing the Mercedes-Benz S-Class since 1998.
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz Classe CL,Mercedes-Benz Classe CL | Mercedes-Benz Classe CL (Type 140 Phase 3) | Mercedes-Benz Classe CL (Type 140) | Mercedes-Benz Classe CL (Type 215) | Mercedes-Benz Classe CL (Type 216),1991,,"fr,it","llm_rev_fr,llm_rev_it",1,La Mercedes-Benz Classe CL Type 140 Phase III a été lancée en 1996.
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz CL-Class,Mercedes-Benz CL-Class,1992,,en,llm_rev_en,1,The Mercedes-Benz CL-Class is a grand tourer produced by the German automaker Mercedes-Benz since 2000.
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz CL-Klasse,Mercedes-Benz CL-Klasse,1992,,de,llm_rev_de,1,seit 1996 die Coupévarianten der S-Klasse von Mercedes-Benz bezeichnet
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz Clase CL,Mercedes-Benz Clase CL,1992,,es,llm_rev_es,1,"El Mercedes-Benz Clase CL es un automóvil deportivo de gran turismo producido por el fabricante alemán Mercedes-Benz. Existen dos generaciones del CL, denominad"
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz C-Class,Mercedes-Benz C-Class,1993,,fr,llm_rev_fr,1,The plant has been producing the Mercedes-Benz C-Class since 1993.
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz C215,Mercedes-Benz C215,1996,2006,de,llm_rev_de,1,Die Mercedes-Benz CL-Klasse basiert auf den jeweiligen Limousinen der S-Klasse und weist neben der Bauweise mit zwei Türen weitere Veränderungen im Bereich der 
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz C 215,Mercedes-Benz C 215,1999,2006,de,llm_rev_de,0,Mercedes-Benz C 215 (1999–2006)
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz CL,Mercedes-Benz CL (C215) | Mercedes-Benz CL (C216),2000,,es,llm_rev_es,1,Segunda generación del Mercedes-Benz CL (C216) lanzada al mercado en el año 2007
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz CL 500,Mercedes-Benz CL 500,2006,2013,en,llm_rev_en,0,"The model line-up starts with the entry-level CL 500 powered by the new 4.7 L (4,663cc) V8 direct-injected engine."
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz CL 600,Mercedes-Benz CL 600,2006,2013,en,llm_rev_en,0,The CL 600 retains the same twin-turbo 5.5 L V12 engine and five-speed automatic with a total output of 517 PS (380 kW; 510 hp) and 830 N⋅m (612 lb⋅ft) of torqu
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz CL 63 AMG,Mercedes-Benz CL 63 AMG,2006,2013,en,llm_rev_en,0,"The CL 63 AMG that is powered by a new direct injection, 5.5-litre V8 engine (a larger displacement version of the CL 550's) mated to a 7-speed MCT dual-clutch "
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz CL 65 AMG,Mercedes-Benz CL 65 AMG,2006,2013,en,llm_rev_en,0,"The CL 65 AMG's V12 engine has been tweaked to deliver 630 PS (463 kW; 621 hp) and 1,000 N⋅m (738 lb⋅ft) of torque, mated to a 5-speed automatic with AMG speeds"
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz C216,Mercedes-Benz C216,2006,,de,llm_rev_de,0,Modelle der CL-Klasse
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz C 216,Mercedes-Benz C 216,2006,,de,llm_rev_de,0,Mercedes-Benz C 216 (seit 2006)
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz Classe A,Mercedes-Benz Classe A,1992,,fr,llm_rev_fr,0,"Le site, fondé en 1992, produit des Mercedes-Benz Classe A"
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz Classe B,Mercedes-Benz Classe B,1992,,fr,llm_rev_fr,0,"Le site, fondé en 1992, produit des Mercedes-Benz Classe B"
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz A-Class,Mercedes-Benz A-Class,1997,,"de,en","llm_rev_de,llm_rev_en",1,The Mercedes-Benz Plant Rastatt has been producing the A-Class since 1997.
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz CLA,Mercedes-Benz CLA,2013,,de,llm_rev_de,1,The Mercedes-Benz CLA is assembled at the Rastatt plant.
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz C-Class,Mercedes-Benz C-Class,2014,,de,llm_rev_de,0,The Mercedes-Benz C-Class is assembled at the Rastatt plant.
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz GLC,Mercedes-Benz GLC,2015,,de,llm_rev_de,0,The Mercedes-Benz GLC is assembled at the Rastatt plant.
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz GLC Coupe,Mercedes-Benz GLC Coupe,2015,,de,llm_rev_de,0,The Mercedes-Benz GLC Coupe is assembled at the Rastatt plant.
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz GLA,Mercedes-Benz GLA,2015,,de,llm_rev_de,0,The Mercedes-Benz Plant Rastatt assembles the GLA model.
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz GLB,Mercedes-Benz GLB,2019,,de,llm_rev_de,0,The Mercedes-Benz Plant Rastatt assembles the GLB model.
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Cayenne,Porsche Cayenne,2002,,en,llm_rev_en,0,The Leipzig plant is the main production site for the Porsche Cayenne.
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Panamera,Porsche Panamera,2009,,en,llm_rev_en,0,The Leipzig plant also produces the Porsche Panamera.
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan,Porsche Macan | Porsche Macan (Typ 95B) | Porsche Macan (Typ XAB),2013,,"de,en,es,it","llm_rev_de,llm_rev_en,llm_rev_es,llm_rev_it",1,The Leipzig plant is the production site for the Porsche Macan.
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Cajun,Porsche Cajun,2013,,en,llm_rev_en,0,deliveries expected in mid 2013
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan S,Porsche Macan S,2014,,en,llm_rev_en,0,"At launch, there will be three different models and engines available"
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan S Diesel,Porsche Macan S Diesel,2014,,en,llm_rev_en,0,"At launch, there will be three different models and engines available"
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan Turbo,Porsche Macan Turbo,2014,,en,llm_rev_en,1,"At launch, there will be three different models and engines available"
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan GTS,Porsche Macan GTS,2015,,en,llm_rev_en,1,"The Macan GTS was unveiled at the 2015 Tokyo Motor Show. The vehicles went on sale at Porsche dealers in early 2016, while orders began in Germany in 2015."
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan T,Porsche Macan T,2022,,en,llm_rev_en,0,Macan T | 2022–present
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan 4,Porsche Macan 4,2024,,en,llm_rev_en,0,The Macan 4 Electric is available with two motors (front & rear) and 285–300 kW (387–408 PS; 382–402 hp) power output.
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan 4S,Porsche Macan 4S,2024,,en,llm_rev_en,0,The Macan 4S Electric is available with 330–379 kW (449–515 PS; 443–508 hp) power output.
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan 4 Electric,Porsche Macan 4 Electric,2024,,en,llm_rev_en,0,"In 2024, Porsche released the second-generation Macan which is a battery electric vehicle"
+DE_VW_CHEMNITZ,Volkswagen Plant Chemnitz,vw,Germany,Volkswagen Polo Mk2,Volkswagen Polo Mk2,1990,,en,llm_rev_en,0,mass production of Volkswagen Polo Mk2
+DE_VW_CHEMNITZ,Volkswagen Plant Chemnitz,vw,Germany,Volkswagen Polo II,VW Polo II | Volkswagen Polo II,1990,,"de,it","llm_rev_de,llm_rev_it",0,am 21. Mai 1990 an gleicher Stelle mit der Serienproduktion des VW Polo II begonnen wurde
+DE_VW_CHEMNITZ,Volkswagen Plant Chemnitz,vw,Germany,Volkswagen Golf Mk2,VW Golf | Volkswagen Golf | Volkswagen Golf Mk2,1991,,"de,en,it","llm_rev_de,llm_rev_en,llm_rev_it",1,production of the Volkswagen Golf Mk2 began
+DE_VW_CHEMNITZ,Volkswagen Plant Chemnitz,vw,Germany,Volkswagen Passat,VW Passat | Volkswagen Passat,1991,,"de,it","llm_rev_de,llm_rev_it",1,Here run the models VW Golf and VW Passat from the band.
+DE_VW_CHEMNITZ,Volkswagen Plant Chemnitz,vw,Germany,VW Golf II,VW Golf II,1991,,de,llm_rev_de,0,Fertigung des Golf II
+DE_VW_CHEMNITZ,Volkswagen Plant Chemnitz,vw,Germany,Volkswagen ID.3,VW ID.3 | Volkswagen ID.3,2019,,"de,it","llm_rev_de,llm_rev_it",0,seit Ende 2019 wird im Werk der VW ID.3 serienmäßig produziert
+DE_VW_CHEMNITZ,Volkswagen Plant Chemnitz,vw,Germany,Volkswagen ID.4,VW ID.4 | Volkswagen ID.4,2020,,"de,it","llm_rev_de,llm_rev_it",0,"Nach dem Umbau der Produktionslinien werden der VW ID.3 (mit erhöhter Stückzahl), VW ID. 4 und der Audi Q4 e-tron produziert"
+DE_VW_CHEMNITZ,Volkswagen Plant Chemnitz,vw,Germany,Audi Q4 e-tron,Audi Q4 e-tron,2020,,"de,it","llm_rev_de,llm_rev_it",1,"Nach dem Umbau der Produktionslinien werden der VW ID.3 (mit erhöhter Stückzahl), VW ID. 4 und der Audi Q4 e-tron produziert"
+DE_VW_CHEMNITZ,Volkswagen Plant Chemnitz,vw,Germany,Cupra Born,Cupra Born,2021,,it,llm_rev_it,0,Auto in produzione
+DE_VW_CHEMNITZ,Volkswagen Plant Chemnitz,vw,Germany,Volkswagen ID.5,Volkswagen ID.5,2022,,it,llm_rev_it,0,Auto in produzione
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 356,Porsche 356,1948,,"de,en,es,fr,it","llm_rev_de,llm_rev_en,llm_rev_es,llm_rev_fr,llm_rev_it",1,"The first models of what was to become the 356 were built in a small sawmill in Gmünd, Austria. The prototype car was shown to German auto dealers, and when pre"
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 550 Spyder,Porsche 550 Spyder,1953,,it,llm_rev_it,0,una barchetta studiata appositamente per le competizioni con un motore boxer a quattro cilindri di 1498 cc e 110 cavalli di potenza
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 911,Porsche 911,1963,,"de,en,es,fr,it","llm_rev_de,llm_rev_en,llm_rev_es,llm_rev_fr,llm_rev_it",1,"The 911 has become Porsche's most well-known model, successful on the race-track, in rallies, and in terms of sales. Far more than any other model, the Porsche "
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche Boxster,Porsche Boxster,1990,,"en,es,fr,it","llm_rev_en,llm_rev_es,llm_rev_fr,llm_rev_it",1,The company currently produces ... Boxster sports cars
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche Cayenne,Porsche Cayenne,2002,,"en,fr,it","llm_rev_en,llm_rev_fr,llm_rev_it",1,The Cayenne is Porsche's mid-size luxury sport utility vehicle (SUV)
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche Carrera GT,Porsche Carrera GT,2003,2006,it,llm_rev_it,0,"La Carrera GT è la Porsche stradale più potente, veloce e costosa di sempre. È una supercar estrema, in grado di superare i 330 km/h con il suo V10 da 612 caval"
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche Cayman,Porsche Cayman,2005,,"en,fr,it","llm_rev_en,llm_rev_fr,llm_rev_it",1,The company currently produces ... Cayman sports cars
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 987,Porsche 987,2005,2011,it,llm_rev_it,0,"La seconda serie della Boxster, disponibile nelle versioni da 2.7 litri e 245 CV e 3.4 litri e 295 CV (versione S), poi portate rispettivamente a 2.9 litri e 25"
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 997,Porsche 997,2005,2011,it,llm_rev_it,0,"Seconda serie della 911 raffreddata a liquido, torna ai fari ovali in stile 993. Le varianti aspirate hanno una cilindrata di 3.6 e 3.8 litri (911 Carrera S) pe"
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche Panamera,Porsche Panamera,2009,,en,llm_rev_en,0,"The latest model line, the four-door Panamera saloon (sedan), was launched on Monday, 20 April 2009"
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 918,Porsche 918,2013,,it,llm_rev_it,0,"Nel 2013 , dopo alcuni anni di gestazione, viene presentata l'innovativa Porsche 918"
+DE_VW_DRESDEN,Volkswagen Plant Dresden,vw,Germany,Volkswagen Phaeton,Phaeton | Volkswagen Phaeton,2001,,"de,en,es,fr,it","llm_rev_de,llm_rev_en,llm_rev_es,llm_rev_fr,llm_rev_it",1,The Volkswagen Phaeton is a large luxury sedan manufactured by Volkswagen. It currently serves as the flagship of the Volkswagen line-up.
+DE_VW_DRESDEN,Volkswagen Plant Dresden,vw,Germany,Volkswagen e-Golf,Volkswagen e-Golf,2017,,en,llm_rev_en,0,"Starting in April 2017, the Transparent Factory Dresden began assembling the e-Golf instead."
+DE_VW_EMDEN,Volkswagen Plant Emden,vw,Germany,Volkswagen ID.4,ID.4 | VW ID.4 | Volkswagen ID.4,2020,,"de,en,es,fr,it","llm_rev_de,llm_rev_en,llm_rev_es,llm_rev_fr,llm_rev_it",1,The production version of the ID.4 debuted in September 2020 as the first fully electric crossover SUV under the Volkswagen brand.
+DE_VW_EMDEN,Volkswagen Plant Emden,vw,Germany,Volkswagen ID.5,Volkswagen ID.5,2022,,en,llm_rev_en,0,"A coupé SUV version of the ID.4 is known as the Volkswagen ID.5. It was previewed in August 2021, revealed in November 2021, and scheduled to be in production f"
+DE_VW_OSNABRUECK,Volkswagen Plant Osnabrück,vw,Germany,Volkswagen Tiguan,VW Tiguan | Volkswagen Tiguan,2007,,"de,en,es,fr,it","llm_rev_de,llm_rev_en,llm_rev_es,llm_rev_fr,llm_rev_it",1,Production will start in the winter of 2008
+DE_VW_OSNABRUECK,Volkswagen Plant Osnabrück,vw,Germany,VW Tiguan I,VW Tiguan I,2007,2018,de,llm_rev_de,1,Der VW Tiguan I wurde im Rahmen der IAA im September 2007 vorgestellt. Er war zu diesem Zeitpunkt neben dem VW Touareg das einzige SUV des Unternehmens.
+DE_VW_OSNABRUECK,Volkswagen Plant Osnabrück,vw,Germany,VW Tiguan II,VW Tiguan II | Volkswagen Tiguan II,2016,,"de,fr","llm_rev_de,llm_rev_fr",0,Die aktuelle zweite Generation kam im Januar 2016 in den Handel.
+DE_VW_OSNABRUECK,Volkswagen Plant Osnabrück,vw,Germany,VW Tiguan Allspace,VW Tiguan Allspace | Volkswagen Tiguan Allspace,2017,,"de,fr","llm_rev_de,llm_rev_fr",0,Ab September 2017 ergänzt die Langversion Allspace die Modellpalette.
+DE_VW_OSNABRUECK,Volkswagen Plant Osnabrück,vw,Germany,VW Tiguan X,VW Tiguan X,2020,,de,llm_rev_de,0,Der im September 2020 vorgestellte und als SUV-Coupé vermarktete VW Tiguan X ist ausschließlich für den chinesischen Markt bestimmt.
+DE_VW_OSNABRUECK,Volkswagen Plant Osnabrück,vw,Germany,VW Tiguan III,VW Tiguan III | VW Tiguan III (Nordamerika),2024,,de,llm_rev_de,0,VW Tiguan III seit 02/2024
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,Volkswagen Golf,VW Golf | Volkswagen Golf,1974,,"de,en,it","llm_rev_de,llm_rev_en,llm_rev_it",0,Volkswagen Golf
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,Volkswagen Golf GTI,Volkswagen Golf GTI,1976,,en,llm_rev_en,0,Volkswagen Golf GTI
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,Volkswagen Golf Variant,Volkswagen Golf Variant,1993,,en,llm_rev_en,0,Volkswagen Golf Variant
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,Volkswagen Golf R,Volkswagen Golf R,2002,,en,llm_rev_en,1,Volkswagen Golf R
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,Volkswagen Touran,Volkswagen Touran,2003,,"en,it","llm_rev_en,llm_rev_it",0,Volkswagen Touran
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,Volkswagen Tiguan,Volkswagen Tiguan,2007,,"en,it","llm_rev_en,llm_rev_it",0,Volkswagen Tiguan
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,Volkswagen Golf Sportsvan,Volkswagen Golf Sportsvan,2014,,en,llm_rev_en,0,Volkswagen Golf Sportsvan
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,Volkswagen Golf GTE,Volkswagen Golf GTE,2014,,en,llm_rev_en,0,Volkswagen Golf GTE
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,Volkswagen e-Golf,Volkswagen e-Golf,2014,,en,llm_rev_en,1,Volkswagen e-Golf
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,SEAT Tarraco,SEAT Tarraco,2018,,en,llm_rev_en,0,SEAT Tarraco
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,Volkswagen Tayron,Volkswagen Tayron,2018,,"en,it","llm_rev_en,llm_rev_it",1,Listed as a car produced at the Wolfsburg plant.
+DE_VW_ZWICKAU,Volkswagen Plant Zwickau,vw,Germany,Volkswagen Polo Mk2,Volkswagen Polo Mk2,1990,,en,llm_rev_en,0,mass production of Volkswagen Polo Mk2
+DE_VW_ZWICKAU,Volkswagen Plant Zwickau,vw,Germany,Volkswagen Polo II,VW Polo II | Volkswagen Polo II,1990,,"de,it","llm_rev_de,llm_rev_it",0,am 21. Mai 1990 an gleicher Stelle mit der Serienproduktion des VW Polo II begonnen wurde
+DE_VW_ZWICKAU,Volkswagen Plant Zwickau,vw,Germany,Volkswagen Golf Mk2,VW Golf | Volkswagen Golf | Volkswagen Golf Mk2,1991,,"de,en,it","llm_rev_de,llm_rev_en,llm_rev_it",1,production of the Volkswagen Golf Mk2 began
+DE_VW_ZWICKAU,Volkswagen Plant Zwickau,vw,Germany,Volkswagen Passat,VW Passat | Volkswagen Passat,1991,,"de,it","llm_rev_de,llm_rev_it",1,Here run the models VW Golf and VW Passat from the band.
+DE_VW_ZWICKAU,Volkswagen Plant Zwickau,vw,Germany,VW Golf II,VW Golf II,1991,,de,llm_rev_de,0,Fertigung des Golf II
+DE_VW_ZWICKAU,Volkswagen Plant Zwickau,vw,Germany,Volkswagen ID.3,VW ID.3 | Volkswagen ID.3,2019,,"de,it","llm_rev_de,llm_rev_it",0,seit Ende 2019 wird im Werk der VW ID.3 serienmäßig produziert
+DE_VW_ZWICKAU,Volkswagen Plant Zwickau,vw,Germany,Volkswagen ID.4,VW ID.4 | Volkswagen ID.4,2020,,"de,it","llm_rev_de,llm_rev_it",0,"Nach dem Umbau der Produktionslinien werden der VW ID.3 (mit erhöhter Stückzahl), VW ID. 4 und der Audi Q4 e-tron produziert"
+DE_VW_ZWICKAU,Volkswagen Plant Zwickau,vw,Germany,Audi Q4 e-tron,Audi Q4 e-tron,2020,,"de,it","llm_rev_de,llm_rev_it",1,"Nach dem Umbau der Produktionslinien werden der VW ID.3 (mit erhöhter Stückzahl), VW ID. 4 und der Audi Q4 e-tron produziert"
+DE_VW_ZWICKAU,Volkswagen Plant Zwickau,vw,Germany,Cupra Born,Cupra Born,2021,,it,llm_rev_it,0,Auto in produzione
+DE_VW_ZWICKAU,Volkswagen Plant Zwickau,vw,Germany,Volkswagen ID.5,Volkswagen ID.5,2022,,it,llm_rev_it,0,Auto in produzione
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi TT Coupé,Audi TT Coupé,1998,,"de,en,hu","llm_rev_de,llm_rev_en,llm_rev_hu",1,Automobile production began in 1998 with the assembly of the Audi TT Coupé.
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi TT FV Coupé,Audi TT FV Coupé,1998,,de,llm_rev_de,0,The production of Audi TT Coupé began in 1998 in Győr.
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi TT,Audi TT,1998,,hu,llm_rev_hu,0,Az Audi TT modellek sorozatgyártása 1998 áprilisában kezdődött meg.
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi TT Roadster,Audi TT Roadster,1999,,"de,en,hu","llm_rev_de,llm_rev_en,llm_rev_hu",1,There were also the TT Roadster (from 1999)
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi TT FV Roadster,Audi TT FV Roadster,1999,,de,llm_rev_de,0,The production of Audi TT Roadster began in 1999 in Győr.
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi A3,Audi A3,2001,,"de,en,hu","llm_rev_de,llm_rev_en,llm_rev_hu",0,Audi A3 and S3 (2001-2003)
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi S3,Audi S3,2001,,"de,en,hu","llm_rev_de,llm_rev_en,llm_rev_hu",0,Audi A3 and S3 (2001-2003)
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi A3/S3,Audi A3/S3,2001,,hu,llm_rev_hu,0,2001 az Audi A3/S3 összeszerelésének kezdete.
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi A3 Cabriolet,Audi A3 Cabriolet,2007,,"de,en,hu","llm_rev_de,llm_rev_en,llm_rev_hu",1,Audi A3 Cabriolet (from 2007)
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi A3 8V Cabriolet,Audi A3 8V Cabriolet,2007,,de,llm_rev_de,0,Audi A3 Cabriolet has been produced in Győr since 2007.
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi RS 3 Sportback,Audi RS 3 Sportback,2010,,"de,en","llm_rev_de,llm_rev_en",0,Audi RS 3 Sportback (from 2010)
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi RS3 Sportback,Audi RS3 Sportback,2011,,hu,llm_rev_hu,0,2011 -től kezdődően itt épül az RS3 Sportback modell is.
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi A3 Limousine,Audi A3 Limousine,2013,,"de,en","llm_rev_de,llm_rev_en",0,"In 2013 the new vehicle plant in Győr was inaugurated. Since then, the A3 sedan and cabriolet have been completely manufactured here."
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi A3 sedan,Audi A3 sedan,2013,,en,llm_rev_en,0,"In 2013 the new vehicle plant in Győr was inaugurated. Since then, the A3 sedan and cabriolet, and since 2014 the TT coupé and roadster, have been completely ma"
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi A3 8V Limousine,Audi A3 8V Limousine,2013,,de,llm_rev_de,0,"Since 2013, Audi A3 Limousine has been completely manufactured in Győr."
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi Q3,Audi Q3,2016,,"de,en,hu","llm_rev_de,llm_rev_en,llm_rev_hu",1,In January 2016 it was announced that the new generation of the Audi Q3 would be produced in Győr.
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Cupra Terramar,Cupra Terramar,2016,,"de,en","llm_rev_de,llm_rev_en",1,"The third generation Audi Q3 will be built alongside a closely related sibling, the new Cupra Terramar."
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi Q3 F3,Audi Q3 F3,2016,,de,llm_rev_de,0,The new generation of Audi Q3 has been produced in Győr since 2016.
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi Q3 Sportback,Audi Q3 Sportback,2019,,"de,en,hu","llm_rev_de,llm_rev_en,llm_rev_hu",0,"In April 2017, Audi announced that it would produce the Q3 Sportback in Győr in 2019."
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi Q4,Audi Q4,2019,,"de,hu","llm_rev_de,llm_rev_hu",0,"Im April 2017 gab Audi bekannt, dass der Audi Q4 ab 2019 in Győr produziert werden soll."
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi Q3 Sportback F3,Audi Q3 Sportback F3,2019,,de,llm_rev_de,0,Audi announced to produce Q3 Sportback in Győr starting from 2019.
+ES_VW_NAVARRA,Volkswagen Navarra Plant Pamplona,vw,Spain,Volkswagen Nivus,VW Nivus | Volkswagen Nivus,2021,,"de,en,es","llm_rev_de,llm_rev_en,llm_rev_es",0,"the crossover will also enter production next year in Pamplona, Spain"
+ES_VW_NAVARRA,Volkswagen Navarra Plant Pamplona,vw,Spain,Volkswagen Taigo,VW Taigo | Volkswagen Taigo,2021,,"de,en,fr,it","llm_rev_de,llm_rev_en,llm_rev_fr,llm_rev_it",0,Manufactured at the Pamplona plant in Spain alongside the Polo and T-Cross
+ES_VW_NAVARRA,Volkswagen Navarra Plant Pamplona,vw,Spain,Volkswagen T-Sport,Volkswagen T-Sport,2021,,fr,llm_rev_fr,0,"Le Volkswagen T-Sport est dévoilé le 28 mai 2020 dans l’usine d'Anchieta, dans la province de São Bernardo do Campo sous le nom de Volkswagen Nivus, patronyme q"
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz Classe CLS,Mercedes-Benz Classe CLS,2004,,it,llm_rev_it,0,La Classe CLS nasce sulla base della Mercedes-Benz Classe E. Il lancio è avvenuto nell'autunno del 2004
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz C-Klasse,Mercedes-Benz C-Klasse,2006,,de,llm_rev_de,1,Mercedes-Benz-Modelle Aktuelle Pkw-Modelle mit Verbrennungsmotor: C-Klasse (Baureihe 206)
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz Citaro,Mercedes-Benz Citaro,2006,,hu,llm_rev_hu,0,A legelterjedtebb típuscsaládok közé tartozik a Mercedes-Benz Citaro
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz Conecto,Mercedes-Benz Conecto,2006,,hu,llm_rev_hu,0,A legelterjedtebb típuscsaládok közé tartozik a Mercedes-Benz Conecto
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz CLC,Mercedes-Benz CLC,2008,,it,llm_rev_it,0,totally renewed in 2008
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,A-Class,A-Class | Mercedes-Benz A-Class,2010,,"en,hu,it","llm_rev_en,llm_rev_hu,llm_rev_it",1,"Fuel-efficient, compact cars will be manufactured there including the next generation A- and B-Class."
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,B-Class,B-Class | Mercedes-Benz B-Class,2010,,"en,hu,it","llm_rev_en,llm_rev_hu,llm_rev_it",1,"Fuel-efficient, compact cars will be manufactured there including the next generation A- and B-Class."
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz Classe B,Classe B | Mercedes-Benz Classe B,2011,,"fr,it","llm_rev_fr,llm_rev_it",1,The Mercedes-Benz Manufacturing Hungary Plant Kecskemét assembles the Mercedes-Benz Classe B since 2012.
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz Classe CLA,Mercedes-Benz Classe CLA,2011,,"fr,it","llm_rev_fr,llm_rev_it",1,Usine de Kecskemet : Classe B et Classe CLA.
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,CLA-Class,CLA-Class | Mercedes-Benz CLA-Class,2012,,"en,fr","llm_rev_en,llm_rev_fr",1,"Manufacturing plant in Kecskemét, making B-class and CLA."
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,CLA,CLA,2012,,"en,fr","llm_rev_en,llm_rev_fr",1,"Manufacturing plant in Kecskemét, making B-Class and CLA."
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz Citan,Mercedes-Benz Citan,2012,,"es,fr,it","llm_rev_es,llm_rev_fr,llm_rev_it",0,"the inclusion of Motorización de Renault in the Clase ""A"" and ""B"" and the modelo Kangoo as Mercedes Benz Citan."
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz Classe A,Mercedes-Benz Classe A,2012,,"fr,it","llm_rev_fr,llm_rev_it",0,The Mercedes-Benz Manufacturing Hungary Plant Kecskemét assembles the Mercedes-Benz Classe A since 2012.
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz Vito,Mercedes-Benz Vito,2012,,fr,llm_rev_fr,0,"Mercedes-Benz is also a manufacturer of light commercial vehicles, industrial vehicles and agricultural tractors: Vito"
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz C-Class,Mercedes-Benz C-Class,2012,,"hu,it","llm_rev_hu,llm_rev_it",1,The Mercedes-Benz Manufacturing Hungary Plant Kecskemét assembles the C-Class since 2012.
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz Sprinter,Mercedes-Benz Sprinter,2013,,fr,llm_rev_fr,0,"Mercedes-Benz is also a manufacturer of light commercial vehicles, industrial vehicles and agricultural tractors: Sprinter"
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz Viano,Mercedes-Benz Viano,2014,,fr,llm_rev_fr,0,"Mercedes-Benz is also a manufacturer of light commercial vehicles, industrial vehicles and agricultural tractors: Viano"
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz Classe GLA,Mercedes-Benz Classe GLA,2014,,it,llm_rev_it,0,"La Classe GLA (progetto X156) è un crossover introdotto nel 2014. Condivide lo stesso pianale della Classe A , della Classe B e della Classe CLA ."
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz Classe C,Mercedes-Benz Classe C,2014,,it,llm_rev_it,0,La Classe C è la classica berlina a 3 volumi della Casa tedesca rinnovata completamente nel 2014
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz GLC,Mercedes-Benz GLC,2015,,de,llm_rev_de,0,Mercedes-Benz-Modelle Aktuelle Pkw-Modelle mit Verbrennungsmotor: GLC (X 254)
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz EQC,Mercedes-Benz EQC,2018,,de,llm_rev_de,0,Mercedes-Benz-Modelle Historische vollelektrische Pkw-Modelle: EQC (N 293)
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,Volkswagen Transporter,Volkswagen Transporter (T5) | Volkswagen Transporter (T6),2003,,en,llm_rev_en,1,Transporter / Caravelle / Multivan (T5) 2003—present
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,Volkswagen Caddy,Volkswagen Caddy,2003,,"en,pl","llm_rev_en,llm_rev_pl",1,Caddy ( Typ 2K) 2005—present
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,Volkswagen Transporter T5,VW Transporter T5 (Typ 2) | Volkswagen Transporter T5 | Volkswagen Transporter T5 (Typ 2),2003,,"de,pl","llm_rev_de,llm_rev_pl",0,seit 2003
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,Volkswagen Caddy III,Caddy III | Volkswagen Caddy III,2003,,"de,pl","llm_rev_de,llm_rev_pl",0,seit 2003
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,Volkswagen Crafter,VW Crafter | Volkswagen Crafter,2006,,"de,en,pl","llm_rev_de,llm_rev_en,llm_rev_pl",1,Crafter (LT3) 2006—present
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,Volkswagen Caddy Maxi,Volkswagen Caddy Maxi,2007,,pl,llm_rev_pl,0,Volkswagen Poznań specjalizuje się w produkcji modelu Volkswagen Caddy oraz Caddy Maxi.
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,Volkswagen Amarok,Volkswagen Amarok,2010,,en,llm_rev_en,0,"Volkswagen Amarok is launched in December at an event in General Pacheco , Argentina"
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,VW Crafter II,VW Crafter II,2016,,de,llm_rev_de,0,"Vollständige Neuentwicklung der Volkswagen AG. Fertigung im eigens für diesen Transporter gebauten Werk in Września. Produktion seit 2016, Auslieferung Anfang 2"
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,VW eCrafter,VW eCrafter,2016,,de,llm_rev_de,0,"Fertigung im eigens für diesen Transporter gebauten Werk in Września. Produktion seit 2016, Auslieferung seit Anfang 2017."
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,MAN TGE,MAN TGE,2016,,de,llm_rev_de,0,"Fertigung im eigens für diesen Transporter gebauten Werk in Września. Produktion seit 2016, Auslieferung seit Anfang 2017."
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,MAN e-TGE,MAN e-TGE,2016,,de,llm_rev_de,0,"Fertigung im eigens für diesen Transporter gebauten Werk in Września. Produktion seit 2016, Auslieferung seit Anfang 2017."
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,VW Grand California,VW Grand California,2016,,de,llm_rev_de,0,"Fertigung im eigens für diesen Transporter gebauten Werk in Września. Produktion seit 2016, Auslieferung seit Anfang 2017."
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,VW e-Crafter,VW e-Crafter,2016,,de,llm_rev_de,0,"Fertigung im eigens für diesen Transporter gebauten Werk in Września. Produktion seit 2016, Auslieferung seit Anfang 2017."
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,Volkswagen Sharan,Volkswagen Sharan,1995,,"en,es,fr,it,pt","llm_rev_en,llm_rev_es,llm_rev_fr,llm_rev_it,llm_rev_pt",1,"Produced in a joint venture with Ford, it sells a version of the same model as the Ford Galaxy, and VW's Spanish subsidiary SEAT sells another version, known as"
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,Volkswagen Sharan I,VW Sharan I | Volkswagen Sharan I,1995,2010,"de,fr,it","llm_rev_de,llm_rev_fr,llm_rev_it",0,Mai 1995 bis August 2010
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,Seat Alhambra I,Seat Alhambra I,1995,2010,de,llm_rev_de,0,Mai 1995 bis August 2010
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,SEAT Alhambra,SEAT Alhambra,1995,,"es,pt","llm_rev_es,llm_rev_pt",1,"The Alhambra is produced by Autoeuropa in Palmela, Portugal."
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,Ford Galaxy,Ford Galaxy,1995,,"es,pt","llm_rev_es,llm_rev_pt",0,"La nueva generación que se comercializa a partir de 2006 fue desarrollada por Ford en su totalidad, y por tanto, la producción del Ford Galaxy se muda a Limburg"
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,Volkswagen Touran,Volkswagen Touran,1995,,pt,llm_rev_pt,0,Produção | 1995 — presente
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,Volkswagen Sharan II,VW Sharan II | Volkswagen Sharan II,2010,,"de,fr,it","llm_rev_de,llm_rev_fr,llm_rev_it",0,seit September 2010
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,Seat Alhambra II,Seat Alhambra II,2010,,de,llm_rev_de,0,seit September 2010
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,Volkswagen Eos,Volkswagen Eos,2010,,es,llm_rev_es,0,"Esta nueva generación del Sharan es producida en la fábrica de AutoEuropa, en Palmela (Portugal), junto con el Volkswagen Eos y el Volkswagen Scirocco."
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,Volkswagen Scirocco,Volkswagen Scirocco,2010,,es,llm_rev_es,0,"Esta nueva generación del Sharan es producida en la fábrica de AutoEuropa, en Palmela (Portugal), junto con el Volkswagen Eos y el Volkswagen Scirocco."
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Volkswagen Polo,Volkswagen Polo,1999,2007,en,llm_rev_en,0,Past models: Volkswagen Polo (1999−2007)
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Porsche Cayenne,Porsche Cayenne,2002,,en,llm_rev_en,0,"Since VW developed their large SUV platform, the factory has become a specialist producer of all VW Group marques large SUV's, which presently include the Porsc"
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Volkswagen Touareg,Volkswagen Touareg,2002,,en,llm_rev_en,0,"Since VW developed their large SUV platform, the factory has become a specialist producer of all VW Group marques large SUV's, which presently include the Volks"
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Audi Q7,Audi Q7,2005,,en,llm_rev_en,0,"Since VW developed their large SUV platform, the factory has become a specialist producer of all VW Group marques large SUV's, which presently include the Audi "
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Golf Syncro four-wheel drive,Golf Syncro four-wheel drive,2005,,en,llm_rev_en,0,It is also the only VW Group factory to produce the Golf Syncro four-wheel drive
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Golf Syncro,Golf Syncro,2005,,en,llm_rev_en,0,It is also the only VW Group factory to produce the Golf Syncro four-wheel drive
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Škoda Octavia,Škoda Octavia,2008,2010,en,llm_rev_en,0,Past models: Škoda Octavia (2008–2010)
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Volkswagen Up,VW up! | Volkswagen Up | Volkswagen up!,2011,,en,llm_rev_en,0,Since December 2011 the factory has produced the VW up!
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,SEAT Mii,SEAT Mii,2011,,en,llm_rev_en,0,Since December 2011 the factory has produced the SEAT Mii
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Škoda Citigo,ŠKODA Citigo | Škoda Citigo,2011,,en,llm_rev_en,0,Since December 2011 the factory has produced the Škoda Citigo
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Bentley Bentayga,Bentley Bentayga,2016,,en,llm_rev_en,0,"Since 2016, the Bentley Bentayga has also been produced at Bratislava."
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Audi Q8,Audi Q8,2018,,en,llm_rev_en,0,Current models: Audi Q8 (from 2018)
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Lamborghini Urus,Lamborghini Urus,2018,,en,llm_rev_en,0,Current models: Lamborghini Urus (body only)
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Porsche Cayenne Coupe,Porsche Cayenne Coupe,2019,,en,llm_rev_en,0,Current models: Porsche Cayenne Coupe (2019−present)
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Porsche Cayenne Coupé,Porsche Cayenne Coupé,2019,,en,llm_rev_en,0,Current models: Porsche Cayenne Coupé (2019−present)
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Škoda Karoq,Škoda Karoq,2020,,en,llm_rev_en,0,Current models: Škoda Karoq (2020–present)
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Škoda Superb,Škoda Superb,2023,,en,llm_rev_en,0,Current models: Škoda Superb (2023–present)
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Volkswagen Passat,Volkswagen Passat,2023,,en,llm_rev_en,0,Current models: Volkswagen Passat (2023–present)
+DE_AUDI_NECKARSULM,Audi Plant Neckarsulm,audi,Germany,Audi A8,Audi A8,1994,,"de,en,fr","llm_rev_de,llm_rev_en,llm_rev_fr",0,The Audi A8 is produced at the Neckarsulm plant.
+DE_AUDI_NECKARSULM,Audi Plant Neckarsulm,audi,Germany,Audi S8,Audi S8 | Audi S8 (D5) | Audi S8 quattro,1994,,"de,en,fr","llm_rev_de,llm_rev_en,llm_rev_fr",1,The Audi S8 is produced at the Neckarsulm plant.
+DE_AUDI_NECKARSULM,Audi Plant Neckarsulm,audi,Germany,Audi W12,Audi W12,2001,,fr,llm_rev_fr,0,The Audi Plant Neckarsulm has been producing the Audi W12 since 2001.
+DE_AUDI_NECKARSULM,Audi Plant Neckarsulm,audi,Germany,Audi S8 Plus,Audi S8 Plus | Audi S8 plus,2015,,"de,en","llm_rev_de,llm_rev_en",1,"In 2016, the S8 plus version was launched with engine power increased to 605 PS (445 kW; 597 hp)."
+HU_BMW_DEBRECEN,BMW Group Plant Debrecen,bmw,Hungary,BMW i3,BMW i3,2013,,"de,en,es,fr","llm_rev_de,llm_rev_en,llm_rev_es,llm_rev_fr",1,Series production of the BMW i3 destined for retail customers began in September 2013
+HU_BMW_DEBRECEN,BMW Group Plant Debrecen,bmw,Hungary,BMW i8,BMW i8,2013,,"de,en,es,fr","llm_rev_de,llm_rev_en,llm_rev_es,llm_rev_fr",1,Production of both plug-in electric cars is scheduled to start in Leipzig in 2013
+HU_BMW_DEBRECEN,BMW Group Plant Debrecen,bmw,Hungary,BMW i5,BMW i5,2015,,de,llm_rev_de,1,"Der BMW i5 soll ein Elektro-Van von BMW werden, der 2015 erscheinen soll."
+HU_BMW_DEBRECEN,BMW Group Plant Debrecen,bmw,Hungary,BMW i1,BMW i1,2016,,de,llm_rev_de,0,Der BMW i1 soll das Großstadtauto der BMW i-Reihe werden. Er soll dem Smart Fortwo von Daimler Konkurrenz machen und spätestens 2016 erscheinen.
+HU_BMW_DEBRECEN,BMW Group Plant Debrecen,bmw,Hungary,BMW iX3,BMW iX3,2020,,"de,en,fr","llm_rev_de,llm_rev_en,llm_rev_fr",1,"The first production model on the Neue Klasse platform, the BMW iX3 (NA5) SUV, was unveiled at IAA Mobility in Munich on 5 September 2025 and entered production"
+HU_BMW_DEBRECEN,BMW Group Plant Debrecen,bmw,Hungary,BMW i4,BMW i4,2021,,"de,fr","llm_rev_de,llm_rev_fr",0,Auf Basis des 4er Gran Coupé wird seit Ende 2021 der i4 angeboten.
+HU_BMW_DEBRECEN,BMW Group Plant Debrecen,bmw,Hungary,BMW iX,BMW iX,2021,,"de,fr","llm_rev_de,llm_rev_fr",0,Seit Juli 2021 wird der SUV iX in Dingolfing hergestellt.
+HU_BMW_DEBRECEN,BMW Group Plant Debrecen,bmw,Hungary,BMW iX1,BMW iX1,2022,,de,llm_rev_de,0,Anfang Juni 2022 wurde das SUV iX1 als kleinstes elektrisches SUV auf Basis des BMW X1 (U11) präsentiert.
+HU_BMW_DEBRECEN,BMW Group Plant Debrecen,bmw,Hungary,BMW i7,BMW i7,2022,,"de,fr","llm_rev_de,llm_rev_fr",1,Erstmals wird die 7er-Reihe auch als vollelektrischer i7 angeboten. Er wurde im April 2022 vorgestellt und kam im November 2022 als erste Variante der Baureihe 
+HU_BMW_DEBRECEN,BMW Group Plant Debrecen,bmw,Hungary,BMW iX5 Hydrogen,BMW iX5 Hydrogen,2022,,de,llm_rev_de,0,In einer Kleinserie von weniger als 100 Fahrzeugen wird das Brennstoffzellenfahrzeug iX5 Hydrogen auf Basis des BMW X5 (G05) seit August 2022 produziert.
+HU_BMW_DEBRECEN,BMW Group Plant Debrecen,bmw,Hungary,BMW iX2,BMW iX2,2024,,de,llm_rev_de,0,Der iX2 wurde im Oktober 2023 vorgestellt.

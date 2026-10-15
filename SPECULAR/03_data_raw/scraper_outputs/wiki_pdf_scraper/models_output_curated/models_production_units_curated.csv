@@ -1,0 +1,140 @@
+plant_id,plant_name,brand,country,car model ,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Volkswagen Golf,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Volkswagen Polo,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Audi A3,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Audi A3 Sportback,0,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Audi A1,0,0,0,0,,118200,,,,116250,,,,0,0,0,0,0,0,0,0
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Audi e-tron,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,0,0,0,0
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Audi e-tron Sportback,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,0,0,0,0
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Audi Q8 e-tron,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,53555,15193,,0
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,Audi Q8 e-tron Sportback,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,0
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,Volkswagen Golf,,,,,,,,,,,,,,,,,,,,,
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,Volkswagen Golf Variant,,,,,,,,,,,,,,,,,,,,,
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,Volkswagen Touran,,,,,,,,,,,,,,,,,,,,,
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,Volkswagen Tiguan,0,,,,,,,,,,,,,,,,,,,,
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,Volkswagen Golf Sportsvan,0,0,0,0,0,0,0,0,,,,,,,,0,0,0,0,0,0
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,Volkswagen Tiguan Allspace,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,SEAT Tarraco,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,0,0
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,Volkswagen ID.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,Volkswagen Tayron,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Werk Sindelfingen,mercedes,Germany,Mercedes-Benz S-Class,,,,,,,,,,,,,,,,,,,,,
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Werk Sindelfingen,mercedes,Germany,Mercedes-Benz E-Class,,,,,,,,,,,,,,,,,,,,,
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Werk Sindelfingen,mercedes,Germany,Mercedes-Benz CLS,,,,,,,,,,,,,,,,,,,0,0,0
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Werk Sindelfingen,mercedes,Germany,Maybach 57/62,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Werk Sindelfingen,mercedes,Germany,Mercedes-Maybach S-Class,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Werk Sindelfingen,mercedes,Germany,Mercedes-AMG GT 4-Door,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Werk Sindelfingen,mercedes,Germany,Mercedes-Benz EQS,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Werk Sindelfingen,mercedes,Germany,Mercedes-Benz GLC,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,
+DE_MERCEDES_RASTATT,Mercedes-Benz Werk Rastatt,mercedes,Germany,Mercedes-Benz A-Class,,,,,,,,,,,,,,,,,,,,,
+DE_MERCEDES_RASTATT,Mercedes-Benz Werk Rastatt,mercedes,Germany,Mercedes-Benz B-Class,,,,,,,,,,,,,,,,,,,,,
+DE_MERCEDES_RASTATT,Mercedes-Benz Werk Rastatt,mercedes,Germany,Mercedes-Benz GLA,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+DE_MERCEDES_RASTATT,Mercedes-Benz Werk Rastatt,mercedes,Germany,Mercedes-Benz EQA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+DE_MERCEDES_BREMEN,Mercedes-Benz Werk Bremen,mercedes,Germany,Mercedes-Benz C-Class,,,,,,,,,,,,,,,,,,,,,
+DE_MERCEDES_BREMEN,Mercedes-Benz Werk Bremen,mercedes,Germany,Mercedes-Benz E-Class Coupe/Cabriolet,0,0,0,,,,,,,,,,,,,,,,0,0,0
+DE_MERCEDES_BREMEN,Mercedes-Benz Werk Bremen,mercedes,Germany,Mercedes-Benz GLC,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,
+DE_MERCEDES_BREMEN,Mercedes-Benz Werk Bremen,mercedes,Germany,Mercedes-Benz GLC Coupé,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,
+DE_MERCEDES_BREMEN,Mercedes-Benz Werk Bremen,mercedes,Germany,Mercedes-Benz SL,0,0,0,0,0,0,,,,,,,,,,0,0,0,0,0,0
+DE_MERCEDES_BREMEN,Mercedes-Benz Werk Bremen,mercedes,Germany,Mercedes-Benz SLC,0,0,0,0,0,,,,,,,,,,,0,0,0,0,0,0
+DE_MERCEDES_BREMEN,Mercedes-Benz Werk Bremen,mercedes,Germany,Mercedes-Benz EQC,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,0,0,0
+DE_BMW_DINGOLFING,BMW Group Werk Dingolfing,bmw,Germany,BMW 5 Series,,,,,,,,,,,,,,,,,,,,,
+DE_BMW_DINGOLFING,BMW Group Werk Dingolfing,bmw,Germany,BMW 6 Series,,,,,,,,,,,,,,0,0,0,0,0,0,0,0
+DE_BMW_DINGOLFING,BMW Group Werk Dingolfing,bmw,Germany,BMW 7 Series,,,,,,,,,,,,,,,,,,,,,
+DE_BMW_DINGOLFING,BMW Group Werk Dingolfing,bmw,Germany,BMW 8 Series,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,
+DE_BMW_DINGOLFING,BMW Group Werk Dingolfing,bmw,Germany,BMW 4 Series,0,0,0,0,0,0,0,0,,,,,,,,,,,,,
+DE_BMW_DINGOLFING,BMW Group Werk Dingolfing,bmw,Germany,BMW iX,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+DE_VW_DRESDEN,Transparent Factory (Dresden),vw,Germany,Volkswagen Phaeton,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0
+DE_VW_DRESDEN,Transparent Factory (Dresden),vw,Germany,Volkswagen e-Golf,0,0,0,0,0,0,0,0,0,0,0,,,,,0,0,0,0,0,0
+DE_VW_DRESDEN,Transparent Factory (Dresden),vw,Germany,Volkswagen ID.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,0
+HU_AUDI_GYOR,Audi Hungaria (Győr),audi,Hungary,Audi TT Coupé,,,,,,,,,,,,,,,,,,,0,0,0
+HU_AUDI_GYOR,Audi Hungaria (Győr),audi,Hungary,Audi TT Roadster,,,,,,,,,,,,,,,,,,,0,0,0
+HU_AUDI_GYOR,Audi Hungaria (Győr),audi,Hungary,Audi A3 Cabriolet,0,0,,,,,,,,,,,,,,0,0,0,0,0,0
+HU_AUDI_GYOR,Audi Hungaria (Győr),audi,Hungary,Audi A3 Sedan,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0
+HU_AUDI_GYOR,Audi Hungaria (Győr),audi,Hungary,Audi Q3,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,
+HU_AUDI_GYOR,Audi Hungaria (Győr),audi,Hungary,Audi Q3 Sportback,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,
+HU_AUDI_GYOR,Audi Hungaria (Győr),audi,Hungary,Cupra Terramar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Audi Q7,,,,,,,,,,,,,,,,,,,,,
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Audi Q8,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Porsche Cayenne,,,,,,,,,,,,,,,,,,,,,
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Porsche Cayenne Coupé,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Volkswagen Touareg,,,,,,,,,,,,,,,,,,,,,
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Škoda Superb,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Volkswagen Passat,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Volkswagen Polo,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Škoda Octavia,0,0,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Volkswagen up!,0,0,0,0,0,,,,,,,,,,,,,,0,0,0
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,SEAT Mii,0,0,0,0,0,,,,,,,,,,,,0,0,0,0,0
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Škoda Citigo,0,0,0,0,0,,,,,,,,,,,0,0,0,0,0,0
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Škoda Karoq,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,0,0,0
+SK_VW_BRATISLAVA,Volkswagen Bratislava Plant,vw,Slovakia,Bentley Bentayga,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,
+DE_VW_ZWICKAU,Volkswagen Zwickau-Mosel Plant,vw,Germany,Volkswagen Golf,,,,,,,,,,,,,,,,0,0,0,0,0,0
+DE_VW_ZWICKAU,Volkswagen Zwickau-Mosel Plant,vw,Germany,Volkswagen Passat,,,,,,,,,,,,,,,,0,0,0,0,0,0
+DE_VW_ZWICKAU,Volkswagen Zwickau-Mosel Plant,vw,Germany,Volkswagen ID.3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,
+DE_VW_ZWICKAU,Volkswagen Zwickau-Mosel Plant,vw,Germany,Volkswagen ID.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,
+DE_VW_ZWICKAU,Volkswagen Zwickau-Mosel Plant,vw,Germany,Volkswagen ID.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+DE_VW_ZWICKAU,Volkswagen Zwickau-Mosel Plant,vw,Germany,Audi Q4 e-tron,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+DE_VW_ZWICKAU,Volkswagen Zwickau-Mosel Plant,vw,Germany,Cupra Born,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+DE_AUDI_INGOLSTADT,Audi Werk Ingolstadt,audi,Germany,Audi A3,,,,,,,,,,,,,,,,,,,,,
+DE_AUDI_INGOLSTADT,Audi Werk Ingolstadt,audi,Germany,Audi A4,,,,,,,,,,,,,,,,,,,,,
+DE_AUDI_INGOLSTADT,Audi Werk Ingolstadt,audi,Germany,Audi A5,0,,,,,,,,,,,,,,,,,,,,
+DE_AUDI_INGOLSTADT,Audi Werk Ingolstadt,audi,Germany,Audi Q5,0,0,,,,,,,,,,,0,0,0,0,0,0,0,0,0
+DE_AUDI_INGOLSTADT,Audi Werk Ingolstadt,audi,Germany,Audi Q2,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,
+DE_AUDI_INGOLSTADT,Audi Werk Ingolstadt,audi,Germany,Audi A3 Sedan,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0
+DE_AUDI_NECKARSULM,Audi Werk Neckarsulm,audi,Germany,Audi A6,,,,,,,,,,,,,,,,,,,,,
+DE_AUDI_NECKARSULM,Audi Werk Neckarsulm,audi,Germany,Audi A7,0,0,0,0,,,,,,,,,,,,,,,,,
+DE_AUDI_NECKARSULM,Audi Werk Neckarsulm,audi,Germany,Audi A8,,,,,,,,,,,,,,,,,,,,,
+DE_AUDI_NECKARSULM,Audi Werk Neckarsulm,audi,Germany,Audi A4,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0
+DE_AUDI_NECKARSULM,Audi Werk Neckarsulm,audi,Germany,Audi R8,0,,,,,,,,,,,,,,,,,,,0,0
+DE_AUDI_NECKARSULM,Audi Werk Neckarsulm,audi,Germany,Audi e-tron GT,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,
+DE_AUDI_NECKARSULM,Audi Werk Neckarsulm,audi,Germany,Audi A6 e-tron,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,
+DE_BMW_MUNICH,BMW Werk München,bmw,Germany,BMW 3 Series,,,,,,,,,,,,,,,,,,,,,
+DE_BMW_MUNICH,BMW Werk München,bmw,Germany,BMW M3,0,,,,,,,,,,,,,,,,,,,,
+DE_BMW_MUNICH,BMW Werk München,bmw,Germany,BMW 4 Series,0,0,0,0,0,0,0,0,,,,,,,,,,,,,
+DE_BMW_MUNICH,BMW Werk München,bmw,Germany,BMW i4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+DE_BMW_REGENSBURG,BMW Werk Regensburg,bmw,Germany,BMW 1 Series,,,,,,,,,,,,,,,,,,,,,
+DE_BMW_REGENSBURG,BMW Werk Regensburg,bmw,Germany,BMW 3 Series,,,,,,,,,,,,,,,,,,,,,
+DE_BMW_REGENSBURG,BMW Werk Regensburg,bmw,Germany,BMW Z4,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0
+DE_BMW_REGENSBURG,BMW Werk Regensburg,bmw,Germany,BMW X2,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,
+DE_BMW_REGENSBURG,BMW Werk Regensburg,bmw,Germany,BMW X1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,
+DE_BMW_LEIPZIG,BMW Werk Leipzig,bmw,Germany,BMW 1 Series,,,,,,,,,,,,,,,,,,,,,
+DE_BMW_LEIPZIG,BMW Werk Leipzig,bmw,Germany,BMW 2 Series,0,0,0,0,0,0,0,0,,,,,,,,,,,,,
+DE_BMW_LEIPZIG,BMW Werk Leipzig,bmw,Germany,BMW i3,0,0,0,0,0,0,0,,,,,,,,,,,0,0,0,0
+DE_BMW_LEIPZIG,BMW Werk Leipzig,bmw,Germany,BMW i8,0,0,0,0,0,0,0,0,,,,,,,,0,0,0,0,0,0
+DE_BMW_LEIPZIG,BMW Werk Leipzig,bmw,Germany,BMW X1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,
+DE_PORSCHE_LEIPZIG,Porsche Werk Leipzig,porsche,Germany,Porsche Carrera GT,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_PORSCHE_LEIPZIG,Porsche Werk Leipzig,porsche,Germany,Porsche Cayenne,,,,,,,,,,,,,,,,,,,,,
+DE_PORSCHE_LEIPZIG,Porsche Werk Leipzig,porsche,Germany,Porsche Panamera,0,0,0,,,,,,,,,,,,,,,,,,
+DE_PORSCHE_LEIPZIG,Porsche Werk Leipzig,porsche,Germany,Porsche Macan,0,0,0,0,0,0,0,0,,,,,,,,,,,,,
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Werk Zuffenhausen,porsche,Germany,Porsche 911,,,,,,,,,,,,,,,,,,,,,
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Werk Zuffenhausen,porsche,Germany,Porsche Boxster,,,,,,,,,,,,,,,,,,,,,
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Werk Zuffenhausen,porsche,Germany,Porsche Cayman,,,,,,,,,,,,,,,,,,,,,
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Werk Zuffenhausen,porsche,Germany,Porsche 918 Spyder,0,0,0,0,0,0,0,,,,0,0,0,0,0,0,0,0,0,0,0
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Werk Zuffenhausen,porsche,Germany,Porsche Taycan,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary (Kecskemét),mercedes,Hungary,Mercedes-Benz B-Class,0,0,0,0,0,0,,,,,,,,0,0,0,0,0,0,0,0
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary (Kecskemét),mercedes,Hungary,Mercedes-Benz CLA,0,0,0,0,0,0,0,,,,,,,,,,,,,,
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary (Kecskemét),mercedes,Hungary,Mercedes-Benz CLA Shooting Brake,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary (Kecskemét),mercedes,Hungary,Mercedes-Benz GLB,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary (Kecskemét),mercedes,Hungary,Mercedes-Benz GLA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary (Kecskemét),mercedes,Hungary,Mercedes-Benz EQB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+ES_VW_NAVARRA,Volkswagen Navarra (Pamplona),vw,Spain,Volkswagen Polo,,,,,,,,,,,,,,,,,,,,,
+ES_VW_NAVARRA,Volkswagen Navarra (Pamplona),vw,Spain,Volkswagen T-Cross,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,
+ES_VW_NAVARRA,Volkswagen Navarra (Pamplona),vw,Spain,Volkswagen Taigo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,
+PL_VWN_POZNAN,Volkswagen Poznań,vw,Poland,Volkswagen Caddy,,,,,,,,,,,,,,,,,,,,,
+PL_VWN_POZNAN,Volkswagen Poznań,vw,Poland,Volkswagen Transporter,,,,,,,,,,,,,,,,,,,,0,0
+PL_VWN_WRZESNIA,Volkswagen Września,vw,Poland,Volkswagen Crafter,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,
+PL_VWN_WRZESNIA,Volkswagen Września,vw,Poland,MAN TGE,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,
+PT_VW_PALMELA,Volkswagen Autoeuropa (Palmela),vw,Portugal,Volkswagen Eos,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0
+PT_VW_PALMELA,Volkswagen Autoeuropa (Palmela),vw,Portugal,Volkswagen Sharan,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PT_VW_PALMELA,Volkswagen Autoeuropa (Palmela),vw,Portugal,Volkswagen Scirocco,0,0,,,,,,,,,,,0,0,0,0,0,0,0,0,0
+PT_VW_PALMELA,Volkswagen Autoeuropa (Palmela),vw,Portugal,Volkswagen T-Roc,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,
+HU_BMW_DEBRECEN,BMW Group Plant Debrecen,bmw,Hungary,BMW iX3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,
+DE_VW_EMDEN,Volkswagen Emden,vw,Germany,Volkswagen Passat,,,,,,,,,,,,,,,,,,0,0,0,0
+DE_VW_EMDEN,Volkswagen Emden,vw,Germany,Volkswagen CC/Arteon,0,0,,,,,,,,,,,,,,,,0,0,0,0
+DE_VW_EMDEN,Volkswagen Emden,vw,Germany,Volkswagen ID.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,
+DE_VW_EMDEN,Volkswagen Emden,vw,Germany,Volkswagen ID.7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,
+DE_VW_OSNABRUECK,Volkswagen Osnabrück,vw,Germany,Volkswagen Golf Cabriolet,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,0,0
+DE_VW_OSNABRUECK,Volkswagen Osnabrück,vw,Germany,Porsche Boxster/Cayman,0,0,0,0,0,0,,,,,,0,0,0,0,0,0,0,0,0,0
+DE_VW_OSNABRUECK,Volkswagen Osnabrück,vw,Germany,Volkswagen T-Roc Cabriolet,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Werk Düsseldorf,mercedes,Germany,Mercedes-Benz Sprinter,,,,,,,,,,,,,,,,,,,,,
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Werk Düsseldorf,mercedes,Germany,Mercedes-Benz eSprinter,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,
+DE_MERCEDES_LUDWIGSFELDE,Mercedes-Benz Werk Ludwigsfelde,mercedes,Germany,Mercedes-Benz Sprinter,,,,,,,,,,,,,,,,,,,,,
+DE_MERCEDES_LUDWIGSFELDE,Mercedes-Benz Werk Ludwigsfelde,mercedes,Germany,Mercedes-Benz Vario,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -1,0 +1,15 @@
+plant_id,country,group,plant_name,city,brand,original_current_url,2015,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026
+DE_BMW_LANDSHUT,Germany,BMW Group,BMW Group Plant Landshut,Landshut,bmw,https://www.bmwgroup-werke.com/landshut/de.html,,1600.0,4100.0,4100.0,4100.0,3600.0,3500.0,3500.0,3700.0,3700.0,3700.0
+DE_BMW_MUNICH,Germany,BMW Group,BMW Group Plant Munich,Munich,bmw,https://www.bmwgroup-werke.com/munich/de.html,7800.0,,7800.0,7800.0,129932.0,,7800.0,7800.0,7000.0,,100000.0
+DE_MERCEDES_BREMEN,Germany,Mercedes-Benz,Mercedes-Benz Plant Bremen,Bremen,mercedes,https://group.mercedes-benz.com/unternehmen/standorte/produktionsnetzwerk-bremen.html,,,,,,,,,11500.0,11500.0,10500.0
+DE_MERCEDES_DUSSELDORF,Germany,Mercedes-Benz,Mercedes-Benz Plant Düsseldorf,Düsseldorf,mercedes,https://group.mercedes-benz.com/unternehmen/standorte/produktionsnetzwerk-duesseldorf.html,,,,,,,,5600.0,,5500.0,5200.0
+DE_MERCEDES_KAMENZ,Germany,Mercedes-Benz,"Accumotive GmbH & Co. KG, Kamenz",Kamenz,mercedes,https://group.mercedes-benz.com/unternehmen/standorte/produktionsnetzwerk-kamenz.html,,,,,,,,1200.0,1100.0,,
+DE_MERCEDES_KOLLEDA,Germany,Mercedes-Benz,"MDC Power GmbH, Kölleda & Arnstadt",Kölleda,mercedes,https://group.mercedes-benz.com/unternehmen/standorte/produktionsnetzwerk-koelleda.html,,,,,,,,1300.0,1200.0,,
+DE_MERCEDES_LUDWIGSFELDE,Germany,Mercedes-Benz,Mercedes-Benz Plant Ludwigsfelde,Ludwigsfelde,mercedes,https://group.mercedes-benz.com/unternehmen/standorte/produktionsnetzwerk-ludwigsfelde.html,,,,,,,,,1800.0,,
+DE_MERCEDES_SINDELFINGEN,Germany,Mercedes-Benz,Mercedes-Benz Plant Sindelfingen,Sindelfingen,mercedes,https://group.mercedes-benz.com/unternehmen/standorte/produktionsnetzwerk-sindelfingen.html,,,,,,,1100.0,,,20500.0,
+DE_VW_BRUNSWICK,Germany,Volkswagen Group,Volkswagen Plant Brunswick,Brunswick,vw,https://www.volkswagen-newsroom.com/de/volkswagen-group-components-plant-brunswick-6741,,,,,,,,,,,6300.0
+DE_VW_CHEMNITZ,Germany,Volkswagen Group,Volkswagen Plant Chemnitz,Chemnitz,vw,https://www.volkswagen-newsroom.com/de/volkswagen-sachsen-gmbh-chemnitz-plant-6882,,,,,,,,1900.0,,,
+DE_VW_DRESDEN,Germany,Volkswagen Group,Volkswagen Plant Dresden,Dresden,vw,https://www.volkswagen-newsroom.com/de/volkswagen-sachsen-gmbh-glaeserne-manufaktur-the-transparent-factory-dresden-5906,,,,,,400.0,340.0,,,,
+DE_VW_KASSEL,Germany,Volkswagen Group,Volkswagen Plant Kassel,Kassel,vw,https://www.volkswagen-newsroom.com/de/volkswagen-ag-kassel-plant-8026,,,,16500.0,16500.0,,,,,,
+DE_VW_OSNABRUECK,Germany,Volkswagen Group,Volkswagen Plant Osnabrück,Osnabrück,vw,https://www.volkswagen-newsroom.com/de/volkswagen-osnabrueck-gmbh-7805,,,,,,,,2300.0,,,
+DE_VW_WOLFSBURG,Germany,Volkswagen Group,Volkswagen Plant Wolfsburg,Wolfsburg,vw,https://www.volkswagen-newsroom.com/de/wolfsburg-plant-the-heart-of-the-vw-brand-6811,,,62300.0,,,,,,,,

@@ -1,0 +1,23 @@
+plant_uid,model,model_brand,year_from,year_to,action,reason,source_url
+IT_STELLANTIS_CASSINO,126,Fiat,2006,2026,drop,"Historical model (1972-1980s) carried by the Wikipedia model list into every year",https://en.wikipedia.org/wiki/Alfa_Romeo_Cassino_Plant
+IT_STELLANTIS_CASSINO,Ritmo,Fiat,2006,2026,drop,"Historical model (1978-1988) carried into every year",https://en.wikipedia.org/wiki/Alfa_Romeo_Cassino_Plant
+IT_STELLANTIS_CASSINO,Regata,Fiat,2006,2026,drop,"Historical model (1983-1990) carried into every year",https://en.wikipedia.org/wiki/Alfa_Romeo_Cassino_Plant
+IT_STELLANTIS_CASSINO,Tipo,Fiat,2006,2026,drop,"Historical model (1988-1995 at Cassino); the current Tipo is built in Bursa",https://en.wikipedia.org/wiki/Alfa_Romeo_Cassino_Plant
+IT_STELLANTIS_CASSINO,Tempra,Fiat,2006,2026,drop,"Historical model (1990-1996) carried into every year",https://en.wikipedia.org/wiki/Alfa_Romeo_Cassino_Plant
+IT_STELLANTIS_CASSINO,Marea,Fiat,2006,2026,drop,"Historical model (1996-2002) carried into every year",https://en.wikipedia.org/wiki/Alfa_Romeo_Cassino_Plant
+IT_STELLANTIS_CASSINO,Stilo,Fiat,2006,2026,drop,"Historical model (2001-2007) carried into every year",https://en.wikipedia.org/wiki/Alfa_Romeo_Cassino_Plant
+IT_STELLANTIS_CASSINO,Croma,Fiat,2006,2026,drop,"Croma II built at Cassino until 2010; rows run 2011-2026",https://en.wikipedia.org/wiki/Alfa_Romeo_Cassino_Plant
+IT_STELLANTIS_CASSINO,Bravo,Fiat,2011,2014,add,"Bravo II built at Cassino 2007-2014; source records 2011 only",https://en.wikipedia.org/wiki/Alfa_Romeo_Cassino_Plant
+IT_STELLANTIS_CASSINO,Delta,Lancia,2011,2014,add,"Delta III built at Cassino 2008-2014; source records 2011 only",https://en.wikipedia.org/wiki/Alfa_Romeo_Cassino_Plant
+IT_STELLANTIS_CASSINO,Giulietta,Alfa Romeo,2011,2020,add,"Giulietta built at Cassino 2010-2020; source records 2011 only",https://en.wikipedia.org/wiki/Alfa_Romeo_Cassino_Plant
+IT_STELLANTIS_CASSINO,Giulia,Alfa Romeo,2016,2025,add,"Giulia built at Cassino from 2016; missing from the source",https://en.wikipedia.org/wiki/Alfa_Romeo_Cassino_Plant
+IT_STELLANTIS_CASSINO,Stelvio,Alfa Romeo,2017,2025,add,"Stelvio built at Cassino from 2017; missing from the source",https://en.wikipedia.org/wiki/Alfa_Romeo_Cassino_Plant
+IT_STELLANTIS_CASSINO,Grecale,Maserati,2022,2025,add,"Grecale built at Cassino from 2022; missing from the source",https://en.wikipedia.org/wiki/Alfa_Romeo_Cassino_Plant
+DE_VW_DRESDEN,Phaeton,Volkswagen,2017,2026,drop,"Phaeton production at Dresden ended in March 2016",https://www.volkswagen-newsroom.com/en/volkswagen-sachsen-gmbh-the-transparent-factory-dresden-5906
+DE_VW_DRESDEN,e-Golf,Volkswagen,2021,2026,drop,"Last e-Golf built at Dresden on 23 December 2020",https://www.autohaus.de/nachrichten/autohandel/nach-24-jahren-letzter-vw-rollt-in-dresden-vom-band-3749576
+DE_VW_DRESDEN,ID.3,Volkswagen,2021,2025,add,"ID.3 built at Dresden from January 2021 to December 2025; missing from the source",https://www.electrive.net/2021/01/29/serienproduktion-des-id-3-in-der-glaesernen-manufaktur-gestartet/
+BE_AUDI_BRUSSELS,A1,Audi,2006,2009,drop,"A1 launched in 2010",https://audi-mediacenter.com/en/audi-in-brussels-5526/history-5530
+BE_AUDI_BRUSSELS,A1,Audi,2019,2026,drop,"Last A1 built at Brussels on 1 August 2018; production moved to Martorell",https://audi-mediacenter.com/en/audi-in-brussels-5526/history-5530
+BE_AUDI_BRUSSELS,S1,Audi,2006,2013,drop,"S1 launched in 2014",https://audi-mediacenter.com/en/audi-in-brussels-5526/history-5530
+BE_AUDI_BRUSSELS,S1,Audi,2019,2026,drop,"S1 ended with the first-generation A1 in 2018",https://audi-mediacenter.com/en/audi-in-brussels-5526/history-5530
+BE_AUDI_BRUSSELS,Q4 e-tron Quattro,Audi,2006,2026,drop,"Q4 e-tron is built at Zwickau, not Brussels",https://www.audi-mediacenter.com/en/press-releases/start-of-production-for-audi-q4-e-tron-13864

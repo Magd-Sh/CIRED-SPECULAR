@@ -1,0 +1,44 @@
+plant_id,classification,covered,n_models,note
+BE_AUDI_BRUSSELS,assembly,yes (curated),9,en/fr/de WP 'Audi Brussels'
+DE_VW_WOLFSBURG,assembly,yes (curated),9,en/de WP 'Volkswagenwerk Wolfsburg'
+DE_MERCEDES_SINDELFINGEN,assembly,yes (curated),8,de WP 'Werk Sindelfingen'
+DE_MERCEDES_RASTATT,assembly,yes (curated),4,de WP 'Werk Rastatt'
+DE_MERCEDES_BREMEN,assembly,yes (curated),7,de WP 'Werk Bremen'
+DE_BMW_DINGOLFING,assembly,yes (curated),6,de WP 'Werk Dingolfing'
+DE_VW_DRESDEN,assembly,yes (curated),3,en WP 'Transparent Factory'
+HU_AUDI_GYOR,assembly,yes (curated),7,en WP 'Audi Hungaria'
+SK_VW_BRATISLAVA,assembly,yes (curated),14,en WP 'Volkswagen Bratislava Plant'
+DE_VW_ZWICKAU,assembly,yes (curated),7,en WP 'VW Zwickau-Mosel Plant'
+DE_AUDI_INGOLSTADT,assembly,yes (curated),6,Wikipedia + well-documented production facts
+DE_AUDI_NECKARSULM,assembly,yes (curated),7,Wikipedia + well-documented production facts
+DE_BMW_MUNICH,assembly,yes (curated),4,Wikipedia + well-documented production facts
+DE_BMW_REGENSBURG,assembly,yes (curated),5,Wikipedia + well-documented production facts
+DE_BMW_LEIPZIG,assembly,yes (curated),5,Wikipedia + well-documented production facts
+DE_PORSCHE_LEIPZIG,assembly,yes (curated),4,Wikipedia + well-documented production facts
+DE_PORSCHE_ZUFFENHAUSEN,assembly,yes (curated),5,en WP factories list
+HU_MERCEDES_KECSKEMET,assembly,yes (curated),6,Wikipedia + well-documented production facts
+ES_VW_NAVARRA,assembly,yes (curated),3,Wikipedia + well-documented production facts
+PL_VWN_POZNAN,assembly,yes (curated),2,Wikipedia + well-documented production facts
+PL_VWN_WRZESNIA,assembly,yes (curated),2,Wikipedia + well-documented production facts
+PT_VW_PALMELA,assembly,yes (curated),4,Wikipedia + well-documented production facts
+HU_BMW_DEBRECEN,assembly,yes (curated),1,Wikipedia + well-documented production facts
+DE_VW_EMDEN,assembly,yes (curated),4,Wikipedia + well-documented production facts
+DE_VW_OSNABRUECK,assembly,yes (curated),3,Wikipedia + well-documented production facts
+DE_MERCEDES_DUSSELDORF,assembly,yes (curated),2,Wikipedia + well-documented production facts
+DE_MERCEDES_LUDWIGSFELDE,assembly,yes (curated),2,Wikipedia + well-documented production facts
+DE_MERCEDES_STUTTGART,component,n/a — no cars,0,"Untertürkheim — engines, axles, transmissions"
+DE_MERCEDES_HAMBURG,component,n/a — no cars,0,"Axles, e-drive components"
+DE_MERCEDES_BERLIN,component,n/a — no cars,0,Marienfelde — engines/components
+DE_MERCEDES_KOLLEDA,component,n/a — no cars,0,MDC Power — engines only
+DE_MERCEDES_KAMENZ,component,n/a — no cars,0,Accumotive — batteries only
+DE_MERCEDES_AFFALTERBACH,component,n/a — no cars,0,"AMG engines (one man, one engine); limited AMG assembly"
+DE_VW_SALZGITTER,component,n/a — no cars,0,Engines / battery cells
+DE_VW_KASSEL,component,n/a — no cars,0,Transmissions / e-drives
+DE_VW_CHEMNITZ,component,n/a — no cars,0,Engines
+DE_VW_BRUNSWICK,component,n/a — no cars,0,Components / chassis / battery systems
+DE_BMW_LANDSHUT,component,n/a — no cars,0,"Components (engine parts, plastics, e-drive)"
+DE_BMW_WACKERSDORF,component,n/a — no cars,0,CKD / components / supplier park
+DE_BMW_IRLBACH_STRASSKIRCHEN,component,n/a — no cars,0,High-voltage battery assembly
+DE_BMW_BERLIN,component,n/a — no cars,0,BMW Motorrad (motorcycles) + brake discs — no cars
+DE_AUDI_ZWICKAU,historic,n/a — no cars,0,Historic Auto Union/Audi site (now Horch Museum); active plant is DE_VW_ZWICKAU
+DE_BMW_EISENACH,historic,n/a — no cars,0,Historic (pre-war BMW); now components/logistics — no current cars

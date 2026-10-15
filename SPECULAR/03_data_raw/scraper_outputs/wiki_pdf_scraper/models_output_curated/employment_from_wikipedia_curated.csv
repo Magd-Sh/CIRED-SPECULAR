@@ -1,0 +1,9 @@
+plant_id,plant_name,brand,country,employees,reference_year,pattern,snippet
+BE_AUDI_BRUSSELS,Audi Brussels,audi,Belgium,2934,2022,wikipedia_curated,fr infobox: 2 934 (fin 2022)
+DE_VW_WOLFSBURG,Volkswagen Wolfsburg Plant,vw,Germany,60000,2018,wikipedia_curated,"~60,000 at Wolfsburg (approx)"
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Werk Sindelfingen,mercedes,Germany,35000,2017,wikipedia_curated,de: ~35.000 (31.12.2017)
+DE_MERCEDES_BREMEN,Mercedes-Benz Werk Bremen,mercedes,Germany,12500,2017,wikipedia_curated,de: >12.500 (31.12.2017)
+DE_BMW_DINGOLFING,BMW Group Werk Dingolfing,bmw,Germany,17000,2021,wikipedia_curated,de: ~17.000 (Juli 2021)
+HU_AUDI_GYOR,Audi Hungaria (Győr),audi,Hungary,13084,2018,wikipedia_curated,"en infobox: 13,084 employees (2018)"
+DE_VW_ZWICKAU,Volkswagen Zwickau-Mosel Plant,vw,Germany,8000,2019,wikipedia_curated,"en: ~8,000 employees (2019)"
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary (Kecskemét),mercedes,Hungary,4700,2018,wikipedia_curated,"~4,700 employees (approx 2018)"

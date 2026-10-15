@@ -1,0 +1,20 @@
+plant_id,reference_year,action,rows_matched,before,reason
+DE_VW_EMDEN,2019,drop,1,"[[2019, 6000]]",not a headcount: attendees of an information meeting
+DE_MERCEDES_SINDELFINGEN,2015,drop,1,"[[2015, 37000]]",whole-site total incl. R&D centre; the series is the production plant (2008: 'ohne Forschung und Entwicklung'; 2024: 'davon rund 20.500 in Bereichen der Produktion')
+DE_MERCEDES_SINDELFINGEN,2017,drop,1,"[[2017, 35000]]",whole-site total incl. R&D centre (see 2015)
+DE_MERCEDES_SINDELFINGEN,2022,drop,1,"[[2023, 35000]]","whole-site total incl. R&D centre (see 2015); 2021 = 24,000 and 2023 = 21,500 on the plant definition"
+DE_BMW_LEIPZIG,2006,set,1,"[[2006, 4100]]","4,100 includes suppliers and service partners; BMW's own staff stated in the same sentence"
+DE_BMW_LEIPZIG,2013,drop,1,"[[2013, 6000]]","all jobs on the plant site, incl. the on-site supplier park (cf. 2006 snippet)"
+DE_BMW_LEIPZIG,2014,drop,1,"[[2014, 6000]]","all jobs on the plant site, incl. the on-site supplier park (cf. 2006 snippet)"
+DE_BMW_LEIPZIG,2019,drop,0,[],not a sourced figure: LLM inference
+DE_BMW_LANDSHUT,2017,drop,1,"[[2017, 1600]]","historical figure from 1987, not 2017"
+DE_MERCEDES_STUTTGART,2014,drop,1,"[[2014, 23000]]",whole-site total incl. group headquarters; the 2024 snippet gives the production plant separately
+DE_MERCEDES_STUTTGART,2024,set,1,"[[2025, 23000]]","23,000 is the whole site incl. headquarters; same snippet states the production plant figure"
+DE_AUDI_ZWICKAU,ALL,drop,8,"[[2018, 7700], [2019, 8000], [2020, 8000], [2021, 8940], [2022, 8940], [2023, 10700], [2024, 10350], [2025, 9200]]","historic site (Horch Museum), no production; all values are duplicates of DE_VW_ZWICKAU (identical snippets)"
+DE_VW_ZWICKAU,2023,move,1,"[[2023, 10700]]",reference year shifted by one: the full snippet (duplicated under DE_AUDI_ZWICKAU) is dated 12/2022
+DE_VW_ZWICKAU,2024,move,1,"[[2024, 10350]]",reference year shifted by one: full snippet dated 12/2023
+DE_VW_ZWICKAU,2025,move,1,"[[2025, 9200]]",reference year shifted by one: full snippet dated 12/2024
+DE_PORSCHE_ZUFFENHAUSEN,2019,drop,1,"[[2019, 400]]",not a plant headcount: staff of one production line ('400 Mitarbeiterinnen und Mitarbeitern täglich rund 200 A[utos]')
+DE_PORSCHE_ZUFFENHAUSEN,2021,drop,1,"[[2021, 400]]",same snippet as 2019 (one production line)
+DE_PORSCHE_ZUFFENHAUSEN,2020,drop,1,"[[2020, 1200]]",not a plant headcount: engine manufacturing only
+DE_PORSCHE_ZUFFENHAUSEN,2022,drop,1,"[[2022, 1200]]",same snippet as 2020 (engine manufacturing only)

@@ -1,0 +1,350 @@
+plant_id,plant_name,brand,country,car model ,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Porsche,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Volkswagen Passat,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Volkswagen Golf,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,[[Volkswagen Golf]],1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,[[Audi A3]],1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi A3,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,[[Volkswagen Polo]],1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,VW Polo,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi A1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi A3 Sportback,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi e-tron,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi SUV électrique,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi e-tron Sportback,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,[[Audi e-tron Sportback]],0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,"[[Audi Q8 e-tron Sportback]]<ref name=""auto""/>",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi Q8 e-tron,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi Q8 e-tron Sportback,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi SQ8 e-tron Quattro,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi SQ8 e-tron Sportback,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1
+BE_AUDI_BRUSSELS,Audi Brussels Plant Forest,audi,Belgium,Audi Q4 e-tron Quattro,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1
+DE_AUDI_NECKARSULM,Audi Plant Neckarsulm,audi,Germany,Audi S6 Plus,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_NECKARSULM,Audi Plant Neckarsulm,audi,Germany,Audi R8,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_NECKARSULM,Audi Plant Neckarsulm,audi,Germany,Audi S6,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_NECKARSULM,Audi Plant Neckarsulm,audi,Germany,Audi RS4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_NECKARSULM,Audi Plant Neckarsulm,audi,Germany,Audi RS6,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_NECKARSULM,Audi Plant Neckarsulm,audi,Germany,Audi RS6 (C5),1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_NECKARSULM,Audi Plant Neckarsulm,audi,Germany,Audi A4 DTM Edition (B7),1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_NECKARSULM,Audi Plant Neckarsulm,audi,Germany,Audi B7 RS4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_NECKARSULM,Audi Plant Neckarsulm,audi,Germany,Audi S4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_NECKARSULM,Audi Plant Neckarsulm,audi,Germany,Audi RS4 (B7),1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_NECKARSULM,Audi Plant Neckarsulm,audi,Germany,Audi S4 25 Quattro (B7),1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_NECKARSULM,Audi Plant Neckarsulm,audi,Germany,Audi C6 RS6,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_NECKARSULM,Audi Plant Neckarsulm,audi,Germany,Audi RS6 (C6),0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_INGOLSTADT,Audi Plant Ingolstadt,audi,Germany,Audi S5 Coupé,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_INGOLSTADT,Audi Plant Ingolstadt,audi,Germany,Audi S5 Coupe,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_INGOLSTADT,Audi Plant Ingolstadt,audi,Germany,Audi S5,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_INGOLSTADT,Audi Plant Ingolstadt,audi,Germany,Audi S5 Sportback,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_INGOLSTADT,Audi Plant Ingolstadt,audi,Germany,Audi S5 Cabriolet,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_INGOLSTADT,Audi Plant Ingolstadt,audi,Germany,Audi S5 (5F),0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 5er Limousine,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 5er Touring,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 5er Gran Turismo,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 6er Coupé,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 6er Cabrio,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 7er Limousine,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 5 Series,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW M5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 6er Gran Coupé,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW M6 Coupé,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW M6 Cabrio,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW M6 Gran Coupé,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 5er,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 6 Series,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 7 Series,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 4 Series,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 3er Gran Turismo,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW M4,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 4er Gran Coupé,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 8 Series,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW 8er,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW iX,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW iNEXT,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW i7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1
+DE_BMW_DINGOLFING,BMW Group Plant Dingolfing,bmw,Germany,BMW i5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+DE_AUDI_ZWICKAU,Audi Plant Zwickau,audi,Germany,Audi,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_AUDI_ZWICKAU,Audi Plant Zwickau,audi,Germany,Audi Q4 e-tron,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,BMW Motorrad (motorcycles),1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,G450X,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,K1600GT,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_BERLIN,BMW Group Plant Berlin,bmw,Germany,K1600GTL,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_EISENACH,BMW Group Plant Eisenach,bmw,Germany,BMW 303,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_EISENACH,BMW Group Plant Eisenach,bmw,Germany,BMW 315,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_EISENACH,BMW Group Plant Eisenach,bmw,Germany,BMW 319,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_EISENACH,BMW Group Plant Eisenach,bmw,Germany,BMW 328,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_EISENACH,BMW Group Plant Eisenach,bmw,Germany,IFA 309,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_EISENACH,BMW Group Plant Eisenach,bmw,Germany,Wartburg 353,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_LEIPZIG,BMW Group Plant Leipzig,bmw,Germany,BMW 1 Series (F20),0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_LEIPZIG,BMW Group Plant Leipzig,bmw,Germany,BMW 1 Series (F21),0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_LEIPZIG,BMW Group Plant Leipzig,bmw,Germany,BMW 1er (F20),0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_LEIPZIG,BMW Group Plant Leipzig,bmw,Germany,BMW 1er (F21),0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_LEIPZIG,BMW Group Plant Leipzig,bmw,Germany,BMW 1er,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_LEIPZIG,BMW Group Plant Leipzig,bmw,Germany,BMW Série 1 F20,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0
+DE_BMW_LEIPZIG,BMW Group Plant Leipzig,bmw,Germany,BMW Série 1 F21,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0
+DE_BMW_MUNICH,BMW Group Plant Munich,bmw,Germany,BMW i4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+DE_BMW_MUNICH,BMW Group Plant Munich,bmw,Germany,BMW i4 M50 xDrive,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+DE_BMW_MUNICH,BMW Group Plant Munich,bmw,Germany,BMW i4 eDrive40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+DE_BMW_MUNICH,BMW Group Plant Munich,bmw,Germany,BMW i4 M50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+DE_BMW_MUNICH,BMW Group Plant Munich,bmw,Germany,BMW i4 eDrive35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1
+DE_BMW_MUNICH,BMW Group Plant Munich,bmw,Germany,BMW i4 xDrive40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+DE_BMW_MUNICH,BMW Group Plant Munich,bmw,Germany,BMW i4 M60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+DE_BMW_WACKERSDORF,BMW Group Plant Wackersdorf,bmw,Germany,BMW i3,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_WACKERSDORF,BMW Group Plant Wackersdorf,bmw,Germany,BMW i3s,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
+DE_BMW_REGENSBURG,BMW Group Plant Regensburg,bmw,Germany,BMW 316,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_REGENSBURG,BMW Group Plant Regensburg,bmw,Germany,BMW 318i,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_REGENSBURG,BMW Group Plant Regensburg,bmw,Germany,BMW 320i,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_REGENSBURG,BMW Group Plant Regensburg,bmw,Germany,BMW 325e,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_REGENSBURG,BMW Group Plant Regensburg,bmw,Germany,BMW 325i,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_REGENSBURG,BMW Group Plant Regensburg,bmw,Germany,BMW 325iX,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_REGENSBURG,BMW Group Plant Regensburg,bmw,Germany,BMW 324d,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_REGENSBURG,BMW Group Plant Regensburg,bmw,Germany,BMW M3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_REGENSBURG,BMW Group Plant Regensburg,bmw,Germany,BMW Cabriolet,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_REGENSBURG,BMW Group Plant Regensburg,bmw,Germany,BMW 318is,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_REGENSBURG,BMW Group Plant Regensburg,bmw,Germany,BMW 320iS,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_REGENSBURG,BMW Group Plant Regensburg,bmw,Germany,BMW 324td,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_REGENSBURG,BMW Group Plant Regensburg,bmw,Germany,BMW Touring,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_BMW_REGENSBURG,BMW Group Plant Regensburg,bmw,Germany,BMW 316i,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz C36 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,C 36 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,G 36 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG C 36 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz E50 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,E 50 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz C43 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz E55 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,C 43 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SL 73 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,ML 55 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SLK 32 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,C 32 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,C 30 CDI AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SL 55 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CLK 55 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,E 55 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,S 55 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CL 55 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SL 65 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz CLS55 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz SL65 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz S65 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz CLK DTM AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CLS 63 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SLK 55 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,S 65 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,C 55 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,G 55 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,R 63 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CLK 63 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz S63 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz ML63 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz C63 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,ML 63 AMG,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SLK 55 AMG Black Series,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz R63 AMG,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz CLK63 AMG,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz CLS63 AMG,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz E63 AMG,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,C 63 AMG,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,C 63 AMG Performance package,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CLK 63 AMG Black Series,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz CL63 AMG,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz SL65 Black Series,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz SL65 AMG Black Series,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SL 63 AMG,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SL 65 AMG Black Series,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz SL63 AMG,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz SLS AMG,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CLS 63 AMG Performance package,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,S 63 AMG,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,S 63 AMG Performance package,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CL 63 AMG,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CL 63 AMG Performance package,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,C 63 AMG Affalterbach Edition,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,C 63 AMG Coupé Black Series,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,E 63 AMG,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,E 63 AMG Performance package,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,ML 63 AMG Performance package,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz SLK55 AMG,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SL 63 AMG Performance package,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,G 63 AMG,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,G 65 AMG,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,GL 63 AMG,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SLS AMG GT,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SLS AMG Electric Drive,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,SLS AMG Black Series,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz A45 AMG,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,C 63 AMG Edition 507,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,E 63 AMG S-Model,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,A 45 AMG,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CLA 45 AMG,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,CLS 63 AMG S-Model,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz CLA45 AMG,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GT,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GT S,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-Benz GLA45 AMG,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG GT R,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_AFFALTERBACH,Mercedes-Benz Plant Affalterbach (AMG),mercedes,Germany,Mercedes-AMG One,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+DE_MERCEDES_BREMEN,Mercedes-Benz Plant Bremen,mercedes,Germany,Mercedes-Benz T 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_BREMEN,Mercedes-Benz Plant Bremen,mercedes,Germany,Mercedes-Benz W 123 T-Modell,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Plant Düsseldorf,mercedes,Germany,Mercedes-Benz Sprinter,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Plant Düsseldorf,mercedes,Germany,Mercedes-Benz Sprinter T1N,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Plant Düsseldorf,mercedes,Germany,Mercedes-Benz Sprinter (W 901-905),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Plant Düsseldorf,mercedes,Germany,Mercedes-Benz Sprinter I,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Plant Düsseldorf,mercedes,Germany,"Mercedes-Benz Sprinter (1st generation, Type 903)",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Plant Düsseldorf,mercedes,Germany,Mercedes-Benz Sprinter NCV 3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Plant Düsseldorf,mercedes,Germany,Mercedes-Benz Sprinter II (NCV 3),1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Plant Düsseldorf,mercedes,Germany,Mercedes-Benz Sprinter (W 906),1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Plant Düsseldorf,mercedes,Germany,"Mercedes-Benz Sprinter (2nd generation, Type 906)",1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Plant Düsseldorf,mercedes,Germany,Mercedes-Benz Sprinter II,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Plant Düsseldorf,mercedes,Germany,Mercedes-Benz Sprinter Classic,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_DUSSELDORF,Mercedes-Benz Plant Düsseldorf,mercedes,Germany,Mercedes-Benz Sprinter III,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Benz S-Klasse,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Benz S-Klasse Langversion,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Benz S-Class,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Benz S-Klasse Coupé,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Maybach S 400,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Maybach S 500,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Maybach S 600,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Maybach S-Klasse,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_HAMBURG,Mercedes-Benz Plant Hamburg,mercedes,Germany,Mercedes-Maybach S 600 Pullman,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 160,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 180,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 180 L Sedan,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 200,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 200 Berlina,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 200 L Sedan,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz B 180,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz B 200,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz A 180 Berlina,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz B 160,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz CLA 180,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz CLA 200,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+DE_MERCEDES_KOLLEDA,"MDC Power GmbH, Kölleda & Arnstadt",mercedes,Germany,Mercedes-Benz GLB 200,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+DE_MERCEDES_LUDWIGSFELDE,Mercedes-Benz Plant Ludwigsfelde,mercedes,Germany,Multicar M21,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_LUDWIGSFELDE,Mercedes-Benz Plant Ludwigsfelde,mercedes,Germany,Multicar,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_LUDWIGSFELDE,Mercedes-Benz Plant Ludwigsfelde,mercedes,Germany,Mercedes-Benz vans,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_LUDWIGSFELDE,Mercedes-Benz Plant Ludwigsfelde,mercedes,Germany,Mercedes-Benz Vario,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_LUDWIGSFELDE,Mercedes-Benz Plant Ludwigsfelde,mercedes,Germany,Sprinter NCV3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_LUDWIGSFELDE,Mercedes-Benz Plant Ludwigsfelde,mercedes,Germany,Volkswagen Crafter,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0
+DE_MERCEDES_LUDWIGSFELDE,Mercedes-Benz Plant Ludwigsfelde,mercedes,Germany,Dodge Pritsche,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz Classe A,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz Classe B,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz Classe A électrique,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz Classe B électrique,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz A-Class,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz B-Class,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz A-Class Electric,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz B-Class Electric,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_RASTATT,Mercedes-Benz Plant Rastatt,mercedes,Germany,Mercedes-Benz,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz CL-Class,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz CL500,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz CL600,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz Classe CL,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz Classe CL (Type 215),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz CL C215,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz CL-Class (C215),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz CL55 AMG,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz CL63 AMG,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz CL65 AMG,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz CL-Class (C216),1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz Classe CL (Type 216),1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_MERCEDES_SINDELFINGEN,Mercedes-Benz Plant Sindelfingen,mercedes,Germany,Mercedes-Benz CL C216,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan S,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan Turbo,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan S Diesel,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan GTS,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Panamera,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Cayenne,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan (Typ 95B),0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan T,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan Electric,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan (Typ XAB),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+DE_PORSCHE_LEIPZIG,Porsche Plant Leipzig,porsche,Germany,Porsche Macan (eléctrico),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 356,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 912,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 911,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 911 Turbo,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 924,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 928,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 944,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche Boxster,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Cayenne,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche Carrera GT,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche Cayman,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 987 Boxster,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 997,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 987 Cayman,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche Panamera,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 991,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 981 Boxster,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 981 Cayman,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche 918,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_PORSCHE_ZUFFENHAUSEN,Porsche Plant Stuttgart-Zuffenhausen,porsche,Germany,Porsche Taycan,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+DE_VW_EMDEN,Volkswagen Plant Emden,vw,Germany,Volkswagen ID.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
+DE_VW_EMDEN,Volkswagen Plant Emden,vw,Germany,Volkswagen ID.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1
+DE_VW_DRESDEN,Volkswagen Plant Dresden,vw,Germany,Volkswagen Phaeton,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_VW_DRESDEN,Volkswagen Plant Dresden,vw,Germany,Bentley Continental Flying Spur,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+DE_VW_DRESDEN,Volkswagen Plant Dresden,vw,Germany,Volkswagen e-Golf,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,Volkswagen,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,Volkswagen Golf,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,Volkswagen Golf Variant,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,Volkswagen Touran,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,Volkswagen Tiguan,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,SEAT Tarraco,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,Volkswagen Tayron,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+DE_VW_WOLFSBURG,Volkswagen Plant Wolfsburg,vw,Germany,Trinity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+ES_VW_NAVARRA,Volkswagen Navarra Plant Pamplona,vw,Spain,Volkswagen Taigo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+ES_VW_NAVARRA,Volkswagen Navarra Plant Pamplona,vw,Spain,Volkswagen Polo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+ES_VW_NAVARRA,Volkswagen Navarra Plant Pamplona,vw,Spain,Volkswagen T-Cross,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+ES_VW_NAVARRA,Volkswagen Navarra Plant Pamplona,vw,Spain,Volkswagen Nivus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi TT Coupé,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi TT Roadster,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi A3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi A3 Cabriolet,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi RS 3 Sportback,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi RS3 Sportback,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi A3 Sedan,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi A3 Limousine,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi Q3,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi Q3 Sportback,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Audi Q4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+HU_AUDI_GYOR,Audi Hungaria Plant Győr,audi,Hungary,Cupra Terramar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,A-Class,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,B-Class,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz Classe B,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz CLA,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+HU_MERCEDES_KECSKEMET,Mercedes-Benz Manufacturing Hungary Plant Kecskemét,mercedes,Hungary,Mercedes-Benz Classe CLA,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,Volkswagen Crafter,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,Volkswagen Crafter II,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,VW eCrafter,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,MAN TGE,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,VW e-Crafter,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,VW Grand California,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+PL_VWN_WRZESNIA,Volkswagen Września Plant,vw,Poland,MAN e-TGE,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,Volkswagen Sharan,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,Volkswagen Sharan I,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,Seat Alhambra I,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,SEAT Alhambra,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,Volkswagen Eos,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,Volkswagen Scirocco,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,Volkswagen Sharan II,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+PT_VW_PALMELA,Volkswagen AutoEuropa Plant Palmela,vw,Portugal,Seat Alhambra II,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Volkswagen Passat,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Volkswagen Polo,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Porsche Cayenne,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Volkswagen Touareg,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Audi Q7,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Škoda Octavia,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Volkswagen up!,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,SEAT Mii,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Škoda Citigo,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Bentley Bentayga,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Audi Q8,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Porsche Cayenne Coupe,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Porsche Cayenne Coupé,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Škoda Karoq,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1
+SK_VW_BRATISLAVA,Volkswagen Slovakia Plant Bratislava,vw,Slovakia,Škoda Superb,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+DE_VW_OSNABRUECK,Volkswagen Plant Osnabrück,vw,Germany,Volkswagen T-Roc,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1
+DE_VW_OSNABRUECK,Volkswagen Plant Osnabrück,vw,Germany,Volkswagen T-Roc Cabriolet,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1

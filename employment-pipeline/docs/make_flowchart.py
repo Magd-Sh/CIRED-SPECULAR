@@ -65,7 +65,7 @@ arrow(CX, 41.4, 40.6)
 box(0.8, 34.3, 9.2, 6.1, "", C["auto"])
 ax.text(5.4, 39.9, "2 · CONTAMINATION FILTERS   (rule-based text checks — no LLM)", ha="center", fontsize=9.6, fontweight="bold", color=C["auto"])
 chips = ["cross-plant duplicate\n(Wikipedia only)","wrong-entity keyword\n(Kamenz, Opel, Hannover…)","city-mismatch\n(Munich group figure)",
-         "production-units\n(N Einheiten / vehicles)","job-announcement\n(“will create N jobs”)","historical\n(19th-century figure)]
+         "production-units\n(N Einheiten / vehicles)","job-announcement\n(“will create N jobs”)","historical\n(19th-century figure)"]
 for i,txt in enumerate(chips):
     cx = 1.15 + (i % 4)*2.25; cy = 37.2 - (i//4)*1.55
     chip(cx, cy, txt)
